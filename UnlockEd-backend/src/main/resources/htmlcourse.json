@@ -1,0 +1,1220 @@
+{
+  "id": "course-4",
+  "title": "HTML Course",
+  "description": "Learn the fundamentals of HTML, the standard language for creating webpages.",
+  "chapters": [
+    {
+  "chapterId": "ch-1",
+  "title": "Introduction to HTML",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-1-1",
+      "title": "What is HTML?",
+      "content": "Learn the basics of HTML and its role in web development.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-1-1",
+          "question": "What does HTML stand for?",
+          "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyperlink Text Management Language"],
+          "correctAnswer": "Hyper Text Markup Language",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-2",
+          "question": "HTML is used to?",
+          "options": ["Structure content on the web", "Style web pages", "Add interactivity to pages"],
+          "correctAnswer": "Structure content on the web",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-3",
+          "question": "Which of the following is a correct HTML tag?",
+          "options": ["<body>", "<script>", "<style>"],
+          "correctAnswer": "<body>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-2",
+      "title": "Basic HTML Structure",
+      "content": "Understand the basic structure of an HTML document.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-4",
+          "question": "Which tag is used to define the HTML document type?",
+          "options": ["<!DOCTYPE html>", "<html>", "<meta>"],
+          "correctAnswer": "<!DOCTYPE html>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-5",
+          "question": "What tag is used to wrap all the content in an HTML document?",
+          "options": ["<html>", "<head>", "<body>"],
+          "correctAnswer": "<html>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-6",
+          "question": "Where is the metadata placed in an HTML file?",
+          "options": ["In the <head> tag", "In the <body> tag", "At the bottom of the page"],
+          "correctAnswer": "In the <head> tag",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-3",
+      "title": "Headings and Paragraphs",
+      "content": "Learn to use heading and paragraph tags in HTML.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-7",
+          "question": "How many heading tags are available in HTML?",
+          "options": ["3", "6", "5"],
+          "correctAnswer": "6",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-8",
+          "question": "Which tag is used for a paragraph?",
+          "options": ["<p>", "<h1>", "<para>"],
+          "correctAnswer": "<p>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-9",
+          "question": "What is the largest heading tag?",
+          "options": ["<h1>", "<h6>", "<head>"],
+          "correctAnswer": "<h1>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-4",
+      "title": "Comments and Whitespace",
+      "content": "Explore how to add comments and use whitespace effectively in HTML.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-10",
+          "question": "Which of the following is the correct syntax for an HTML comment?",
+          "options": ["<!-- Comment -->", "// Comment", "/* Comment */"],
+          "correctAnswer": "<!-- Comment -->",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-11",
+          "question": "Whitespace in HTML is usually:",
+          "options": ["Collapsed", "Expanded", "Ignored"],
+          "correctAnswer": "Collapsed",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-12",
+          "question": "HTML ignores extra spaces and line breaks unless inside:",
+          "options": ["<pre>", "<code>", "<text>"],
+          "correctAnswer": "<pre>",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-1-1",
+        "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+        "options": ["To link stylesheets", "To declare the HTML version", "To define page layout"],
+        "correctAnswer": "To declare the HTML version",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-2",
+        "question": "Which tag defines the document’s title?",
+        "options": ["<title>", "<head>", "<meta>"],
+        "correctAnswer": "<title>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-3",
+        "question": "What does the <body> tag contain?",
+        "options": ["Metadata", "Visible content", "Styles"],
+        "correctAnswer": "Visible content",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-4",
+        "question": "How is an HTML comment written?",
+        "options": ["<!-- This is a comment -->", "// This is a comment", "/* This is a comment */"],
+        "correctAnswer": "<!-- This is a comment -->",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-5",
+        "question": "Which tag is used for the main content of a page?",
+        "options": ["<main>", "<content>", "<section>"],
+        "correctAnswer": "<main>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-6",
+        "question": "Which tag is used to define the metadata of an HTML page?",
+        "options": ["<meta>", "<data>", "<info>"],
+        "correctAnswer": "<meta>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-7",
+        "question": "How many <h1> tags should be used per page ideally?",
+        "options": ["1", "2", "Unlimited"],
+        "correctAnswer": "1",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-8",
+        "question": "Which element represents the root of an HTML document?",
+        "options": ["<html>", "<head>", "<doc>"],
+        "correctAnswer": "<html>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-9",
+        "question": "HTML tags are:",
+        "options": ["Case-insensitive", "Case-sensitive", "Always uppercase"],
+        "correctAnswer": "Case-insensitive",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-10",
+        "question": "Which tag is used to add a line break in HTML?",
+        "options": ["<br>", "<lb>", "<break>"],
+        "correctAnswer": "<br>",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-2",
+  "title": "HTML Text Formatting and Styles",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-2-1",
+      "title": "Text Formatting Tags",
+      "content": "Learn how to use formatting tags like <b>, <i>, <u>, <strong>, <em> in HTML.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-1",
+          "question": "Which tag is used to bold text in HTML?",
+          "options": ["<b>", "<strong>", "<bold>"],
+          "correctAnswer": "<b>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-2",
+          "question": "Which tag is used for emphasized text?",
+          "options": ["<em>", "<i>", "<highlight>"],
+          "correctAnswer": "<em>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-3",
+          "question": "What does the <u> tag do?",
+          "options": ["Underlines text", "Italicizes text", "Makes text bold"],
+          "correctAnswer": "Underlines text",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-2",
+      "title": "HTML Styles and the Style Attribute",
+      "content": "Understand how to use the style attribute to change text appearance.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-4",
+          "question": "Which attribute is used to add inline CSS styles?",
+          "options": ["style", "class", "font"],
+          "correctAnswer": "style",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-5",
+          "question": "How do you change text color using the style attribute?",
+          "options": ["style=\"color:blue;\"", "style=\"text-color:blue;\"", "font-color=\"blue\""],
+          "correctAnswer": "style=\"color:blue;\"",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-6",
+          "question": "Which tag supports the style attribute?",
+          "options": ["All HTML tags", "<div> only", "<style> only"],
+          "correctAnswer": "All HTML tags",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-3",
+      "title": "HTML Quotations and Citations",
+      "content": "Learn to use quotation and citation tags like <blockquote>, <q>, <cite>, and <abbr>.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-7",
+          "question": "Which tag is used for long quotations?",
+          "options": ["<blockquote>", "<quote>", "<q>"],
+          "correctAnswer": "<blockquote>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-8",
+          "question": "What does the <abbr> tag represent?",
+          "options": ["Abbreviation", "Attribute", "Abstract"],
+          "correctAnswer": "Abbreviation",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-9",
+          "question": "The <cite> tag is used for?",
+          "options": ["Citing a reference", "Making italic text", "Creating a hyperlink"],
+          "correctAnswer": "Citing a reference",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-4",
+      "title": "HTML Colors",
+      "content": "Understand how to use colors with HTML and style attributes.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-10",
+          "question": "What value types can be used for HTML colors?",
+          "options": ["Color names, hex codes, RGB", "Only color names", "Only hex codes"],
+          "correctAnswer": "Color names, hex codes, RGB",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-11",
+          "question": "Which is a valid hex color code?",
+          "options": ["#FF5733", "rgb(255,0,0)", "color:red"],
+          "correctAnswer": "#FF5733",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-12",
+          "question": "Which attribute is used to set background color inline?",
+          "options": ["style", "bgcolor", "background"],
+          "correctAnswer": "style",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-2-1",
+        "question": "Which tag is used to italicize text?",
+        "options": ["<i>", "<em>", "<italic>"],
+        "correctAnswer": "<i>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-2",
+        "question": "How do you underline text?",
+        "options": ["<u>", "<underline>", "<ul>"],
+        "correctAnswer": "<u>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-3",
+        "question": "What is the purpose of the <strong> tag?",
+        "options": ["Emphasize strong importance", "Italicize text", "Underline text"],
+        "correctAnswer": "Emphasize strong importance",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-4",
+        "question": "How do you set text color to red using inline style?",
+        "options": ["style=\"color:red;\"", "style=\"text:red;\"", "color:red"],
+        "correctAnswer": "style=\"color:red;\"",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-5",
+        "question": "Which tag is used for a short inline quotation?",
+        "options": ["<q>", "<quote>", "<blockquote>"],
+        "correctAnswer": "<q>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-6",
+        "question": "What is the correct way to define an abbreviation?",
+        "options": ["<abbr title=\"Hypertext Markup Language\">HTML</abbr>", "<abbreviation>HTML</abbreviation>", "<title abbr=\"HTML\">"],
+        "correctAnswer": "<abbr title=\"Hypertext Markup Language\">HTML</abbr>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-7",
+        "question": "Which tag changes background color using style?",
+        "options": ["Any tag with style", "<body>", "<background>"],
+        "correctAnswer": "Any tag with style",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-8",
+        "question": "Which of the following is a valid RGB color format?",
+        "options": ["rgb(255,255,255)", "#255255255", "255,255,255"],
+        "correctAnswer": "rgb(255,255,255)",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-9",
+        "question": "What does <em> tag imply semantically?",
+        "options": ["Emphasis", "Italics only", "Underline"],
+        "correctAnswer": "Emphasis",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-10",
+        "question": "Which HTML element is used to define important text?",
+        "options": ["<strong>", "<b>", "<important>"],
+        "correctAnswer": "<strong>",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-3",
+  "title": "HTML Lists, Tables, and Links",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-3-1",
+      "title": "HTML Lists",
+      "content": "Learn how to use ordered, unordered, and definition lists in HTML.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-1",
+          "question": "Which tag is used for an unordered list?",
+          "options": ["<ul>", "<ol>", "<li>"],
+          "correctAnswer": "<ul>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-2",
+          "question": "Which tag defines a list item?",
+          "options": ["<li>", "<item>", "<list>"],
+          "correctAnswer": "<li>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-3",
+          "question": "Which tag is used for a definition list?",
+          "options": ["<dl>", "<list>", "<def>"],
+          "correctAnswer": "<dl>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-2",
+      "title": "HTML Tables",
+      "content": "Understand how to create tables using <table>, <tr>, <td>, and <th>.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-4",
+          "question": "Which tag defines a table row?",
+          "options": ["<tr>", "<td>", "<row>"],
+          "correctAnswer": "<tr>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-5",
+          "question": "Which tag defines a header cell in a table?",
+          "options": ["<th>", "<thead>", "<td>"],
+          "correctAnswer": "<th>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-6",
+          "question": "What tag is used for a cell in a table row?",
+          "options": ["<td>", "<tr>", "<cell>"],
+          "correctAnswer": "<td>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-3",
+      "title": "HTML Links",
+      "content": "Learn to create hyperlinks using the <a> tag and its attributes.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-7",
+          "question": "Which tag is used to define a hyperlink?",
+          "options": ["<a>", "<link>", "<href>"],
+          "correctAnswer": "<a>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-8",
+          "question": "Which attribute specifies the link destination?",
+          "options": ["href", "src", "link"],
+          "correctAnswer": "href",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-9",
+          "question": "What does target=\"_blank\" do?",
+          "options": ["Opens link in a new tab", "Closes the tab", "Makes link bold"],
+          "correctAnswer": "Opens link in a new tab",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-4",
+      "title": "Link Styling and Navigation",
+      "content": "Explore ways to style links and create navigation menus.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-10",
+          "question": "Which pseudo-class targets visited links?",
+          "options": [":visited", ":hover", ":link"],
+          "correctAnswer": ":visited",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-11",
+          "question": "What does the :hover pseudo-class do?",
+          "options": ["Styles links when mouse is over", "Styles after click", "Styles while loading"],
+          "correctAnswer": "Styles links when mouse is over",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-12",
+          "question": "Which HTML element is commonly used to group navigation links?",
+          "options": ["<nav>", "<menu>", "<section>"],
+          "correctAnswer": "<nav>",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-3-1",
+        "question": "Which tag is used for ordered lists?",
+        "options": ["<ol>", "<ul>", "<li>"],
+        "correctAnswer": "<ol>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-2",
+        "question": "Which tag defines a definition term?",
+        "options": ["<dt>", "<dd>", "<dfn>"],
+        "correctAnswer": "<dt>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-3",
+        "question": "What is the purpose of the <th> tag?",
+        "options": ["Table heading", "Table body", "Table border"],
+        "correctAnswer": "Table heading",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-4",
+        "question": "Which tag is used to group table rows?",
+        "options": ["<tbody>", "<group>", "<tablebody>"],
+        "correctAnswer": "<tbody>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-5",
+        "question": "What is the use of the href attribute?",
+        "options": ["Specifies link destination", "Specifies font size", "Adds table border"],
+        "correctAnswer": "Specifies link destination",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-6",
+        "question": "Which tag is used to open a link in new tab?",
+        "options": ["<a target=\"_blank\">", "<a newtab>", "<link new>"],
+        "correctAnswer": "<a target=\"_blank\">",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-7",
+        "question": "Which tag should you use for navigation menus?",
+        "options": ["<nav>", "<menu>", "<section>"],
+        "correctAnswer": "<nav>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-8",
+        "question": "What does :hover do in CSS?",
+        "options": ["Styles when mouse hovers", "Styles after click", "Applies to visited links"],
+        "correctAnswer": "Styles when mouse hovers",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-9",
+        "question": "What tag groups a definition list?",
+        "options": ["<dl>", "<list>", "<def>"],
+        "correctAnswer": "<dl>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-10",
+        "question": "Which element defines a table in HTML?",
+        "options": ["<table>", "<grid>", "<chart>"],
+        "correctAnswer": "<table>",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-4",
+  "title": "HTML Forms and Input Elements",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-4-1",
+      "title": "HTML Form Basics",
+      "content": "Understand the structure of HTML forms and the purpose of the <form> tag.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-1",
+          "question": "Which tag is used to create an HTML form?",
+          "options": ["<form>", "<input>", "<fieldset>"],
+          "correctAnswer": "<form>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-2",
+          "question": "What attribute specifies where to send form data?",
+          "options": ["action", "method", "submit"],
+          "correctAnswer": "action",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-3",
+          "question": "What does the method attribute define?",
+          "options": ["How form data is sent", "Input type", "Label styling"],
+          "correctAnswer": "How form data is sent",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-2",
+      "title": "Input Types and Attributes",
+      "content": "Explore different input types like text, password, checkbox, and radio.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-4",
+          "question": "Which input type is used for entering passwords?",
+          "options": ["password", "text", "secure"],
+          "correctAnswer": "password",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-5",
+          "question": "What does the 'name' attribute do in an input field?",
+          "options": ["Identifies the input when submitting", "Gives placeholder text", "Sets font style"],
+          "correctAnswer": "Identifies the input when submitting",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-6",
+          "question": "Which input type is used for selecting one option among many?",
+          "options": ["radio", "checkbox", "select"],
+          "correctAnswer": "radio",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-3",
+      "title": "Form Labels and Grouping",
+      "content": "Learn how to use <label>, <fieldset>, and <legend> for better form accessibility.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-7",
+          "question": "Which tag is used to label an input field?",
+          "options": ["<label>", "<tag>", "<name>"],
+          "correctAnswer": "<label>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-8",
+          "question": "What tag groups form elements together?",
+          "options": ["<fieldset>", "<group>", "<section>"],
+          "correctAnswer": "<fieldset>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-9",
+          "question": "Which tag is used to define a caption for a group of form elements?",
+          "options": ["<legend>", "<label>", "<title>"],
+          "correctAnswer": "<legend>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-4",
+      "title": "Buttons and Form Controls",
+      "content": "Learn about the submit, reset, and custom buttons in forms.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-10",
+          "question": "Which input type is used to submit a form?",
+          "options": ["submit", "send", "button"],
+          "correctAnswer": "submit",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-11",
+          "question": "What does a reset button do?",
+          "options": ["Clears form fields", "Submits form", "Validates form"],
+          "correctAnswer": "Clears form fields",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-12",
+          "question": "Which tag can create a button with custom behavior?",
+          "options": ["<button>", "<input>", "<custom-button>"],
+          "correctAnswer": "<button>",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-4-1",
+        "question": "What attribute specifies how form data is sent?",
+        "options": ["method", "send", "format"],
+        "correctAnswer": "method",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-2",
+        "question": "Which input type allows users to select multiple options?",
+        "options": ["checkbox", "radio", "select"],
+        "correctAnswer": "checkbox",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-3",
+        "question": "What is the correct tag to add a form button?",
+        "options": ["<button>", "<input type='button'>", "Both"],
+        "correctAnswer": "Both",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-4",
+        "question": "Which attribute should be used to ensure a field must be filled before submission?",
+        "options": ["required", "mandatory", "validate"],
+        "correctAnswer": "required",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-5",
+        "question": "What tag is used to group form fields semantically?",
+        "options": ["<fieldset>", "<group>", "<section>"],
+        "correctAnswer": "<fieldset>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-6",
+        "question": "Which element provides a label for a group of form controls?",
+        "options": ["<legend>", "<label>", "<caption>"],
+        "correctAnswer": "<legend>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-7",
+        "question": "How is the submit action defined in an HTML form?",
+        "options": ["<input type='submit'>", "<form submit>", "<submit>"],
+        "correctAnswer": "<input type='submit'>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-8",
+        "question": "Which input type is typically used for collecting email addresses?",
+        "options": ["email", "text", "mail"],
+        "correctAnswer": "email",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-9",
+        "question": "Which tag is used to create a multi-line text input?",
+        "options": ["<textarea>", "<input type='text-area'>", "<textinput>"],
+        "correctAnswer": "<textarea>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-10",
+        "question": "Which form attribute disables autocomplete?",
+        "options": ["autocomplete='off'", "autofill='false'", "disable='true'"],
+        "correctAnswer": "autocomplete='off'",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-5",
+  "title": "HTML5 Semantic Elements",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-5-1",
+      "title": "Introduction to Semantic Elements",
+      "content": "Understand what semantic HTML is and why it is important.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-1",
+          "question": "What does semantic HTML mean?",
+          "options": ["HTML with meaning", "HTML with styling", "HTML with JavaScript"],
+          "correctAnswer": "HTML with meaning",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-2",
+          "question": "Which of the following is a semantic tag?",
+          "options": ["<div>", "<span>", "<article>"],
+          "correctAnswer": "<article>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-3",
+          "question": "What is the purpose of using semantic elements?",
+          "options": [
+            "For better SEO and accessibility",
+            "To style the webpage",
+            "To add scripts"
+          ],
+          "correctAnswer": "For better SEO and accessibility",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-2",
+      "title": "Common Semantic Elements",
+      "content": "Explore commonly used semantic elements in HTML5.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-4",
+          "question": "Which tag is used for navigation links?",
+          "options": ["<nav>", "<section>", "<aside>"],
+          "correctAnswer": "<nav>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-5",
+          "question": "Which tag defines content aside from the main content?",
+          "options": ["<aside>", "<header>", "<footer>"],
+          "correctAnswer": "<aside>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-6",
+          "question": "Which tag defines the main content of a document?",
+          "options": ["<main>", "<body>", "<article>"],
+          "correctAnswer": "<main>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-3",
+      "title": "Structure Using Semantic Elements",
+      "content": "Learn how to create a well-structured layout using semantic tags.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-7",
+          "question": "Which tag is used for introductory content at the top of a page?",
+          "options": ["<header>", "<top>", "<nav>"],
+          "correctAnswer": "<header>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-8",
+          "question": "Which tag is typically used for footer content?",
+          "options": ["<footer>", "<bottom>", "<aside>"],
+          "correctAnswer": "<footer>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-9",
+          "question": "Which tag is appropriate for self-contained content?",
+          "options": ["<article>", "<div>", "<section>"],
+          "correctAnswer": "<article>",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-4",
+      "title": "Benefits and Best Practices",
+      "content": "Understand the benefits of semantic HTML and how to use it effectively.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-10",
+          "question": "What is one benefit of semantic HTML?",
+          "options": [
+            "Improved styling",
+            "Improved accessibility",
+            "More JavaScript functionality"
+          ],
+          "correctAnswer": "Improved accessibility",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-11",
+          "question": "Semantic HTML is helpful for which group of users?",
+          "options": [
+            "Developers only",
+            "Search engines and screen readers",
+            "Designers only"
+          ],
+          "correctAnswer": "Search engines and screen readers",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-12",
+          "question": "Which is NOT a semantic HTML tag?",
+          "options": ["<div>", "<main>", "<article>"],
+          "correctAnswer": "<div>",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a5-1",
+        "question": "What does semantic HTML refer to?",
+        "options": [
+          "HTML with better styling",
+          "HTML that uses meaningful tags",
+          "HTML used only for scripting"
+        ],
+        "correctAnswer": "HTML that uses meaningful tags",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-2",
+        "question": "Which of these is a semantic element?",
+        "options": ["<article>", "<span>", "<div>"],
+        "correctAnswer": "<article>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-3",
+        "question": "Which tag is used to define a page footer?",
+        "options": ["<footer>", "<bottom>", "<aside>"],
+        "correctAnswer": "<footer>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-4",
+        "question": "Which tag is used for navigation menus?",
+        "options": ["<nav>", "<menu>", "<ul>"],
+        "correctAnswer": "<nav>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-5",
+        "question": "What does the <main> tag represent?",
+        "options": [
+          "Navigation section",
+          "Sidebar content",
+          "Main content of the document"
+        ],
+        "correctAnswer": "Main content of the document",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-6",
+        "question": "Which semantic tag is used for standalone content?",
+        "options": ["<article>", "<div>", "<span>"],
+        "correctAnswer": "<article>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-7",
+        "question": "Which tag is used for additional, tangential content?",
+        "options": ["<aside>", "<section>", "<footer>"],
+        "correctAnswer": "<aside>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-8",
+        "question": "Why is semantic HTML important for SEO?",
+        "options": [
+          "It reduces file size",
+          "It adds metadata automatically",
+          "It helps search engines understand content"
+        ],
+        "correctAnswer": "It helps search engines understand content",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-9",
+        "question": "Which tag provides structure but is not semantic?",
+        "options": ["<div>", "<article>", "<nav>"],
+        "correctAnswer": "<div>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a5-10",
+        "question": "Which tag defines content grouped under a heading?",
+        "options": ["<section>", "<article>", "<aside>"],
+        "correctAnswer": "<section>",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-6",
+  "title": "Forms and Input",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-6-1",
+      "title": "HTML Forms",
+      "content": "Understand the basics of creating forms in HTML.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-1",
+          "question": "Which tag is used to create an HTML form?",
+          "options": ["<form>", "<input>", "<label>"],
+          "correctAnswer": "<form>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-2",
+          "question": "What attribute of <form> specifies the URL to send form data?",
+          "options": ["action", "method", "target"],
+          "correctAnswer": "action",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-3",
+          "question": "Which method is more secure for submitting sensitive data?",
+          "options": ["GET", "POST", "SEND"],
+          "correctAnswer": "POST",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-2",
+      "title": "Input Types and Attributes",
+      "content": "Explore various input types and their attributes.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-4",
+          "question": "Which input type is used for password fields?",
+          "options": ["text", "password", "secure"],
+          "correctAnswer": "password",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-5",
+          "question": "What input type is used to create a checkbox?",
+          "options": ["text", "checkbox", "select"],
+          "correctAnswer": "checkbox",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-6",
+          "question": "Which attribute makes a form field mandatory?",
+          "options": ["required", "readonly", "disabled"],
+          "correctAnswer": "required",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-3",
+      "title": "Form Validation",
+      "content": "Learn about built-in HTML validation features.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-7",
+          "question": "Which attribute ensures the input follows a certain pattern?",
+          "options": ["pattern", "required", "maxlength"],
+          "correctAnswer": "pattern",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-8",
+          "question": "What attribute limits the number of characters in an input?",
+          "options": ["maxlength", "minlength", "pattern"],
+          "correctAnswer": "maxlength",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-9",
+          "question": "Which input type allows users to select a date?",
+          "options": ["text", "date", "calendar"],
+          "correctAnswer": "date",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-4",
+      "title": "Form Elements and Layout",
+      "content": "Use elements like <label>, <fieldset>, and <textarea> effectively.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-10",
+          "question": "Which tag is used to group related elements in a form?",
+          "options": ["<fieldset>", "<group>", "<section>"],
+          "correctAnswer": "<fieldset>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-11",
+          "question": "Which tag is used to associate a label with an input?",
+          "options": ["<label>", "<div>", "<span>"],
+          "correctAnswer": "<label>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-12",
+          "question": "Which tag creates a multiline input field?",
+          "options": ["<input>", "<textarea>", "<textbox>"],
+          "correctAnswer": "<textarea>",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a6-1",
+        "question": "Which HTML element is used to create a form?",
+        "options": ["<form>", "<input>", "<textarea>"],
+        "correctAnswer": "<form>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-2",
+        "question": "Which attribute specifies where to send the form data?",
+        "options": ["action", "href", "src"],
+        "correctAnswer": "action",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-3",
+        "question": "Which HTML input type allows users to select only one option from a set?",
+        "options": ["checkbox", "radio", "select"],
+        "correctAnswer": "radio",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-4",
+        "question": "What tag is used to provide a label for an input?",
+        "options": ["<label>", "<name>", "<desc>"],
+        "correctAnswer": "<label>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-5",
+        "question": "What is the purpose of the 'required' attribute?",
+        "options": ["To hide the field", "To make a field mandatory", "To disable the field"],
+        "correctAnswer": "To make a field mandatory",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-6",
+        "question": "Which tag creates a dropdown menu?",
+        "options": ["<input>", "<select>", "<option>"],
+        "correctAnswer": "<select>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-7",
+        "question": "What input type should be used for email addresses?",
+        "options": ["text", "email", "address"],
+        "correctAnswer": "email",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-8",
+        "question": "Which tag is used to create a multiline text field?",
+        "options": ["<input>", "<textarea>", "<field>"],
+        "correctAnswer": "<textarea>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-9",
+        "question": "Which attribute restricts characters in an input field to a pattern?",
+        "options": ["pattern", "validate", "constraint"],
+        "correctAnswer": "pattern",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a6-10",
+        "question": "Which tag is used to group form fields?",
+        "options": ["<fieldset>", "<group>", "<div>"],
+        "correctAnswer": "<fieldset>",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+
+  ]
+}
+

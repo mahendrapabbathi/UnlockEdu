@@ -1,0 +1,91 @@
+/* .skills{
+    padding:10% 0%;
+}
+.skills ul{
+    margin: 5% 0%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    width:80%;
+    gap:50px;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding:0;
+}
+.courses{
+    position: relative;
+    text-align: center;
+    background-color:black;
+    width:300px;
+    padding:15px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.courses li{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@property --angle{
+    syntax:"<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.courses::after,.courses::before{
+    content: "";
+    position: absolute;
+    background-image: conic-gradient(from var(--angle),transparent 20%,violet 40%,purple 40%,violet);
+    height: 100%;
+    width: 100%;
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding:1px;
+    border-radius: 5px;
+    animation:7s spin linear infinite;
+}
+
+.courses::before{
+    filter:blur(0.5rem);
+    opacity: 0.6;
+}
+
+@keyframes spin {
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
+
+ @media (max-width:1200px) {
+    .skills ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width:670px) {
+    .skills{
+        margin:5% 0%;
+    }
+}
+@media (max-width:435px) {
+    .skills{
+        margin:5% 0%;
+        padding:15% 0%;
+    }
+}
+@media (max-width:300px) {
+    .skills{
+        margin:15% 0%;
+        padding:15% 0%;
+    }
+} */

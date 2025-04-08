@@ -1,0 +1,147 @@
+
+.hero-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    margin:0 auto;
+    padding-bottom: 7%;
+    gap:50px;
+    height: 90vh;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    gap:40px;
+    width:50%;
+}
+.heading .heading-text{
+    font-size: 34px;
+    font-weight: 700;
+}
+.heading .heading-para{
+    font-size: 16px;
+    color:gray;
+}
+.heading button{
+    padding:13px 30px;
+    display: inline;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 220px;
+    border:none;
+    cursor: pointer;
+    background:linear-gradient(45deg,violet,purple);
+    border-radius: 6px;
+    color:white;
+}
+.heading button:hover{
+    background: linear-gradient(45deg,purple,violet);
+}
+
+.skills-content{
+    width:45%;
+    margin-top: 60px;
+}
+.skills-content ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: end;
+    gap:30px;
+    margin: auto;
+    align-items: center;
+    padding:0;
+}
+
+.courses{
+    position: relative;
+    text-align: center;
+    background-color:black;
+    width:350px;
+    padding:15px 20px;
+    border-radius: 5px;
+    color:white;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.courses li{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@property --angle{
+    syntax:"<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+.courses::after,.courses::before{
+    content: "";
+    position: absolute;
+    background-image: conic-gradient(from var(--angle),transparent 20%,violet 40%,purple 40%,violet);
+    height: 100%;
+    width: 100%;
+    top:50%;
+    left:50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding:1px;
+    border-radius: 5px;
+    animation:7s spin linear infinite;
+}
+
+.courses::before{
+    filter:blur(0.5rem);
+    opacity: 0.6;
+}
+
+@keyframes spin {
+    from{
+        --angle:0deg;
+    }
+    to{
+        --angle:360deg;
+    }
+}
+
+@media (max-width:1000px) {
+
+    .courses{
+        width:250px;
+    }
+    .heading .heading-text{
+        font-size: 20px;
+    }
+    .heading .heading-para{
+        font-size: 14px;
+    }
+    .heading button{
+        width:200px;
+        font-size: 15px;
+    }
+}
+@media (max-width:884px) {
+    .heading{
+        width:100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .heading .heading-text{
+        font-size: 30px;
+    }
+    .skills-content{
+        display: none;
+    }
+}
+@media (max-width:610px) {
+    .heading .heading-text{
+        font-size: 20px;
+    }
+    .heading .heading-para{
+        font-size: 13px;
+    }
+}

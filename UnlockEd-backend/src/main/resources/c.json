@@ -1,0 +1,1197 @@
+{
+  "id": "course-6",
+  "title": "C Language Course",
+  "description": "Master the fundamentals of C programming including syntax, data types, control structures, functions, arrays, pointers, and memory management.",
+  "chapters": [
+    {
+  "chapterId": "ch-1",
+  "title": "Introduction to C Programming",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-1-1",
+      "title": "History and Features of C",
+      "content": "Understand the origin and key features of the C programming language.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-1-1",
+          "question": "Who developed the C programming language?",
+          "options": ["Dennis Ritchie", "Bjarne Stroustrup", "James Gosling"],
+          "correctAnswer": "Dennis Ritchie",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-2",
+          "question": "In which year was the C language developed?",
+          "options": ["1972", "1983", "1995"],
+          "correctAnswer": "1972",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-3",
+          "question": "Which of the following is a feature of C?",
+          "options": ["Object-Oriented", "Platform Dependent", "High-Level only"],
+          "correctAnswer": "Platform Dependent",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-2",
+      "title": "Structure of a C Program",
+      "content": "Learn the structure and basic components of a C program.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-4",
+          "question": "Which function is mandatory in a C program?",
+          "options": ["main()", "start()", "init()"],
+          "correctAnswer": "main()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-5",
+          "question": "Which symbol is used to end a statement in C?",
+          "options": [";", ":", "."],
+          "correctAnswer": ";",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-6",
+          "question": "What is the extension of a C source file?",
+          "options": [".c", ".cpp", ".java"],
+          "correctAnswer": ".c",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-3",
+      "title": "Compiling and Executing C Programs",
+      "content": "Explore the process of compilation and execution in C.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-7",
+          "question": "Which command is used to compile a C program using GCC?",
+          "options": ["gcc filename.c", "compile filename.c", "run filename.c"],
+          "correctAnswer": "gcc filename.c",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-8",
+          "question": "What does the compiler generate after successful compilation?",
+          "options": ["Object Code", "Source Code", "Bytecode"],
+          "correctAnswer": "Object Code",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-9",
+          "question": "Which file is created after compilation by default?",
+          "options": ["a.out", "a.exe", "output.o"],
+          "correctAnswer": "a.out",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-4",
+      "title": "Variables and Data Types",
+      "content": "Understand variables and fundamental data types in C.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-10",
+          "question": "Which data type is used to store integer values?",
+          "options": ["int", "char", "float"],
+          "correctAnswer": "int",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-11",
+          "question": "Which keyword is used to declare a floating-point variable?",
+          "options": ["float", "double", "int"],
+          "correctAnswer": "float",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-12",
+          "question": "Which of the following is a valid variable name?",
+          "options": ["_var", "2var", "var-name"],
+          "correctAnswer": "_var",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-1-1",
+        "question": "What is the correct syntax to declare an integer variable?",
+        "options": ["int x;", "integer x;", "num x;"],
+        "correctAnswer": "int x;",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-2",
+        "question": "Which of these is not a valid C keyword?",
+        "options": ["float", "real", "return"],
+        "correctAnswer": "real",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-3",
+        "question": "What is the output of: printf(\"%d\", 5+3*2);",
+        "options": ["11", "16", "13"],
+        "correctAnswer": "11",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-4",
+        "question": "Which function is used to get user input?",
+        "options": ["scanf()", "input()", "cin>>"],
+        "correctAnswer": "scanf()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-5",
+        "question": "What will sizeof(char) return?",
+        "options": ["1", "2", "4"],
+        "correctAnswer": "1",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-6",
+        "question": "Which header file is required for printf()?",
+        "options": ["stdio.h", "conio.h", "math.h"],
+        "correctAnswer": "stdio.h",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-7",
+        "question": "Which symbol is used for comments in C?",
+        "options": ["//", "#", "/* */"],
+        "correctAnswer": "/* */",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-8",
+        "question": "Which operator is used for assignment?",
+        "options": ["=", "==", "==="],
+        "correctAnswer": "=",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-9",
+        "question": "What is the output of: printf(\"%c\", 'A'+1);",
+        "options": ["B", "A1", "1"],
+        "correctAnswer": "B",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-10",
+        "question": "Which is the correct format specifier for float?",
+        "options": ["%f", "%d", "%c"],
+        "correctAnswer": "%f",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-2",
+  "title": "Operators and Expressions",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-2-1",
+      "title": "Arithmetic Operators",
+      "content": "Learn how to use arithmetic operators in C for basic calculations.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-1",
+          "question": "Which of the following is the modulus operator in C?",
+          "options": ["%", "/", "//"],
+          "correctAnswer": "%",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-2",
+          "question": "What is the result of 10 % 3 in C?",
+          "options": ["1", "3", "0"],
+          "correctAnswer": "1",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-3",
+          "question": "Which operator is used for multiplication?",
+          "options": ["*", "x", "^"],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-2",
+      "title": "Relational and Logical Operators",
+      "content": "Explore relational and logical operators for decision-making.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-4",
+          "question": "Which operator checks for equality?",
+          "options": ["==", "=", "!="],
+          "correctAnswer": "==",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-5",
+          "question": "What does the && operator represent?",
+          "options": ["Logical AND", "Bitwise AND", "Logical OR"],
+          "correctAnswer": "Logical AND",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-6",
+          "question": "Which of these is a logical OR operator?",
+          "options": ["||", "|", "or"],
+          "correctAnswer": "||",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-3",
+      "title": "Assignment and Increment/Decrement Operators",
+      "content": "Learn assignment and increment/decrement operations in C.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-7",
+          "question": "Which operator is used for assignment?",
+          "options": ["=", "==", ":="],
+          "correctAnswer": "=",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-8",
+          "question": "What is the output of ++x when x = 5?",
+          "options": ["6", "5", "4"],
+          "correctAnswer": "6",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-9",
+          "question": "Which operator is used for decrement?",
+          "options": ["--", "-=", "-"],
+          "correctAnswer": "--",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-4",
+      "title": "Expressions and Precedence",
+      "content": "Understand operator precedence and expression evaluation.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-10",
+          "question": "Which operator has the highest precedence?",
+          "options": ["()", "*", "++"],
+          "correctAnswer": "()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-11",
+          "question": "What is the order of evaluation in an expression?",
+          "options": ["Left to Right", "Right to Left", "Depends on operators"],
+          "correctAnswer": "Depends on operators",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-12",
+          "question": "Which of these is evaluated first in C?",
+          "options": ["*", "+", "-"],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-2-1",
+        "question": "Which operator is used to add two numbers?",
+        "options": ["+", "-", "*"],
+        "correctAnswer": "+",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-2",
+        "question": "What does x++ do?",
+        "options": ["Increments x after use", "Increments x before use", "Decrements x"],
+        "correctAnswer": "Increments x after use",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-3",
+        "question": "Which of the following is not a relational operator?",
+        "options": ["!=", "==", "&&"],
+        "correctAnswer": "&&",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-4",
+        "question": "What is the result of 5 + 2 * 3?",
+        "options": ["11", "21", "15"],
+        "correctAnswer": "11",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-5",
+        "question": "Which operator is used to compare two values?",
+        "options": ["==", "=", "!="],
+        "correctAnswer": "==",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-6",
+        "question": "Which of the following is a logical operator?",
+        "options": ["&&", "&", "!="],
+        "correctAnswer": "&&",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-7",
+        "question": "What is the result of 10 % 4?",
+        "options": ["2", "1", "0"],
+        "correctAnswer": "2",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-8",
+        "question": "Which operator has the lowest precedence?",
+        "options": ["=", "&&", "+"],
+        "correctAnswer": "=",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-9",
+        "question": "Which operator is used for multiplication in C?",
+        "options": ["*", "x", "%"],
+        "correctAnswer": "*",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-10",
+        "question": "Which is the result of: (3 + 5) * 2?",
+        "options": ["16", "13", "10"],
+        "correctAnswer": "16",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-3",
+  "title": "Control Structures",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-3-1",
+      "title": "if and if-else Statements",
+      "content": "Understand the use of if and if-else for decision making in C.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-1",
+          "question": "Which keyword is used for decision making in C?",
+          "options": ["if", "for", "while"],
+          "correctAnswer": "if",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-2",
+          "question": "What is the output of: if (5 > 3) printf(\"Yes\"); else printf(\"No\");?",
+          "options": ["Yes", "No", "Error"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-3",
+          "question": "Which symbol is used for block scope in if statements?",
+          "options": ["{}", "[]", "()"],
+          "correctAnswer": "{}",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-2",
+      "title": "Switch Statements",
+      "content": "Learn to use switch-case for handling multiple conditions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-4",
+          "question": "What is the purpose of a switch statement?",
+          "options": ["Multiple choice handling", "Looping", "Assignment"],
+          "correctAnswer": "Multiple choice handling",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-5",
+          "question": "Which keyword is used to exit a case?",
+          "options": ["break", "exit", "return"],
+          "correctAnswer": "break",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-6",
+          "question": "Which data types are supported by switch?",
+          "options": ["int and char", "float", "double"],
+          "correctAnswer": "int and char",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-3",
+      "title": "Loops: for, while, do-while",
+      "content": "Learn about different loop structures in C.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-7",
+          "question": "Which loop is best when number of iterations is known?",
+          "options": ["for", "while", "do-while"],
+          "correctAnswer": "for",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-8",
+          "question": "Which loop checks the condition at the end?",
+          "options": ["do-while", "for", "while"],
+          "correctAnswer": "do-while",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-9",
+          "question": "Which is the correct syntax for a for loop?",
+          "options": ["for(i=0; i<10; i++)", "for i<10", "for(i<10; i=0)"],
+          "correctAnswer": "for(i=0; i<10; i++)",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-4",
+      "title": "Break and Continue",
+      "content": "Understand break and continue for controlling loops.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-10",
+          "question": "What does break do in a loop?",
+          "options": ["Exits the loop", "Skips next iteration", "Restarts loop"],
+          "correctAnswer": "Exits the loop",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-11",
+          "question": "What does continue do in a loop?",
+          "options": ["Skips to next iteration", "Exits loop", "Goes to start"],
+          "correctAnswer": "Skips to next iteration",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-12",
+          "question": "In which loop can break and continue be used?",
+          "options": ["All loops", "Only for", "Only while"],
+          "correctAnswer": "All loops",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-3-1",
+        "question": "Which keyword is used for conditional execution?",
+        "options": ["if", "for", "int"],
+        "correctAnswer": "if",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-2",
+        "question": "What is the purpose of a switch-case structure?",
+        "options": ["Handle multiple conditions", "Repeat code", "Declare variables"],
+        "correctAnswer": "Handle multiple conditions",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-3",
+        "question": "Which loop guarantees execution at least once?",
+        "options": ["do-while", "for", "while"],
+        "correctAnswer": "do-while",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-4",
+        "question": "What is the result of using break inside a loop?",
+        "options": ["Exit the loop", "Restart the loop", "Ignore the loop"],
+        "correctAnswer": "Exit the loop",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-5",
+        "question": "Which statement is used to skip current iteration?",
+        "options": ["continue", "break", "goto"],
+        "correctAnswer": "continue",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-6",
+        "question": "Which loop checks the condition before executing?",
+        "options": ["while", "do-while", "goto"],
+        "correctAnswer": "while",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-7",
+        "question": "What is the correct syntax of a switch statement?",
+        "options": ["switch(expression)", "switch{expression}", "switch=expression"],
+        "correctAnswer": "switch(expression)",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-8",
+        "question": "In a for loop, which part initializes the counter?",
+        "options": ["first", "second", "third"],
+        "correctAnswer": "first",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-9",
+        "question": "Which of these is not a loop structure?",
+        "options": ["if", "for", "while"],
+        "correctAnswer": "if",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-10",
+        "question": "Which of the following can be nested?",
+        "options": ["if, loops", "switch only", "goto only"],
+        "correctAnswer": "if, loops",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-4",
+  "title": "Functions in C",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-4-1",
+      "title": "Function Basics",
+      "content": "Learn how to declare, define, and call functions in C.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-1",
+          "question": "What is a function in C?",
+          "options": ["A block of code that performs a task", "A variable", "A loop"],
+          "correctAnswer": "A block of code that performs a task",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-2",
+          "question": "Which keyword is used to return a value from a function?",
+          "options": ["return", "break", "exit"],
+          "correctAnswer": "return",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-3",
+          "question": "What is the default return type of a function in C?",
+          "options": ["int", "void", "char"],
+          "correctAnswer": "int",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-2",
+      "title": "Function Arguments",
+      "content": "Understand how to pass arguments to functions by value.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-4",
+          "question": "What is call by value?",
+          "options": ["Copy of argument is passed", "Reference is passed", "Pointer is passed"],
+          "correctAnswer": "Copy of argument is passed",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-5",
+          "question": "Are changes made to arguments inside a function reflected outside?",
+          "options": ["No", "Yes", "Sometimes"],
+          "correctAnswer": "No",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-6",
+          "question": "Can we pass multiple arguments to a function?",
+          "options": ["Yes", "No", "Only two"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-3",
+      "title": "Recursion",
+      "content": "Learn about recursive functions that call themselves.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-7",
+          "question": "What is recursion?",
+          "options": ["Function calling itself", "Looping", "Pointer usage"],
+          "correctAnswer": "Function calling itself",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-8",
+          "question": "What is needed to stop recursion?",
+          "options": ["Base condition", "Loop", "Switch"],
+          "correctAnswer": "Base condition",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-9",
+          "question": "Which problem is suitable for recursion?",
+          "options": ["Factorial", "Assignment", "Declaration"],
+          "correctAnswer": "Factorial",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-4",
+      "title": "Function Prototypes and Scope",
+      "content": "Learn about function declaration and variable scope.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-10",
+          "question": "What is a function prototype?",
+          "options": ["Declaration before use", "Function call", "Return value"],
+          "correctAnswer": "Declaration before use",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-11",
+          "question": "What is the scope of a local variable?",
+          "options": ["Within the block", "Entire program", "Another file"],
+          "correctAnswer": "Within the block",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-12",
+          "question": "Where are global variables declared?",
+          "options": ["Outside functions", "Inside loops", "Inside main"],
+          "correctAnswer": "Outside functions",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-4-1",
+        "question": "What is a function prototype?",
+        "options": ["Function declaration", "Function call", "Loop"],
+        "correctAnswer": "Function declaration",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-2",
+        "question": "Which keyword is used to return a value?",
+        "options": ["return", "exit", "continue"],
+        "correctAnswer": "return",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-3",
+        "question": "What is recursion?",
+        "options": ["Function calling itself", "Infinite loop", "Syntax error"],
+        "correctAnswer": "Function calling itself",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-4",
+        "question": "Which is not a valid return type in C?",
+        "options": ["float", "void", "boolean"],
+        "correctAnswer": "boolean",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-5",
+        "question": "What does call by value mean?",
+        "options": ["Pass copy of value", "Pass reference", "Pass pointer"],
+        "correctAnswer": "Pass copy of value",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-6",
+        "question": "Which variable is accessible throughout the file?",
+        "options": ["Global", "Local", "Static"],
+        "correctAnswer": "Global",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-7",
+        "question": "Function with no return type uses which keyword?",
+        "options": ["void", "null", "empty"],
+        "correctAnswer": "void",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-8",
+        "question": "What is the correct syntax to define a function?",
+        "options": ["return_type name()", "def name()", "func name()"],
+        "correctAnswer": "return_type name()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-9",
+        "question": "Which keyword is used to end a function?",
+        "options": ["return", "end", "break"],
+        "correctAnswer": "return",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-10",
+        "question": "What is the scope of a function parameter?",
+        "options": ["Local to function", "Global", "File-wide"],
+        "correctAnswer": "Local to function",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-5",
+  "title": "Pointers in C",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-5-1",
+      "title": "Pointer Basics",
+      "content": "Understand what pointers are and how to declare them.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-1",
+          "question": "What is a pointer in C?",
+          "options": ["A variable that stores address", "A function", "A loop"],
+          "correctAnswer": "A variable that stores address",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-2",
+          "question": "Which operator is used to get the address of a variable?",
+          "options": ["&", "*", "%"],
+          "correctAnswer": "&",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-3",
+          "question": "Which operator is used to access the value at an address?",
+          "options": ["*", "&", "#"],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-2",
+      "title": "Pointer Arithmetic",
+      "content": "Learn pointer increment, decrement, and arithmetic operations.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-4",
+          "question": "What does ptr++ do?",
+          "options": ["Moves to next memory location", "Adds 1 to value", "Multiplies pointer"],
+          "correctAnswer": "Moves to next memory location",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-5",
+          "question": "Can we subtract one pointer from another?",
+          "options": ["Yes", "No", "Only in arrays"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-6",
+          "question": "What is the result of *(ptr + 1)?",
+          "options": ["Next element", "Previous element", "Null"],
+          "correctAnswer": "Next element",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-3",
+      "title": "Pointers and Arrays",
+      "content": "Understand the relationship between pointers and arrays.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-7",
+          "question": "Is array name a pointer?",
+          "options": ["Yes", "No", "Sometimes"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-8",
+          "question": "What does *(arr + i) represent?",
+          "options": ["arr[i]", "arr(i)", "i[arr]"],
+          "correctAnswer": "arr[i]",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-9",
+          "question": "Can you use pointer arithmetic on arrays?",
+          "options": ["Yes", "No", "Only in loops"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-4",
+      "title": "Pointers and Functions",
+      "content": "Learn how to pass pointers to functions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-10",
+          "question": "Can we pass a pointer to a function?",
+          "options": ["Yes", "No", "Only with arrays"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-11",
+          "question": "What does a pointer allow in functions?",
+          "options": ["Pass by reference", "Looping", "Recursion"],
+          "correctAnswer": "Pass by reference",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-12",
+          "question": "How do you declare a function that takes a pointer?",
+          "options": ["void func(int *p)", "int p()", "int *func(int)"],
+          "correctAnswer": "void func(int *p)",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-5-1",
+        "question": "What does a pointer store?",
+        "options": ["Memory address", "Value", "Array size"],
+        "correctAnswer": "Memory address",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-2",
+        "question": "Which operator accesses a value at an address?",
+        "options": ["*", "&", "%"],
+        "correctAnswer": "*",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-3",
+        "question": "Is array name a pointer?",
+        "options": ["Yes", "No", "Sometimes"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-4",
+        "question": "What does ptr++ do?",
+        "options": ["Next memory location", "Adds 1 to value", "Exits program"],
+        "correctAnswer": "Next memory location",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-5",
+        "question": "Can you pass a pointer to a function?",
+        "options": ["Yes", "No", "Depends on compiler"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-6",
+        "question": "What is *(arr + i) equal to?",
+        "options": ["arr[i]", "arr + i", "i[arr]"],
+        "correctAnswer": "arr[i]",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-7",
+        "question": "What is the output of accessing uninitialized pointer?",
+        "options": ["Garbage value", "0", "Error"],
+        "correctAnswer": "Garbage value",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-8",
+        "question": "What is the address-of operator?",
+        "options": ["&", "*", "#"],
+        "correctAnswer": "&",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-9",
+        "question": "Which function is used to allocate memory?",
+        "options": ["malloc()", "new()", "alloc()"],
+        "correctAnswer": "malloc()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-10",
+        "question": "Can a function return a pointer?",
+        "options": ["Yes", "No", "Only void"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-6",
+  "title": "Dynamic Memory Allocation",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-6-1",
+      "title": "Introduction to Dynamic Memory",
+      "content": "Understand the concept of dynamic memory allocation and why it is useful.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-1",
+          "question": "What is dynamic memory allocation?",
+          "options": ["Allocating memory at runtime", "Fixed memory allocation", "Stack memory"],
+          "correctAnswer": "Allocating memory at runtime",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-2",
+          "question": "Which header file is required for dynamic memory functions?",
+          "options": ["stdlib.h", "stdio.h", "math.h"],
+          "correctAnswer": "stdlib.h",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-3",
+          "question": "What function is used to allocate memory dynamically?",
+          "options": ["malloc()", "printf()", "scanf()"],
+          "correctAnswer": "malloc()",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-2",
+      "title": "Using malloc and free",
+      "content": "Learn how to allocate and free memory using malloc() and free().",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-4",
+          "question": "What does malloc() return?",
+          "options": ["Pointer to allocated memory", "Integer", "Character"],
+          "correctAnswer": "Pointer to allocated memory",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-5",
+          "question": "What function is used to deallocate memory?",
+          "options": ["free()", "delete()", "remove()"],
+          "correctAnswer": "free()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-6",
+          "question": "What happens if you don’t free memory?",
+          "options": ["Memory leak", "Compilation error", "Faster program"],
+          "correctAnswer": "Memory leak",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-3",
+      "title": "calloc and realloc",
+      "content": "Explore calloc() and realloc() for advanced memory handling.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-7",
+          "question": "What is the difference between malloc and calloc?",
+          "options": ["calloc initializes memory to zero", "malloc is slower", "calloc uses more memory"],
+          "correctAnswer": "calloc initializes memory to zero",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-8",
+          "question": "Which function changes the size of allocated memory?",
+          "options": ["realloc()", "resize()", "calloc()"],
+          "correctAnswer": "realloc()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-9",
+          "question": "What happens if realloc() fails?",
+          "options": ["Returns NULL", "Returns -1", "Crashes program"],
+          "correctAnswer": "Returns NULL",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-4",
+      "title": "Best Practices and Errors",
+      "content": "Learn best practices and how to avoid common memory allocation errors.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-10",
+          "question": "What should be checked after malloc?",
+          "options": ["If pointer is NULL", "If pointer is 0", "If pointer is > 0"],
+          "correctAnswer": "If pointer is NULL",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-11",
+          "question": "How to prevent memory leaks?",
+          "options": ["Always use free()", "Avoid malloc", "Use static memory"],
+          "correctAnswer": "Always use free()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-12",
+          "question": "What is dangling pointer?",
+          "options": ["Pointer pointing to freed memory", "Pointer to NULL", "Invalid syntax"],
+          "correctAnswer": "Pointer pointing to freed memory",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-6-1",
+        "question": "What is the return type of malloc?",
+        "options": ["void *", "int *", "char *"],
+        "correctAnswer": "void *",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-2",
+        "question": "Which function deallocates memory?",
+        "options": ["free()", "delete()", "remove()"],
+        "correctAnswer": "free()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-3",
+        "question": "Which header file contains malloc?",
+        "options": ["stdlib.h", "stdio.h", "malloc.h"],
+        "correctAnswer": "stdlib.h",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-4",
+        "question": "What does calloc do that malloc doesn’t?",
+        "options": ["Initializes memory to 0", "Allocates more memory", "Frees memory"],
+        "correctAnswer": "Initializes memory to 0",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-5",
+        "question": "Which function changes memory size?",
+        "options": ["realloc()", "resize()", "rescale()"],
+        "correctAnswer": "realloc()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-6",
+        "question": "What should you check after realloc?",
+        "options": ["NULL", "0", "size"],
+        "correctAnswer": "NULL",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-7",
+        "question": "What is a memory leak?",
+        "options": ["Memory not freed", "Memory overused", "Hard disk full"],
+        "correctAnswer": "Memory not freed",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-8",
+        "question": "What causes a dangling pointer?",
+        "options": ["Using freed memory", "Assigning NULL", "Not allocating memory"],
+        "correctAnswer": "Using freed memory",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-9",
+        "question": "What is the output of calloc?",
+        "options": ["Zero initialized memory", "Random values", "NULL"],
+        "correctAnswer": "Zero initialized memory",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-10",
+        "question": "Which function allocates multiple blocks of memory?",
+        "options": ["calloc()", "malloc()", "free()"],
+        "correctAnswer": "calloc()",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+
+  ]
+}
+

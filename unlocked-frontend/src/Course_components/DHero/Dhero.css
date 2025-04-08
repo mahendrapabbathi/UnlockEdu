@@ -1,0 +1,29 @@
+.dhero {
+    /* background-image: url('../../../assets/bg3.jpeg');  */
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.dhero h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+}
+
+.dhero h2 {
+    font-size: 30px;
+    color: violet;
+}
+
+@media (max-width:400px) {
+    .dhero h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .dhero h2{
+        font-size: 18px;
+    }
+}

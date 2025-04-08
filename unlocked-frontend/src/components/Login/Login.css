@@ -1,0 +1,113 @@
+.login-popup{
+    position: fixed;
+    top:0;
+    left:0;
+    place-items: center;
+    z-index: 1000;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.466);
+    display: grid;
+    margin-top: 2%;
+}
+.login-popup-container{
+    place-self: center;
+    width:max(23vw,350px);
+    color:#808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:25px;
+    padding:25px 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 5px grey;
+    animation:fadeIn 0.5s;
+}
+.login-popup-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:black;
+}
+.login-popup-title p{
+    font-size: max(1vw,25px);
+    font-weight: 500;
+}
+.login-popup-title img{
+    width:16px;
+    cursor: pointer;
+}
+
+.login-popup-input{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.login-popup-input input{
+    outline:none;
+    border:1px solid #c9c9c9;
+    padding:14px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.login-popup-container button{
+    padding:10px 30px;
+    background: linear-gradient(45deg,violet,purple);
+    outline:none;
+    border:none;
+    color:white;
+    font-size: max(1vw,18px);
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform  0.3s linear;
+}
+.login-popup-container button:hover{
+    background: linear-gradient(45deg,purple,violet);
+}
+.login-popup-condition{
+    display: flex;
+    align-items: start;
+    gap:8px;
+    margin:-15px;
+    color:rgba(0, 0, 0, 0.747);
+}
+.login-popup-condition input{
+    margin:5px;
+}
+.account{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color:rgba(0, 0, 0, 0.747);
+}
+.account .blue{
+    color:violet;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .password-container input {
+    width: 100%;
+    padding-right: 40px; 
+  }
+
+  .forgot{
+    color:violet;
+    font-weight:500;
+    cursor:pointer;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    color: #808080;
+  }
+  

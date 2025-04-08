@@ -1,0 +1,1195 @@
+{
+  "id": "course-5",
+  "title": "CSS Mastery",
+  "description": "Learn Cascading Style Sheets (CSS) from fundamentals to advanced concepts with real-world examples and projects.",
+  "chapters": [
+    {
+  "chapterId": "ch-1",
+  "title": "Introduction to CSS",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-1-1",
+      "title": "What is CSS?",
+      "content": "Understand the basics of CSS and its role in web development.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-1-1",
+          "question": "What does CSS stand for?",
+          "options": ["Cascading Style Sheets", "Creative Style System", "Computer Style Syntax"],
+          "correctAnswer": "Cascading Style Sheets",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-2",
+          "question": "Which tag is used to link CSS in HTML?",
+          "options": ["<link>", "<style>", "<script>"],
+          "correctAnswer": "<link>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-3",
+          "question": "Which HTML attribute is used to apply inline CSS?",
+          "options": ["style", "css", "class"],
+          "correctAnswer": "style",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-2",
+      "title": "Types of CSS",
+      "content": "Learn about inline, internal, and external CSS.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-4",
+          "question": "Which type of CSS is defined inside the HTML tag?",
+          "options": ["Inline", "Internal", "External"],
+          "correctAnswer": "Inline",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-5",
+          "question": "Which tag is used for internal CSS?",
+          "options": ["<style>", "<script>", "<link>"],
+          "correctAnswer": "<style>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-6",
+          "question": "Which file extension is used for external CSS?",
+          "options": [".html", ".css", ".js"],
+          "correctAnswer": ".css",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-3",
+      "title": "CSS Syntax",
+      "content": "Understand how CSS rules are written and interpreted.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-7",
+          "question": "What symbol is used to define a class selector in CSS?",
+          "options": [".", "#", "&"],
+          "correctAnswer": ".",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-8",
+          "question": "Which of the following is a valid CSS declaration?",
+          "options": ["color: red;", "font-size = 14px;", "margin - 10px"],
+          "correctAnswer": "color: red;",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-9",
+          "question": "Which symbol is used to separate property and value?",
+          "options": [":", "=", "-"],
+          "correctAnswer": ":",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-4",
+      "title": "Selectors",
+      "content": "Explore various CSS selectors such as class, ID, and universal selectors.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-10",
+          "question": "What symbol is used for ID selector in CSS?",
+          "options": ["#", ".", "&"],
+          "correctAnswer": "#",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-11",
+          "question": "Which selector targets all elements in CSS?",
+          "options": ["*", "#", "."],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-12",
+          "question": "How do you select an element with the class 'menu'?",
+          "options": [".menu", "#menu", "menu"],
+          "correctAnswer": ".menu",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-1-1",
+        "question": "Which of the following is not a type of CSS?",
+        "options": ["External", "Inline", "Remote"],
+        "correctAnswer": "Remote",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-2",
+        "question": "What is the correct syntax for CSS comments?",
+        "options": ["/* comment */", "// comment", "<!-- comment -->"],
+        "correctAnswer": "/* comment */",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-3",
+        "question": "Which property is used to change text color?",
+        "options": ["color", "font-color", "text-color"],
+        "correctAnswer": "color",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-4",
+        "question": "Which property controls the size of text?",
+        "options": ["font-size", "text-size", "font-style"],
+        "correctAnswer": "font-size",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-5",
+        "question": "Which of these selectors is most specific?",
+        "options": [".class", "#id", "*"],
+        "correctAnswer": "#id",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-6",
+        "question": "Where is the external CSS file referenced in HTML?",
+        "options": ["In the <head> tag", "In the <body> tag", "After the </html> tag"],
+        "correctAnswer": "In the <head> tag",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-7",
+        "question": "How do you apply the same CSS to multiple elements?",
+        "options": ["Separate them with commas", "Use + operator", "Use &"],
+        "correctAnswer": "Separate them with commas",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-8",
+        "question": "What is the purpose of a universal selector?",
+        "options": ["To select all elements", "To select only paragraphs", "To select headers"],
+        "correctAnswer": "To select all elements",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-9",
+        "question": "Which keyword is used to apply the same rule to all elements?",
+        "options": ["*", "@all", "!all"],
+        "correctAnswer": "*",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-10",
+        "question": "Which selector selects elements with a specific attribute?",
+        "options": ["[attr]", ".attr", "#attr"],
+        "correctAnswer": "[attr]",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-2",
+  "title": "CSS Colors and Backgrounds",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-2-1",
+      "title": "Working with Colors",
+      "content": "Learn how to use named colors, HEX, RGB, and HSL values in CSS.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-1",
+          "question": "Which CSS value represents red using HEX?",
+          "options": ["#FF0000", "#00FF00", "#0000FF"],
+          "correctAnswer": "#FF0000",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-2",
+          "question": "Which color format is this: rgb(255, 0, 0)?",
+          "options": ["RGB", "HEX", "HSL"],
+          "correctAnswer": "RGB",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-3",
+          "question": "Which of the following is a named color in CSS?",
+          "options": ["blue", "#0000FF", "rgb(0, 0, 255)"],
+          "correctAnswer": "blue",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-2",
+      "title": "Background Properties",
+      "content": "Explore CSS properties like background-color, background-image, and more.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-4",
+          "question": "Which property sets the background color of an element?",
+          "options": ["background-color", "color", "bg-color"],
+          "correctAnswer": "background-color",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-5",
+          "question": "How do you repeat a background image horizontally?",
+          "options": ["repeat-x", "repeat-y", "repeat-horizontal"],
+          "correctAnswer": "repeat-x",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-6",
+          "question": "Which value prevents a background image from repeating?",
+          "options": ["no-repeat", "none", "disable"],
+          "correctAnswer": "no-repeat",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-3",
+      "title": "Gradient Backgrounds",
+      "content": "Understand how to create linear and radial gradients.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-7",
+          "question": "What is the correct syntax for a linear gradient?",
+          "options": ["linear-gradient(red, blue)", "gradient(linear, red, blue)", "linear(red, blue)"],
+          "correctAnswer": "linear-gradient(red, blue)",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-8",
+          "question": "Which gradient creates a circular color transition?",
+          "options": ["radial-gradient", "circle-gradient", "ellipse-gradient"],
+          "correctAnswer": "radial-gradient",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-9",
+          "question": "Which property allows multiple background images?",
+          "options": ["background-image", "background", "background-blend-mode"],
+          "correctAnswer": "background-image",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-4",
+      "title": "Background Attachment and Positioning",
+      "content": "Learn how to fix background images and control their position.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-10",
+          "question": "Which property fixes a background image while scrolling?",
+          "options": ["background-attachment", "background-repeat", "background-fixed"],
+          "correctAnswer": "background-attachment",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-11",
+          "question": "What value keeps the background image fixed?",
+          "options": ["fixed", "scroll", "static"],
+          "correctAnswer": "fixed",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-12",
+          "question": "Which property sets the starting position of a background image?",
+          "options": ["background-position", "background-origin", "background-anchor"],
+          "correctAnswer": "background-position",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-2-1",
+        "question": "Which of the following is a valid CSS color format?",
+        "options": ["rgb(255,255,255)", "color(255,255,255)", "rgba(255)"],
+        "correctAnswer": "rgb(255,255,255)",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-2",
+        "question": "What is the result of background-color: transparent?",
+        "options": ["No background color", "White background", "Black background"],
+        "correctAnswer": "No background color",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-3",
+        "question": "How do you apply a background image in CSS?",
+        "options": ["background-image: url('image.jpg')", "background: image('image.jpg')", "background: url('image.jpg')"],
+        "correctAnswer": "background-image: url('image.jpg')",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-4",
+        "question": "Which property sets the size of the background image?",
+        "options": ["background-size", "background-width", "bg-size"],
+        "correctAnswer": "background-size",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-5",
+        "question": "Which gradient direction is top to bottom?",
+        "options": ["to bottom", "to top", "bottom-top"],
+        "correctAnswer": "to bottom",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-6",
+        "question": "Which background property can take multiple comma-separated values?",
+        "options": ["background", "background-color", "background-position"],
+        "correctAnswer": "background",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-7",
+        "question": "How do you set a semi-transparent background color?",
+        "options": ["rgba()", "hsla()", "both"],
+        "correctAnswer": "both",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-8",
+        "question": "What is the default value for background-repeat?",
+        "options": ["repeat", "no-repeat", "repeat-x"],
+        "correctAnswer": "repeat",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-9",
+        "question": "How do you stretch a background image to fit an element?",
+        "options": ["background-size: cover", "background-stretch", "background-fit"],
+        "correctAnswer": "background-size: cover",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-10",
+        "question": "Which property blends background layers together?",
+        "options": ["background-blend-mode", "mix-blend-mode", "layer-blend"],
+        "correctAnswer": "background-blend-mode",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-3",
+  "title": "CSS Fonts and Text",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-3-1",
+      "title": "Font Properties",
+      "content": "Learn about font-family, font-size, font-style, font-weight, and shorthand.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-1",
+          "question": "Which property sets the typeface for an element?",
+          "options": ["font-family", "font-type", "text-family"],
+          "correctAnswer": "font-family",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-2",
+          "question": "How do you make text bold using CSS?",
+          "options": ["font-weight: bold", "font-style: bold", "text-weight: bold"],
+          "correctAnswer": "font-weight: bold",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-3",
+          "question": "Which value of font-style makes text italic?",
+          "options": ["italic", "oblique", "bold"],
+          "correctAnswer": "italic",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-2",
+      "title": "Text Alignment and Decoration",
+      "content": "Control text alignment, decoration, indentation, and spacing.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-4",
+          "question": "Which property aligns text to the right?",
+          "options": ["text-align: right", "align: right", "text-position: right"],
+          "correctAnswer": "text-align: right",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-5",
+          "question": "Which value of text-decoration creates underlined text?",
+          "options": ["underline", "line", "under"],
+          "correctAnswer": "underline",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-6",
+          "question": "Which property indents the first line of text?",
+          "options": ["text-indent", "margin-left", "padding-left"],
+          "correctAnswer": "text-indent",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-3",
+      "title": "Text Transformation and Spacing",
+      "content": "Use text-transform, letter-spacing, word-spacing, and line-height.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-7",
+          "question": "Which value of text-transform capitalizes all letters?",
+          "options": ["uppercase", "capitalize", "all-caps"],
+          "correctAnswer": "uppercase",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-8",
+          "question": "Which property changes the space between characters?",
+          "options": ["letter-spacing", "text-spacing", "char-spacing"],
+          "correctAnswer": "letter-spacing",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-9",
+          "question": "Which property sets the height between lines?",
+          "options": ["line-height", "text-height", "font-spacing"],
+          "correctAnswer": "line-height",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-4",
+      "title": "Google Fonts and Font Embedding",
+      "content": "Explore using custom fonts via @import and <link>.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-10",
+          "question": "What is the correct way to import a Google Font?",
+          "options": ["@import url('...');", "font-import(...)", "@font(...)"],
+          "correctAnswer": "@import url('...');",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-11",
+          "question": "Where should the <link> tag for Google Fonts be placed?",
+          "options": ["Inside <head>", "Inside <body>", "After <html>"],
+          "correctAnswer": "Inside <head>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-12",
+          "question": "Which tag allows embedding of fonts in HTML?",
+          "options": ["<link>", "<style>", "<embed>"],
+          "correctAnswer": "<link>",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-3-1",
+        "question": "How do you set the font size to 16 pixels?",
+        "options": ["font-size: 16px;", "text-size: 16px;", "font: 16px;"],
+        "correctAnswer": "font-size: 16px;",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-2",
+        "question": "Which property controls the spacing between words?",
+        "options": ["word-spacing", "spacing", "text-spacing"],
+        "correctAnswer": "word-spacing",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-3",
+        "question": "What does text-transform: capitalize do?",
+        "options": ["Capitalizes the first letter of each word", "Makes all text uppercase", "Makes all text lowercase"],
+        "correctAnswer": "Capitalizes the first letter of each word",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-4",
+        "question": "What is the default text alignment in CSS?",
+        "options": ["left", "center", "justify"],
+        "correctAnswer": "left",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-5",
+        "question": "Which value of font-style makes the text italic?",
+        "options": ["italic", "bold", "underline"],
+        "correctAnswer": "italic",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-6",
+        "question": "Which tag helps in embedding external font styles?",
+        "options": ["<link>", "<font>", "<import>"],
+        "correctAnswer": "<link>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-7",
+        "question": "What does font-weight: 700 mean?",
+        "options": ["Bold text", "Light text", "Normal text"],
+        "correctAnswer": "Bold text",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-8",
+        "question": "Which CSS rule makes the first line of a paragraph indented?",
+        "options": ["text-indent", "margin-left", "line-indent"],
+        "correctAnswer": "text-indent",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-9",
+        "question": "Which value for line-height creates double spacing?",
+        "options": ["2", "1.5", "100%"],
+        "correctAnswer": "2",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-10",
+        "question": "Which Google Fonts embed method is correct in HTML?",
+        "options": ["<link href='...' rel='stylesheet'>", "<script src='...'></script>", "<style src='...'></style>"],
+        "correctAnswer": "<link href='...' rel='stylesheet'>",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-4",
+  "title": "CSS Box Model",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-4-1",
+      "title": "Understanding the Box Model",
+      "content": "Learn the components of the CSS box model: content, padding, border, and margin.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-1",
+          "question": "Which part of the box model surrounds the content?",
+          "options": ["Padding", "Margin", "Border"],
+          "correctAnswer": "Padding",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-2",
+          "question": "What property is used to add space between content and border?",
+          "options": ["padding", "margin", "spacing"],
+          "correctAnswer": "padding",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-3",
+          "question": "Which part lies outside the border?",
+          "options": ["Margin", "Padding", "Content"],
+          "correctAnswer": "Margin",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-2",
+      "title": "Padding and Margin",
+      "content": "Explore how to use padding and margin for layout spacing.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-4",
+          "question": "Which property sets the outermost spacing?",
+          "options": ["margin", "padding", "border-spacing"],
+          "correctAnswer": "margin",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-5",
+          "question": "What is the shorthand for setting all padding sides?",
+          "options": ["padding: 10px;", "padding-all: 10px;", "padding-set: 10px;"],
+          "correctAnswer": "padding: 10px;",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-6",
+          "question": "Which margin value centers an element horizontally?",
+          "options": ["margin: 0 auto;", "margin: auto 0;", "margin-center: true;"],
+          "correctAnswer": "margin: 0 auto;",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-3",
+      "title": "Borders and Outlines",
+      "content": "Learn to style borders and outlines of elements using CSS.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-7",
+          "question": "Which property defines the thickness of a border?",
+          "options": ["border-width", "border-thickness", "line-width"],
+          "correctAnswer": "border-width",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-8",
+          "question": "How do you make a dashed border?",
+          "options": ["border-style: dashed;", "border-dash: true;", "border-type: dashed;"],
+          "correctAnswer": "border-style: dashed;",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-9",
+          "question": "Which property adds a border outside the element’s box?",
+          "options": ["outline", "extra-border", "border-out"],
+          "correctAnswer": "outline",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-4",
+      "title": "Box Sizing",
+      "content": "Understand how box-sizing affects element dimensions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-10",
+          "question": "What does box-sizing: border-box do?",
+          "options": ["Includes padding and border in width", "Excludes border from width", "Only includes margin"],
+          "correctAnswer": "Includes padding and border in width",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-11",
+          "question": "What is the default box-sizing value?",
+          "options": ["content-box", "border-box", "auto-box"],
+          "correctAnswer": "content-box",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-12",
+          "question": "Which box-sizing setting is easier for layouts?",
+          "options": ["border-box", "content-box", "margin-box"],
+          "correctAnswer": "border-box",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-4-1",
+        "question": "What property adjusts spacing between elements?",
+        "options": ["margin", "padding", "spacing"],
+        "correctAnswer": "margin",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-2",
+        "question": "Which part of the box model comes first from inside?",
+        "options": ["Content", "Padding", "Border"],
+        "correctAnswer": "Content",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-3",
+        "question": "Which value of border-style creates a solid line?",
+        "options": ["solid", "line", "full"],
+        "correctAnswer": "solid",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-4",
+        "question": "What is the result of box-sizing: border-box?",
+        "options": ["Width includes padding and border", "Width excludes border", "Only margin counts in width"],
+        "correctAnswer": "Width includes padding and border",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-5",
+        "question": "Which property creates space inside the element’s border?",
+        "options": ["padding", "margin", "content"],
+        "correctAnswer": "padding",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-6",
+        "question": "How do you create a red solid border of 2px?",
+        "options": ["border: 2px solid red;", "border: red 2px solid;", "border: solid 2px red;"],
+        "correctAnswer": "border: 2px solid red;",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-7",
+        "question": "What does margin collapse mean?",
+        "options": ["Adjacent vertical margins merge", "Horizontal margins double", "All margins vanish"],
+        "correctAnswer": "Adjacent vertical margins merge",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-8",
+        "question": "Which shorthand sets margin for all sides?",
+        "options": ["margin: 10px;", "margin-all: 10px;", "set-margin: 10px;"],
+        "correctAnswer": "margin: 10px;",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-9",
+        "question": "What happens if outline-width is set to 0?",
+        "options": ["Outline is not visible", "Outline collapses", "Border disappears"],
+        "correctAnswer": "Outline is not visible",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-10",
+        "question": "Which box-sizing setting gives exact control over width?",
+        "options": ["border-box", "content-box", "auto"],
+        "correctAnswer": "border-box",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-5",
+  "title": "Positioning and Display",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-5-1",
+      "title": "CSS Position Property",
+      "content": "Understand how different position values (static, relative, absolute, fixed, sticky) affect layout.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-1",
+          "question": "Which is the default position value in CSS?",
+          "options": ["static", "relative", "absolute"],
+          "correctAnswer": "static",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-2",
+          "question": "Which position value keeps an element fixed at a location during scroll?",
+          "options": ["fixed", "sticky", "absolute"],
+          "correctAnswer": "fixed",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-3",
+          "question": "What position value allows positioning based on the nearest ancestor?",
+          "options": ["absolute", "relative", "static"],
+          "correctAnswer": "absolute",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-2",
+      "title": "Display Property",
+      "content": "Explore how display values like block, inline, inline-block, none, and flex affect elements.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-4",
+          "question": "Which display value places elements on a new line?",
+          "options": ["block", "inline", "inline-block"],
+          "correctAnswer": "block",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-5",
+          "question": "Which display value removes the element from the layout?",
+          "options": ["none", "hidden", "invisible"],
+          "correctAnswer": "none",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-6",
+          "question": "Which display value supports width/height while staying inline?",
+          "options": ["inline-block", "inline", "block"],
+          "correctAnswer": "inline-block",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-3",
+      "title": "Visibility and Z-Index",
+      "content": "Learn how to control element visibility and stacking order using visibility and z-index.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-7",
+          "question": "Which property hides an element but keeps its space?",
+          "options": ["visibility: hidden", "display: none", "opacity: 0"],
+          "correctAnswer": "visibility: hidden",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-8",
+          "question": "Which property removes an element from the document flow?",
+          "options": ["display: none", "visibility: hidden", "opacity: 0"],
+          "correctAnswer": "display: none",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-9",
+          "question": "Which property controls the stack order of overlapping elements?",
+          "options": ["z-index", "stack-order", "layer"],
+          "correctAnswer": "z-index",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-4",
+      "title": "Float and Clear",
+      "content": "Understand float-based layouts and how to clear floated elements.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-10",
+          "question": "Which property allows elements to wrap around floated content?",
+          "options": ["float", "wrap", "align"],
+          "correctAnswer": "float",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-11",
+          "question": "What does clear: both do?",
+          "options": ["Stops wrapping around floated elements", "Adds margin to both sides", "Aligns center"],
+          "correctAnswer": "Stops wrapping around floated elements",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-12",
+          "question": "What layout issue often occurs when elements are floated without clearing?",
+          "options": ["Collapsing parent", "Overlap", "Border doubling"],
+          "correctAnswer": "Collapsing parent",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-5-1",
+        "question": "Which position value refers to the element's normal flow?",
+        "options": ["static", "relative", "absolute"],
+        "correctAnswer": "static",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-2",
+        "question": "What display value is commonly used for navigation bars?",
+        "options": ["flex", "inline", "block"],
+        "correctAnswer": "flex",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-3",
+        "question": "How can you prevent overlap using stacking?",
+        "options": ["Use z-index", "Use margin", "Use position: static"],
+        "correctAnswer": "Use z-index",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-4",
+        "question": "Which value of visibility hides the element but reserves space?",
+        "options": ["hidden", "none", "collapse"],
+        "correctAnswer": "hidden",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-5",
+        "question": "What float value places an element to the left?",
+        "options": ["float: left", "float: right", "align: left"],
+        "correctAnswer": "float: left",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-6",
+        "question": "How can you fix collapsing parent issue with float?",
+        "options": ["Use clear fix", "Add margin", "Set display: block"],
+        "correctAnswer": "Use clear fix",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-7",
+        "question": "Which position makes element scroll with the page?",
+        "options": ["absolute", "static", "relative"],
+        "correctAnswer": "relative",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-8",
+        "question": "Which display property completely removes an element from the DOM flow?",
+        "options": ["display: none", "visibility: hidden", "opacity: 0"],
+        "correctAnswer": "display: none",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-9",
+        "question": "How to show inline elements with block features?",
+        "options": ["display: inline-block", "inline-flex", "block-inline"],
+        "correctAnswer": "display: inline-block",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-10",
+        "question": "What property must be used with position: absolute to work as expected?",
+        "options": ["A positioned ancestor", "z-index", "display: block"],
+        "correctAnswer": "A positioned ancestor",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-6",
+  "title": "CSS Flexbox and Grid",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-6-1",
+      "title": "Introduction to Flexbox",
+      "content": "Learn how Flexbox simplifies layout creation with flexible box model properties.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-1",
+          "question": "What is the main axis in Flexbox?",
+          "options": ["The horizontal axis", "The vertical axis", "The z-axis"],
+          "correctAnswer": "The horizontal axis",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-2",
+          "question": "Which property defines the flex direction?",
+          "options": ["flex-direction", "flex-wrap", "align-items"],
+          "correctAnswer": "flex-direction",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-3",
+          "question": "Which property aligns items horizontally?",
+          "options": ["justify-content", "align-items", "flex-wrap"],
+          "correctAnswer": "justify-content",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-2",
+      "title": "Flexbox Properties",
+      "content": "Explore justify-content, align-items, align-content, flex-wrap and more.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-4",
+          "question": "Which property aligns items along the cross axis?",
+          "options": ["align-items", "justify-content", "flex-grow"],
+          "correctAnswer": "align-items",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-5",
+          "question": "Which property distributes extra space in the flex container?",
+          "options": ["justify-content", "align-content", "flex-grow"],
+          "correctAnswer": "flex-grow",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-6",
+          "question": "What does flex-wrap: wrap do?",
+          "options": ["Wraps items to the next line", "Hides overflow", "Aligns items right"],
+          "correctAnswer": "Wraps items to the next line",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-3",
+      "title": "CSS Grid Basics",
+      "content": "Understand how CSS Grid provides two-dimensional layout control with rows and columns.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-7",
+          "question": "Which property defines the grid columns?",
+          "options": ["grid-template-columns", "grid-auto-flow", "column-count"],
+          "correctAnswer": "grid-template-columns",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-8",
+          "question": "Which value in grid makes items auto-flow row by row?",
+          "options": ["grid-auto-flow: row", "grid-template-columns", "grid-gap"],
+          "correctAnswer": "grid-auto-flow: row",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-9",
+          "question": "Which property sets the space between grid rows and columns?",
+          "options": ["gap", "margin", "padding"],
+          "correctAnswer": "gap",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-4",
+      "title": "Grid Item Placement",
+      "content": "Learn how to control item positions using grid-row, grid-column, and grid-area.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-10",
+          "question": "Which property allows spanning multiple grid columns?",
+          "options": ["grid-column", "grid-row", "grid-gap"],
+          "correctAnswer": "grid-column",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-11",
+          "question": "What is used to define named grid areas?",
+          "options": ["grid-template-areas", "grid-names", "area-id"],
+          "correctAnswer": "grid-template-areas",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-12",
+          "question": "How do you assign a grid item to a named area?",
+          "options": ["grid-area", "place-area", "grid-id"],
+          "correctAnswer": "grid-area",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-6-1",
+        "question": "Which Flexbox property sets the direction of items?",
+        "options": ["flex-direction", "flex-wrap", "justify-content"],
+        "correctAnswer": "flex-direction",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-2",
+        "question": "What property helps distribute space between flex items?",
+        "options": ["justify-content", "align-items", "flex-grow"],
+        "correctAnswer": "justify-content",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-3",
+        "question": "Which layout allows two-dimensional control?",
+        "options": ["CSS Grid", "Flexbox", "Inline-block"],
+        "correctAnswer": "CSS Grid",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-4",
+        "question": "How do you create a grid with three equal columns?",
+        "options": ["grid-template-columns: 1fr 1fr 1fr;", "columns: 3;", "column-count: 3;"],
+        "correctAnswer": "grid-template-columns: 1fr 1fr 1fr;",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-5",
+        "question": "What does grid-area property do?",
+        "options": ["Assigns item to a named area", "Creates grid gaps", "Adds spacing"],
+        "correctAnswer": "Assigns item to a named area",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-6",
+        "question": "Which value will wrap flex items to the next line?",
+        "options": ["wrap", "inline", "grow"],
+        "correctAnswer": "wrap",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-7",
+        "question": "How do you control vertical alignment in Flexbox?",
+        "options": ["align-items", "justify-content", "flex-direction"],
+        "correctAnswer": "align-items",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-8",
+        "question": "Which property defines space between rows and columns in a grid?",
+        "options": ["gap", "margin", "border-spacing"],
+        "correctAnswer": "gap",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-9",
+        "question": "What does grid-template-areas do?",
+        "options": ["Defines named layout regions", "Sets rows", "Adds spacing"],
+        "correctAnswer": "Defines named layout regions",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-10",
+        "question": "Which Flexbox property controls wrapping behavior?",
+        "options": ["flex-wrap", "align-content", "align-items"],
+        "correctAnswer": "flex-wrap",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+  ]
+}
+

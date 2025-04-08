@@ -1,0 +1,1211 @@
+{
+  "id": "course-6",
+  "title": "JavaScript Course",
+  "description": "Learn JavaScript from basics to advanced concepts with interactive modules and assessments.",
+  "chapters": [
+    {
+  "chapterId": "ch-1",
+  "title": "Introduction to JavaScript",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-1-1",
+      "title": "What is JavaScript?",
+      "content": "Understand the basics of JavaScript, its role in web development, and its history.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-1-1",
+          "question": "Who developed JavaScript?",
+          "options": ["Brendan Eich", "Tim Berners-Lee", "Dennis Ritchie"],
+          "correctAnswer": "Brendan Eich",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-2",
+          "question": "In which year was JavaScript created?",
+          "options": ["1995", "2000", "1989"],
+          "correctAnswer": "1995",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-3",
+          "question": "JavaScript is a ____ language.",
+          "options": ["Compiled", "Interpreted", "Markup"],
+          "correctAnswer": "Interpreted",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-2",
+      "title": "JavaScript in Web Development",
+      "content": "Explore how JavaScript enhances HTML and CSS to make web pages interactive.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-4",
+          "question": "JavaScript is primarily used for:",
+          "options": ["Backend development", "Data storage", "Client-side scripting"],
+          "correctAnswer": "Client-side scripting",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-5",
+          "question": "Which HTML element is used to include JavaScript?",
+          "options": ["<js>", "<script>", "<javascript>"],
+          "correctAnswer": "<script>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-6",
+          "question": "JavaScript can change HTML content:",
+          "options": ["False", "Only on load", "At any time"],
+          "correctAnswer": "At any time",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-3",
+      "title": "Embedding JavaScript",
+      "content": "Learn how to embed JavaScript in HTML using internal, external, and inline methods.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-7",
+          "question": "Which method embeds JavaScript in an external file?",
+          "options": ["<js src=''>", "<link>", "<script src=''>"],
+          "correctAnswer": "<script src=''>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-8",
+          "question": "Where is the best place to include JavaScript in HTML for performance?",
+          "options": ["Head section", "Body top", "Before closing body tag"],
+          "correctAnswer": "Before closing body tag",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-9",
+          "question": "What is the file extension for JavaScript files?",
+          "options": [".js", ".java", ".script"],
+          "correctAnswer": ".js",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-4",
+      "title": "Basic Syntax",
+      "content": "Understand JavaScript syntax including variables, semicolons, and comments.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-10",
+          "question": "Which of these is a valid JavaScript variable declaration?",
+          "options": ["var 123name", "let name", "const-name"],
+          "correctAnswer": "let name",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-11",
+          "question": "Which symbol is used for single-line comments?",
+          "options": ["/* */", "#", "//"],
+          "correctAnswer": "//",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-12",
+          "question": "Are semicolons mandatory in JavaScript?",
+          "options": ["Yes", "No", "Optional but recommended"],
+          "correctAnswer": "Optional but recommended",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-1-1",
+        "question": "Which company created JavaScript?",
+        "options": ["Microsoft", "Netscape", "Google"],
+        "correctAnswer": "Netscape",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-2",
+        "question": "JavaScript is mainly used for?",
+        "options": ["Designing", "Server-side logic", "Client-side interactivity"],
+        "correctAnswer": "Client-side interactivity",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-3",
+        "question": "How do you write 'Hello' in an alert box?",
+        "options": ["alert('Hello');", "msg('Hello');", "prompt('Hello');"],
+        "correctAnswer": "alert('Hello');",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-4",
+        "question": "Which operator is used to assign a value to a variable?",
+        "options": ["=", "==", "==="],
+        "correctAnswer": "=",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-5",
+        "question": "How do you create a function in JavaScript?",
+        "options": ["function = myFunc()", "def myFunc()", "function myFunc()"],
+        "correctAnswer": "function myFunc()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-6",
+        "question": "Which symbol is used for block comments?",
+        "options": ["//", "/* */", "#"],
+        "correctAnswer": "/* */",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-7",
+        "question": "Which keyword is used to declare a constant?",
+        "options": ["let", "const", "var"],
+        "correctAnswer": "const",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-8",
+        "question": "JavaScript code runs in which environment?",
+        "options": ["Compiler", "Browser", "Terminal"],
+        "correctAnswer": "Browser",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-9",
+        "question": "Which is a correct way to create a variable?",
+        "options": ["var x = 5", "int x = 5", "x := 5"],
+        "correctAnswer": "var x = 5",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-1-10",
+        "question": "What is the output of: console.log(typeof [])?",
+        "options": ["array", "object", "list"],
+        "correctAnswer": "object",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-2",
+  "title": "Variables and Data Types",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-2-1",
+      "title": "Declaring Variables",
+      "content": "Learn how to declare variables using var, let, and const.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-1",
+          "question": "Which keyword declares a block-scoped variable?",
+          "options": ["var", "let", "define"],
+          "correctAnswer": "let",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-2",
+          "question": "Which declaration is used for a constant?",
+          "options": ["let", "const", "var"],
+          "correctAnswer": "const",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-3",
+          "question": "Which of the following redeclares a variable in the same scope?",
+          "options": ["let", "const", "var"],
+          "correctAnswer": "var",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-2",
+      "title": "Data Types Overview",
+      "content": "Explore JavaScript’s dynamic data types including strings, numbers, booleans, and objects.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-4",
+          "question": "What type is the value `true`?",
+          "options": ["string", "boolean", "number"],
+          "correctAnswer": "boolean",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-5",
+          "question": "`typeof '123'` returns:",
+          "options": ["number", "integer", "string"],
+          "correctAnswer": "string",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-6",
+          "question": "What is the data type of `null` in JavaScript?",
+          "options": ["null", "undefined", "object"],
+          "correctAnswer": "object",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-3",
+      "title": "Type Conversion",
+      "content": "Learn how to convert between different types using functions and operators.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-7",
+          "question": "Which method converts a string to a number?",
+          "options": ["parseInt()", "toString()", "String()"],
+          "correctAnswer": "parseInt()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-8",
+          "question": "What is the output of Number('abc')?",
+          "options": ["NaN", "0", "undefined"],
+          "correctAnswer": "NaN",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-9",
+          "question": "String(123) will return:",
+          "options": ["123", "'123'", "undefined"],
+          "correctAnswer": "'123'",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-4",
+      "title": "Variable Scope",
+      "content": "Understand global, local, and block scopes in JavaScript.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-10",
+          "question": "Variables declared with `let` are scoped to:",
+          "options": ["Global scope", "Function scope", "Block scope"],
+          "correctAnswer": "Block scope",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-11",
+          "question": "Variables declared with `var` are scoped to:",
+          "options": ["Block", "Function", "Global only"],
+          "correctAnswer": "Function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-12",
+          "question": "Global variables are attached to which object in browsers?",
+          "options": ["document", "window", "globalThis"],
+          "correctAnswer": "window",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-2-1",
+        "question": "What is the default value of an uninitialized variable in JavaScript?",
+        "options": ["null", "0", "undefined"],
+        "correctAnswer": "undefined",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-2",
+        "question": "Which data type is returned by `typeof NaN`?",
+        "options": ["undefined", "number", "NaN"],
+        "correctAnswer": "number",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-3",
+        "question": "Which of the following is NOT a primitive data type?",
+        "options": ["boolean", "object", "number"],
+        "correctAnswer": "object",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-4",
+        "question": "What will be the value of `let x;`?",
+        "options": ["null", "0", "undefined"],
+        "correctAnswer": "undefined",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-5",
+        "question": "What is the result of `typeof null`?",
+        "options": ["null", "object", "undefined"],
+        "correctAnswer": "object",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-6",
+        "question": "Which keyword should be used to declare a block-scoped variable?",
+        "options": ["var", "let", "const"],
+        "correctAnswer": "let",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-7",
+        "question": "What is the result of `Number(false)`?",
+        "options": ["NaN", "0", "1"],
+        "correctAnswer": "0",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-8",
+        "question": "Which one is a dynamically typed language?",
+        "options": ["JavaScript", "C", "Java"],
+        "correctAnswer": "JavaScript",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-9",
+        "question": "How can you check the type of a variable?",
+        "options": ["checkType()", "typeof", "typeOf()"],
+        "correctAnswer": "typeof",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-10",
+        "question": "Which of the following is used to convert a number to a string?",
+        "options": ["toString()", "parseInt()", "Number()"],
+        "correctAnswer": "toString()",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-3",
+  "title": "Operators and Expressions",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-3-1",
+      "title": "Arithmetic Operators",
+      "content": "Understand how to use +, -, *, /, and % operators in JavaScript.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-1",
+          "question": "What is the result of 10 % 3?",
+          "options": ["1", "3", "0"],
+          "correctAnswer": "1",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-2",
+          "question": "Which operator is used for multiplication?",
+          "options": ["x", "*", "%"],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-3",
+          "question": "What is the result of 8 / 2?",
+          "options": ["2", "4", "6"],
+          "correctAnswer": "4",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-2",
+      "title": "Assignment and Comparison Operators",
+      "content": "Learn how to assign values and compare expressions using =, ==, ===, !=, !==.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-4",
+          "question": "What is the difference between == and ===?",
+          "options": [
+            "== checks value only, === checks value and type",
+            "Both are the same",
+            "=== checks only value"
+          ],
+          "correctAnswer": "== checks value only, === checks value and type",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-5",
+          "question": "Which operator assigns a value to a variable?",
+          "options": ["==", "=", "==="],
+          "correctAnswer": "=",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-6",
+          "question": "Which operator is used to compare both value and type?",
+          "options": ["==", "!=", "==="],
+          "correctAnswer": "===",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-3",
+      "title": "Logical Operators",
+      "content": "Use &&, ||, and ! to evaluate logical conditions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-7",
+          "question": "What does the && operator do?",
+          "options": [
+            "Returns true if both operands are true",
+            "Returns true if one operand is true",
+            "Negates the condition"
+          ],
+          "correctAnswer": "Returns true if both operands are true",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-8",
+          "question": "What is the result of true || false?",
+          "options": ["true", "false", "undefined"],
+          "correctAnswer": "true",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-9",
+          "question": "What is the result of !true?",
+          "options": ["true", "false", "null"],
+          "correctAnswer": "false",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-4",
+      "title": "Ternary Operator",
+      "content": "Use the conditional (ternary) operator to write concise conditional expressions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-10",
+          "question": "Which of the following is the syntax of the ternary operator?",
+          "options": [
+            "condition ? expr1 : expr2",
+            "condition : expr1 ? expr2",
+            "expr1 ? expr2 : condition"
+          ],
+          "correctAnswer": "condition ? expr1 : expr2",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-11",
+          "question": "What does the ternary operator return?",
+          "options": [
+            "Either the first or second expression",
+            "Only the second expression",
+            "Boolean values only"
+          ],
+          "correctAnswer": "Either the first or second expression",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-12",
+          "question": "Which operator is also known as a shorthand for if-else?",
+          "options": ["===", "&&", "?: (ternary)"],
+          "correctAnswer": "?: (ternary)",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-3-1",
+        "question": "What is the result of 5 + '5'?",
+        "options": ["10", "55", "NaN"],
+        "correctAnswer": "55",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-2",
+        "question": "What is the result of 10 === '10'?",
+        "options": ["true", "false", "undefined"],
+        "correctAnswer": "false",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-3",
+        "question": "Which of these is NOT a logical operator?",
+        "options": ["&&", "||", "%"],
+        "correctAnswer": "%",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-4",
+        "question": "What does the != operator check for?",
+        "options": ["Inequality", "Equality", "Assignment"],
+        "correctAnswer": "Inequality",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-5",
+        "question": "Which operator returns true only if both operands are true?",
+        "options": ["||", "&&", "!"],
+        "correctAnswer": "&&",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-6",
+        "question": "Which operator negates a condition?",
+        "options": ["&&", "||", "!"],
+        "correctAnswer": "!",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-7",
+        "question": "What is the value of '5' === 5?",
+        "options": ["true", "false", "error"],
+        "correctAnswer": "false",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-8",
+        "question": "Which operator is used for exponentiation?",
+        "options": ["^", "**", "exp"],
+        "correctAnswer": "**",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-9",
+        "question": "What is the output of 3 + 4 * 2?",
+        "options": ["14", "11", "10"],
+        "correctAnswer": "11",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-10",
+        "question": "Which of the following is evaluated first in an expression?",
+        "options": ["Addition", "Multiplication", "Assignment"],
+        "correctAnswer": "Multiplication",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-4",
+  "title": "Conditional Statements",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-4-1",
+      "title": "if and if-else Statements",
+      "content": "Understand how to use 'if' and 'if-else' statements to control program flow.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-1",
+          "question": "What does an if statement do?",
+          "options": ["Loops code", "Executes code conditionally", "Declares a variable"],
+          "correctAnswer": "Executes code conditionally",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-2",
+          "question": "What keyword is used for alternative execution in a condition?",
+          "options": ["otherwise", "else", "elseif"],
+          "correctAnswer": "else",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-3",
+          "question": "Which of the following is the correct syntax for an if statement?",
+          "options": ["if x > 10 then", "if (x > 10)", "if x > 10:"],
+          "correctAnswer": "if (x > 10)",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-2",
+      "title": "else if Ladder",
+      "content": "Use 'else if' to check multiple conditions in sequence.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-4",
+          "question": "When do you use else if?",
+          "options": ["To execute code repeatedly", "To check another condition when previous is false", "To declare variables"],
+          "correctAnswer": "To check another condition when previous is false",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-5",
+          "question": "Can you have multiple else if blocks?",
+          "options": ["No", "Yes", "Only in loops"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-6",
+          "question": "What happens if none of the conditions in if-else-if ladder are true?",
+          "options": ["First block runs", "Error is thrown", "else block runs (if present)"],
+          "correctAnswer": "else block runs (if present)",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-3",
+      "title": "Nested if Statements",
+      "content": "Learn how to nest if statements for complex decision-making.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-7",
+          "question": "What is a nested if statement?",
+          "options": ["An if inside another if", "A loop inside an if", "Two ifs running together"],
+          "correctAnswer": "An if inside another if",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-8",
+          "question": "What is a key concern with nested if statements?",
+          "options": ["Speed", "Memory", "Readability"],
+          "correctAnswer": "Readability",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-9",
+          "question": "Can else be used with nested if?",
+          "options": ["Yes", "No", "Only in modern JavaScript"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-4",
+      "title": "switch Statement",
+      "content": "Use 'switch' for cleaner multiple condition checks instead of many else if blocks.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-10",
+          "question": "What keyword is used to exit a switch case?",
+          "options": ["continue", "exit", "break"],
+          "correctAnswer": "break",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-11",
+          "question": "What does default do in a switch?",
+          "options": ["Ends the switch", "Runs when no case matches", "Breaks the loop"],
+          "correctAnswer": "Runs when no case matches",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-12",
+          "question": "Can you have multiple cases for the same block?",
+          "options": ["No", "Yes", "Only with default"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-4-1",
+        "question": "What is the output of if (false) { console.log('Hi') }?",
+        "options": ["Hi", "Nothing", "Error"],
+        "correctAnswer": "Nothing",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-2",
+        "question": "Which statement allows you to handle multiple conditions more clearly?",
+        "options": ["Nested if", "switch", "if only"],
+        "correctAnswer": "switch",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-3",
+        "question": "Which block is executed when no condition in switch matches?",
+        "options": ["First", "default", "else"],
+        "correctAnswer": "default",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-4",
+        "question": "What happens if you forget break in a switch case?",
+        "options": ["Only that case runs", "All subsequent cases run", "Error"],
+        "correctAnswer": "All subsequent cases run",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-5",
+        "question": "Can you nest if statements inside switch?",
+        "options": ["Yes", "No", "Only with default"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-6",
+        "question": "Which of the following improves readability in multiple conditions?",
+        "options": ["else-if", "for loop", "switch"],
+        "correctAnswer": "switch",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-7",
+        "question": "How many else blocks can you have with an if statement?",
+        "options": ["1", "Multiple", "None"],
+        "correctAnswer": "1",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-8",
+        "question": "What is the correct syntax for else if?",
+        "options": ["else if (condition)", "elseif(condition)", "else: if"],
+        "correctAnswer": "else if (condition)",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-9",
+        "question": "Can switch handle boolean values?",
+        "options": ["Yes", "No", "Only in modern JS"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-10",
+        "question": "When should you use nested ifs?",
+        "options": ["Always", "For multiple levels of condition", "Never"],
+        "correctAnswer": "For multiple levels of condition",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-5",
+  "title": "Loops and Iteration",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-5-1",
+      "title": "for Loop",
+      "content": "Learn how to use 'for' loops to execute a block of code multiple times.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-1",
+          "question": "Which loop is best when you know the number of iterations?",
+          "options": ["while", "for", "do-while"],
+          "correctAnswer": "for",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-2",
+          "question": "What is the correct syntax of a for loop?",
+          "options": ["for (i=0; i<5; i++)", "for i=0 to 5", "loop i in 5"],
+          "correctAnswer": "for (i=0; i<5; i++)",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-3",
+          "question": "What happens if the increment is missing?",
+          "options": ["Error", "Infinite loop", "It runs once"],
+          "correctAnswer": "Infinite loop",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-2",
+      "title": "while Loop",
+      "content": "Understand the while loop which runs as long as the condition is true.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-4",
+          "question": "When is the condition checked in a while loop?",
+          "options": ["After execution", "Before each iteration", "Only at the beginning"],
+          "correctAnswer": "Before each iteration",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-5",
+          "question": "Which loop may never run if the condition is false initially?",
+          "options": ["for", "while", "do-while"],
+          "correctAnswer": "while",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-6",
+          "question": "What can cause an infinite loop in while?",
+          "options": ["No increment", "Condition is always true", "Both"],
+          "correctAnswer": "Both",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-3",
+      "title": "do-while Loop",
+      "content": "Learn how do-while loop works and when to use it.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-7",
+          "question": "When does a do-while loop check the condition?",
+          "options": ["Before execution", "After execution", "Never"],
+          "correctAnswer": "After execution",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-8",
+          "question": "Which loop guarantees at least one execution?",
+          "options": ["for", "while", "do-while"],
+          "correctAnswer": "do-while",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-9",
+          "question": "Is a semicolon required after do-while loop?",
+          "options": ["Yes", "No", "Only in some cases"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-4",
+      "title": "break and continue",
+      "content": "Control the loop flow using break and continue statements.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-10",
+          "question": "What does break do in a loop?",
+          "options": ["Skips to next iteration", "Exits the loop", "Pauses the loop"],
+          "correctAnswer": "Exits the loop",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-11",
+          "question": "What does continue do?",
+          "options": ["Restarts loop", "Skips remaining code and goes to next iteration", "Ends loop"],
+          "correctAnswer": "Skips remaining code and goes to next iteration",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-12",
+          "question": "Can break be used inside nested loops?",
+          "options": ["Yes", "No", "Only in for loops"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-5-1",
+        "question": "What is the output of for (let i = 0; i < 3; i++) { console.log(i); }?",
+        "options": ["0 1 2", "1 2 3", "0 1 2 3"],
+        "correctAnswer": "0 1 2",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-2",
+        "question": "Which loop runs even if the condition is initially false?",
+        "options": ["while", "do-while", "for"],
+        "correctAnswer": "do-while",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-3",
+        "question": "What keyword skips the current loop iteration?",
+        "options": ["skip", "continue", "break"],
+        "correctAnswer": "continue",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-4",
+        "question": "When do you use break in loops?",
+        "options": ["To pause", "To exit early", "To continue"],
+        "correctAnswer": "To exit early",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-5",
+        "question": "What is the default starting point in a for loop?",
+        "options": ["1", "0", "Depends on condition"],
+        "correctAnswer": "Depends on condition",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-6",
+        "question": "Which loop is best for iterating over arrays with known length?",
+        "options": ["while", "for", "do-while"],
+        "correctAnswer": "for",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-7",
+        "question": "What causes an infinite loop?",
+        "options": ["false condition", "true condition with no change", "no initialization"],
+        "correctAnswer": "true condition with no change",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-8",
+        "question": "Can you nest loops in JavaScript?",
+        "options": ["Yes", "No", "Only with for loop"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-9",
+        "question": "Where is the condition checked in do-while?",
+        "options": ["Before", "After", "Both"],
+        "correctAnswer": "After",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-10",
+        "question": "Which of the following is true about continue?",
+        "options": ["Exits the loop", "Skips the loop entirely", "Skips to next iteration"],
+        "correctAnswer": "Skips to next iteration",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-6",
+  "title": "Functions in JavaScript",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-6-1",
+      "title": "Function Basics",
+      "content": "Learn how to declare and call functions in JavaScript.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-1",
+          "question": "How do you declare a function in JavaScript?",
+          "options": ["function myFunc()", "def myFunc()", "func myFunc()"],
+          "correctAnswer": "function myFunc()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-2",
+          "question": "What keyword is used to define a function?",
+          "options": ["define", "function", "method"],
+          "correctAnswer": "function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-3",
+          "question": "How do you call a function named sayHello?",
+          "options": ["call sayHello()", "sayHello()", "function sayHello"],
+          "correctAnswer": "sayHello()",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-2",
+      "title": "Function Parameters and Return",
+      "content": "Understand how to use parameters and return values in functions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-4",
+          "question": "What is a parameter in a function?",
+          "options": ["Variable passed into function", "Return value", "Function name"],
+          "correctAnswer": "Variable passed into function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-5",
+          "question": "What does the return statement do?",
+          "options": ["Ends loop", "Exits program", "Returns a value from function"],
+          "correctAnswer": "Returns a value from function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-6",
+          "question": "Can a function return multiple values?",
+          "options": ["No", "Yes, as an array or object", "Only in loops"],
+          "correctAnswer": "Yes, as an array or object",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-3",
+      "title": "Arrow Functions",
+      "content": "Explore arrow function syntax and differences from traditional functions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-7",
+          "question": "What symbol is used in arrow functions?",
+          "options": ["=>", "->", "::"],
+          "correctAnswer": "=>",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-8",
+          "question": "Which is a valid arrow function?",
+          "options": ["let x = () => {}", "let x = -> () {}", "let x = :=> {}"],
+          "correctAnswer": "let x = () => {}",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-9",
+          "question": "Are arrow functions hoisted?",
+          "options": ["Yes", "No", "Only in strict mode"],
+          "correctAnswer": "No",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-4",
+      "title": "Function Scope",
+      "content": "Understand local and global scopes in the context of functions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-10",
+          "question": "What is local scope?",
+          "options": ["Scope inside a function", "Global variable", "Loop variable"],
+          "correctAnswer": "Scope inside a function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-11",
+          "question": "What happens when you declare a variable inside a function?",
+          "options": ["Global variable", "Local to function", "Shared globally"],
+          "correctAnswer": "Local to function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-12",
+          "question": "What is the scope of variables declared with var inside a function?",
+          "options": ["Global", "Function scope", "Block scope"],
+          "correctAnswer": "Function scope",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-6-1",
+        "question": "What keyword defines a function in JavaScript?",
+        "options": ["function", "method", "define"],
+        "correctAnswer": "function",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-2",
+        "question": "Which is the correct way to return a value from a function?",
+        "options": ["give", "return", "output"],
+        "correctAnswer": "return",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-3",
+        "question": "What will console.log(sum(2, 3)) return if sum is a function adding two numbers?",
+        "options": ["23", "5", "undefined"],
+        "correctAnswer": "5",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-4",
+        "question": "Which is the correct arrow function syntax?",
+        "options": ["() => {}", "-> () {}", "function => {}"],
+        "correctAnswer": "() => {}",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-5",
+        "question": "Which function is not hoisted?",
+        "options": ["Arrow function", "Function declaration", "All are hoisted"],
+        "correctAnswer": "Arrow function",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-6",
+        "question": "Where is a variable declared inside a function accessible?",
+        "options": ["Everywhere", "Only in that function", "Globally"],
+        "correctAnswer": "Only in that function",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-7",
+        "question": "How do you pass a parameter to a function?",
+        "options": ["Inside curly braces", "Inside parentheses", "With a colon"],
+        "correctAnswer": "Inside parentheses",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-8",
+        "question": "What happens if a function does not have a return statement?",
+        "options": ["Returns undefined", "Throws error", "Returns 0"],
+        "correctAnswer": "Returns undefined",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-9",
+        "question": "What is the scope of a variable defined with var in a function?",
+        "options": ["Global", "Block", "Function"],
+        "correctAnswer": "Function",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-10",
+        "question": "Which is an advantage of using functions?",
+        "options": ["Code repetition", "Code reusability", "Longer code"],
+        "correctAnswer": "Code reusability",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+  ]
+}
+

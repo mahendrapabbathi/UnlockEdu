@@ -1,0 +1,80 @@
+.course-list {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 50px; 
+  justify-content: center; 
+  padding: 20px;
+  width:100%;
+  z-index: -1;
+}
+
+/* Individual course card */
+.course-card {
+  max-width:90%;
+  margin:0 auto;
+  width: 600px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap:10px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding:20px;
+  position: relative;
+  color:black;
+  /* background-color: black; */
+}
+.course-btn{
+  padding:10px 30px;
+  margin-top: 10px;
+  border:none;
+  background-color: black;
+  color:white;
+  font-size: 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.course-btn:hover{
+  background-color: rgba(0,0,0,0.8);
+}
+.description{
+  font-weight: 500;
+}
+
+/* 
+@property --angle{
+  syntax:"<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+.course-card::after,.course-card::before{
+  content: "";
+  position: absolute;
+  background-image: conic-gradient(from var(--angle),transparent 20%,violet 40%,purple 40%,violet);
+  height: 100%;
+  width: 100%;
+  top:50%;
+  left:50%;
+  translate: -50% -50%;
+  z-index: -1;
+  padding:1px;
+  border-radius: 5px;
+  animation:7s spin linear infinite;
+}
+
+.course-card::before{
+  filter:blur(0.5rem);
+  opacity: 0.6;
+}
+
+@keyframes spin {
+  from{
+      --angle:0deg;
+  }
+  to{
+      --angle:360deg;
+  }
+} */

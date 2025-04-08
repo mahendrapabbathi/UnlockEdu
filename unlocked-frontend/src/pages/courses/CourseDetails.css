@@ -1,0 +1,27 @@
+.course-detail {
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.course-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: violet;
+}
+
+.loading {
+  font-size: 18px;
+  color: #666;
+}
+
+.locked {
+  opacity: 0.5; /* Dulls the color */
+  pointer-events: none; /* Prevents clicking */
+  cursor: not-allowed;
+}
+.unlocked {
+  opacity: 1;
+  pointer-events: auto;
+  cursor: pointer;
+}

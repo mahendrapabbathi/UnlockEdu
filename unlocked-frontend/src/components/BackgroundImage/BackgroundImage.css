@@ -1,0 +1,8 @@
+.backContainer{
+    position: absolute;
+    background:linear-gradient(180deg,#4645453d,#000000,#4645453d);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+/* #2D3436 */

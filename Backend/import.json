@@ -1,0 +1,297 @@
+[
+  {
+    "id": "course-1",
+    "title": "Full Stack Web Development",
+    "description": "Learn frontend and backend development with modern technologies.",
+    "chapters": [
+      {
+        "chapterId": "ch-1",
+        "title": "Introduction to Web Development",
+        "unlocked": true,
+        "modules": [
+          {
+            "moduleId": "mod-1-1",
+            "title": "HTML Basics",
+            "content": "Introduction to HTML and its basic structure.",
+            "unlocked": true,
+            "questions": [
+              {
+                "questionId": "q-1",
+                "question": "What does HTML stand for?",
+                "options": [
+                  "Hyper Text Markup Language",
+                  "High Tech Machine Learning",
+                  "Hyper Transfer Markup Language"
+                ],
+                "correctAnswer": "Hyper Text Markup Language",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-2",
+                "question": "Which tag is used for paragraphs?",
+                "options": [
+                  "<p>",
+                  "<div>",
+                  "<span>"
+                ],
+                "correctAnswer": "<p>",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-3",
+                "question": "What is the purpose of the <title> tag?",
+                "options": [
+                  "Defines the document's title",
+                  "Displays an image",
+                  "Links to a CSS file"
+                ],
+                "correctAnswer": "Defines the document's title",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-2",
+            "title": "CSS Basics",
+            "content": "Introduction to CSS styling and selectors.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-4",
+                "question": "What does CSS stand for?",
+                "options": [
+                  "Cascading Style Sheets",
+                  "Creative Styling System",
+                  "Custom Sheet Styles"
+                ],
+                "correctAnswer": "Cascading Style Sheets",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-5",
+                "question": "Which property changes text color?",
+                "options": [
+                  "color",
+                  "text-style",
+                  "font-color"
+                ],
+                "correctAnswer": "color",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-6",
+                "question": "Which selector targets all elements?",
+                "options": [
+                  "*",
+                  "#",
+                  "."
+                ],
+                "correctAnswer": "*",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-3",
+            "title": "JavaScript Basics",
+            "content": "Introduction to JavaScript variables, data types, and basic functions.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-7",
+                "question": "Which keyword declares a variable?",
+                "options": [
+                  "var",
+                  "declare",
+                  "define"
+                ],
+                "correctAnswer": "var",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-8",
+                "question": "Which symbol is used for comments in JavaScript?",
+                "options": [
+                  "//",
+                  "<!-- -->",
+                  "#"
+                ],
+                "correctAnswer": "//",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-9",
+                "question": "What does `typeof null` return?",
+                "options": [
+                  "null",
+                  "object",
+                  "undefined"
+                ],
+                "correctAnswer": "object",
+                "userAnswer": ""
+              }
+            ]
+          },
+          {
+            "moduleId": "mod-1-4",
+            "title": "DOM Manipulation",
+            "content": "Introduction to modifying HTML elements using JavaScript.",
+            "unlocked": false,
+            "questions": [
+              {
+                "questionId": "q-10",
+                "question": "Which method selects an element by ID?",
+                "options": [
+                  "getElementById",
+                  "querySelector",
+                  "getElementsByClassName"
+                ],
+                "correctAnswer": "getElementById",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-11",
+                "question": "Which property changes an element’s inner text?",
+                "options": [
+                  "innerText",
+                  "textValue",
+                  "contentText"
+                ],
+                "correctAnswer": "innerText",
+                "userAnswer": ""
+              },
+              {
+                "questionId": "q-12",
+                "question": "Which event is triggered when a button is clicked?",
+                "options": [
+                  "onchange",
+                  "onclick",
+                  "onhover"
+                ],
+                "correctAnswer": "onclick",
+                "userAnswer": ""
+              }
+            ]
+          }
+        ],
+        "assessment": {
+          "questions": [
+            {
+              "questionId": "assess-1",
+              "question": "What is the full form of HTML?",
+              "options": [
+                "Hyper Text Markup Language",
+                "Hyper Transfer Markup Language",
+                "High Tech Machine Learning"
+              ],
+              "correctAnswer": "Hyper Text Markup Language",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-2",
+              "question": "Which CSS property changes background color?",
+              "options": [
+                "background-color",
+                "color",
+                "bg-color"
+              ],
+              "correctAnswer": "background-color",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-3",
+              "question": "Which JavaScript method adds an element to an array?",
+              "options": [
+                "push()",
+                "add()",
+                "append()"
+              ],
+              "correctAnswer": "push()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-4",
+              "question": "What is the default flex direction?",
+              "options": [
+                "row",
+                "column",
+                "inherit"
+              ],
+              "correctAnswer": "row",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-5",
+              "question": "Which HTML tag is used for linking CSS?",
+              "options": [
+                "<link>",
+                "<style>",
+                "<css>"
+              ],
+              "correctAnswer": "<link>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-6",
+              "question": "What is the output of `2 + '2'` in JavaScript?",
+              "options": [
+                "4",
+                "22",
+                "Error"
+              ],
+              "correctAnswer": "22",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-7",
+              "question": "Which HTTP method is used for data submission?",
+              "options": [
+                "POST",
+                "GET",
+                "DELETE"
+              ],
+              "correctAnswer": "POST",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-8",
+              "question": "What does JSON stand for?",
+              "options": [
+                "JavaScript Object Notation",
+                "Java Source Object Notation",
+                "Java Syntax Oriented Notation"
+              ],
+              "correctAnswer": "JavaScript Object Notation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-9",
+              "question": "Which tag is used for creating tables?",
+              "options": [
+                "<table>",
+                "<tr>",
+                "<td>"
+              ],
+              "correctAnswer": "<table>",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "assess-10",
+              "question": "Which database is NoSQL?",
+              "options": [
+                "MongoDB",
+                "MySQL",
+                "PostgreSQL"
+              ],
+              "correctAnswer": "MongoDB",
+              "userAnswer": ""
+            }
+          ]
+        }
+      }
+     
+      
+      
+    ]
+  }
+]

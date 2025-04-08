@@ -1,0 +1,70 @@
+.langCardsWidth{
+    width:100%;
+    /* background-color: rgb(31, 26, 26); */
+    margin-top: -16px;
+}
+.langCards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+    width:90%;
+    margin:0 auto;
+    gap:70px;
+    padding-bottom: 50px;
+}
+.langCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width:530px;
+    height:270px;
+    border-radius: 5px;
+    gap:10px;
+}
+.langCard h2{
+    color:black;
+    font-size: 40px;
+}
+.langCard p{
+    color:rgb(82, 80, 80);
+    font-size: 20px;
+    font-weight: 500;
+}
+.langCard button{
+    padding:10px 30px;
+    border:none;
+    background-color: black;
+    color:white;
+    font-size: 18px;
+    outline:none;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.langCard.python{
+    background-color: rgb(129, 245, 245);
+}
+.langCard.c{
+    background-color: rgb(193, 236, 113);
+}.langCard.java{
+    background-color: rgb(245, 191, 129);
+}.langCard.html{
+    background-color: rgb(222, 129, 245);
+}.langCard.css{
+    background-color: rgb(245, 129, 168);
+}.langCard.js{
+    background-color: rgb(123, 228, 102);
+}
+
+@media (max-width:884px) {
+    .langCards{
+        display: flex;
+        justify-content: center;
+    }
+}
+

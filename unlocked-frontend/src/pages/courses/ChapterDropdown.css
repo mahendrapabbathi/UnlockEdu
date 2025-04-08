@@ -1,0 +1,115 @@
+.chapter-container {
+  border: 1px solid #ccc;
+  width: 80%;
+  border-radius: 8px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.5);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  scroll-margin-top: 300px;
+}
+
+.chapter-header {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: rgb(59, 57, 57);
+  padding: 10px;
+  /* color: violet; */
+  border-radius: 5px;
+}
+
+.chapter-content {
+  margin-top: 10px;
+}
+
+/* Module styling */
+.module-item {
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* background-color: #ffffff; */
+  overflow: hidden;
+}
+
+.module-header {
+  padding: 10px;
+  cursor: pointer;
+  /* background-color: #f1f1f1; */
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.module-details-dropdown {
+  padding: 10px;
+  /* background-color: #f9f9f9; */
+  border-top: 1px solid #ddd;
+}
+
+/* Assessment styles */
+.assessment-section {
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  /* background-color: #fffaf0; */
+  overflow: hidden;
+}
+
+.assessment-header {
+  padding: 10px;
+  cursor: pointer;
+  /* background-color: #f4f4f4; */
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+.assessment-details {
+  padding: 10px;
+  /* background-color: #f9f9f9; */
+  border-top: 1px solid #ddd;
+}
+
+.chapter-container.locked {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.chapter-header.locked {
+  background-color: #f5f5f5;
+  color: #888;
+}
+
+.module-item.locked {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.module-header.locked {
+  background-color: #f5f5f5;
+  color: #888;
+}
+
+.assessment-header.locked {
+  background-color: #f5f5f5;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.module-header.disabled {
+  cursor: not-allowed;
+}
+
+.module-item.locked .module-header {
+  background-color: rgb(134, 130, 130);
+}
+
+.chapter-container.locked {
+  background-color: lightgray;
+}
+
+.assessment-header.disabled {
+  color: gray;
+  cursor: not-allowed;
+}

@@ -1,0 +1,1196 @@
+{
+  "id": "course-7",
+  "title": "Java Course",
+  "description": "Learn the fundamentals and advanced features of Java programming language.",
+  "chapters": [
+    {
+  "chapterId": "ch-1",
+  "title": "Introduction to Java",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-1-1",
+      "title": "History and Features of Java",
+      "content": "Learn the origin, evolution, and key features that make Java a popular programming language.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-1-1",
+          "question": "Who developed Java?",
+          "options": ["James Gosling", "Bjarne Stroustrup", "Guido van Rossum"],
+          "correctAnswer": "James Gosling",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-2",
+          "question": "Which company initially developed Java?",
+          "options": ["Sun Microsystems", "Microsoft", "Apple"],
+          "correctAnswer": "Sun Microsystems",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-3",
+          "question": "Java is a ____ language.",
+          "options": ["Compiled", "Interpreted", "Both Compiled and Interpreted"],
+          "correctAnswer": "Both Compiled and Interpreted",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-2",
+      "title": "Setting up Java Environment",
+      "content": "Steps to install JDK and set up Java on your machine.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-4",
+          "question": "Which tool is used to compile Java code?",
+          "options": ["java", "javac", "javadoc"],
+          "correctAnswer": "javac",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-5",
+          "question": "What does JDK stand for?",
+          "options": ["Java Development Kit", "Java Deployment Kit", "Java Debugging Kit"],
+          "correctAnswer": "Java Development Kit",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-6",
+          "question": "Which command is used to run a compiled Java class?",
+          "options": ["javac", "java", "runjava"],
+          "correctAnswer": "java",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-3",
+      "title": "Basic Java Syntax",
+      "content": "Understand the structure of a basic Java program, including classes, main method, and syntax rules.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-7",
+          "question": "Which keyword is used to define a class in Java?",
+          "options": ["function", "define", "class"],
+          "correctAnswer": "class",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-8",
+          "question": "What is the correct signature of the main method in Java?",
+          "options": ["public static void main(String[] args)", "void main()", "public main()"],
+          "correctAnswer": "public static void main(String[] args)",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-9",
+          "question": "Which symbol is used to end a statement in Java?",
+          "options": [";", ":", "."],
+          "correctAnswer": ";",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-1-4",
+      "title": "Compiling and Running Java Programs",
+      "content": "Learn to compile and execute Java programs using command line and IDEs.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-1-10",
+          "question": "What file extension is used for compiled Java files?",
+          "options": [".java", ".class", ".exe"],
+          "correctAnswer": ".class",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-11",
+          "question": "Which of the following is a popular Java IDE?",
+          "options": ["Eclipse", "Visual Studio Code", "NetBeans"],
+          "correctAnswer": "Eclipse",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-1-12",
+          "question": "Which keyword is used to print output in Java?",
+          "options": ["print", "System.out.println", "console.log"],
+          "correctAnswer": "System.out.println",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-1-1",
+        "question": "Who is known as the father of Java?",
+        "options": ["Dennis Ritchie", "James Gosling", "Ken Thompson"],
+        "correctAnswer": "James Gosling",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-2",
+        "question": "Java was originally developed by ____.",
+        "options": ["Oracle", "Sun Microsystems", "IBM"],
+        "correctAnswer": "Sun Microsystems",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-3",
+        "question": "What is the full form of JRE?",
+        "options": ["Java Runtime Environment", "Java Runtime Engine", "Java Running Environment"],
+        "correctAnswer": "Java Runtime Environment",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-4",
+        "question": "Which component of Java compiles the source code?",
+        "options": ["JVM", "JDK", "javac"],
+        "correctAnswer": "javac",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-5",
+        "question": "Which extension is used for Java source files?",
+        "options": [".java", ".class", ".js"],
+        "correctAnswer": ".java",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-6",
+        "question": "What is the entry point of a Java application?",
+        "options": ["init()", "main()", "start()"],
+        "correctAnswer": "main()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-7",
+        "question": "Which of the following is NOT a feature of Java?",
+        "options": ["Platform Independence", "Pointer Arithmetic", "Object-Oriented"],
+        "correctAnswer": "Pointer Arithmetic",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-8",
+        "question": "Which command is used to run Java bytecode?",
+        "options": ["javac", "java", "jar"],
+        "correctAnswer": "java",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-9",
+        "question": "Java supports ____ inheritance.",
+        "options": ["Multiple using classes", "Single only", "Multiple using interfaces"],
+        "correctAnswer": "Multiple using interfaces",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-1-10",
+        "question": "Which of these is a Java keyword?",
+        "options": ["interface", "define", "macro"],
+        "correctAnswer": "interface",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-2",
+  "title": "Variables, Data Types, and Operators",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-2-1",
+      "title": "Variables and Data Types",
+      "content": "Understand how to declare variables and explore Java's primitive data types.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-2-1",
+          "question": "Which data type is used to store whole numbers in Java?",
+          "options": ["float", "int", "double"],
+          "correctAnswer": "int",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-2",
+          "question": "Which keyword is used to declare a constant variable?",
+          "options": ["static", "final", "const"],
+          "correctAnswer": "final",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-3",
+          "question": "Which of the following is NOT a primitive type?",
+          "options": ["int", "boolean", "String"],
+          "correctAnswer": "String",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-2",
+      "title": "Type Casting and Type Conversion",
+      "content": "Learn implicit and explicit type conversion in Java.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-4",
+          "question": "What is it called when a smaller data type is converted to a larger data type automatically?",
+          "options": ["Type Casting", "Type Conversion", "Widening"],
+          "correctAnswer": "Widening",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-5",
+          "question": "Which syntax is correct for casting an int to a float?",
+          "options": ["float x = int;", "float x = (float) intVar;", "x = float(int);"],
+          "correctAnswer": "float x = (float) intVar;",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-6",
+          "question": "Which of the following needs explicit casting?",
+          "options": ["int to double", "char to int", "double to int"],
+          "correctAnswer": "double to int",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-3",
+      "title": "Operators in Java",
+      "content": "Explore different types of operators like arithmetic, relational, logical, and bitwise operators.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-7",
+          "question": "Which operator is used for addition?",
+          "options": ["+", "-", "*"],
+          "correctAnswer": "+",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-8",
+          "question": "What is the result of 10 % 3?",
+          "options": ["1", "3", "0"],
+          "correctAnswer": "1",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-9",
+          "question": "Which operator is used to compare two values?",
+          "options": ["=", "==", "!="],
+          "correctAnswer": "==",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-4",
+      "title": "Expressions and Precedence",
+      "content": "Learn how expressions are evaluated and the role of operator precedence and associativity.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-10",
+          "question": "What is the precedence of multiplication (*) compared to addition (+)?",
+          "options": ["Same", "Higher", "Lower"],
+          "correctAnswer": "Higher",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-11",
+          "question": "Which operator has the highest precedence in Java?",
+          "options": ["*", "++", "="],
+          "correctAnswer": "++",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-12",
+          "question": "In which order are expressions evaluated in Java?",
+          "options": ["Right to left", "Left to right", "Depends on precedence"],
+          "correctAnswer": "Depends on precedence",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-2-1",
+        "question": "Which of these is a valid declaration of a float in Java?",
+        "options": ["float f = 3.14;", "float f = 3.14f;", "float f = '3.14';"],
+        "correctAnswer": "float f = 3.14f;",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-2",
+        "question": "Which data type is used to store true or false values?",
+        "options": ["int", "boolean", "char"],
+        "correctAnswer": "boolean",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-3",
+        "question": "Which is the default value of a boolean variable?",
+        "options": ["true", "false", "0"],
+        "correctAnswer": "false",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-4",
+        "question": "Which operator is used to combine multiple conditions?",
+        "options": ["&&", "||", "Both"],
+        "correctAnswer": "Both",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-5",
+        "question": "What will be the output of 5 + 2 * 3?",
+        "options": ["21", "11", "16"],
+        "correctAnswer": "11",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-6",
+        "question": "Which of the following is a unary operator?",
+        "options": ["++", "+", "*"],
+        "correctAnswer": "++",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-7",
+        "question": "Which type conversion is done automatically?",
+        "options": ["Widening", "Narrowing", "Casting"],
+        "correctAnswer": "Widening",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-8",
+        "question": "Which of these is not a valid variable name?",
+        "options": ["_value", "$value", "2value"],
+        "correctAnswer": "2value",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-9",
+        "question": "What is the result of logical AND operation between true and false?",
+        "options": ["true", "false", "error"],
+        "correctAnswer": "false",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-2-10",
+        "question": "What type of value does the expression '5 > 3' return?",
+        "options": ["int", "boolean", "float"],
+        "correctAnswer": "boolean",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-3",
+  "title": "Control Flow Statements",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-3-1",
+      "title": "if, if-else, and else-if",
+      "content": "Understand how to control the flow of execution using conditional statements.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-3-1",
+          "question": "Which keyword is used to perform a conditional check?",
+          "options": ["switch", "for", "if"],
+          "correctAnswer": "if",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-2",
+          "question": "What is the result of an if statement if the condition is false?",
+          "options": ["It executes the block", "It skips the block", "It throws an error"],
+          "correctAnswer": "It skips the block",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-3",
+          "question": "Which statement allows multiple conditions to be checked sequentially?",
+          "options": ["if", "else-if", "switch"],
+          "correctAnswer": "else-if",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-2",
+      "title": "switch Statement",
+      "content": "Learn how to use switch statements for multiple fixed condition checks.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-4",
+          "question": "Which keyword is used to exit a switch case?",
+          "options": ["exit", "stop", "break"],
+          "correctAnswer": "break",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-5",
+          "question": "Which data types can be used in switch statements in Java?",
+          "options": ["int, char, String", "boolean", "float"],
+          "correctAnswer": "int, char, String",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-6",
+          "question": "What happens if break is not used in a switch case?",
+          "options": ["Next case executes", "Program exits", "Error occurs"],
+          "correctAnswer": "Next case executes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-3",
+      "title": "Loops - for, while, do-while",
+      "content": "Understand how to perform repetitive tasks using different loop constructs.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-7",
+          "question": "Which loop checks the condition before entering the loop body?",
+          "options": ["do-while", "while", "for"],
+          "correctAnswer": "while",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-8",
+          "question": "Which loop executes the block at least once?",
+          "options": ["while", "for", "do-while"],
+          "correctAnswer": "do-while",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-9",
+          "question": "Which loop is best when the number of iterations is known?",
+          "options": ["while", "do-while", "for"],
+          "correctAnswer": "for",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-4",
+      "title": "break and continue",
+      "content": "Control loop execution using break and continue statements.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-10",
+          "question": "What does the 'break' statement do in a loop?",
+          "options": ["Skips one iteration", "Terminates the loop", "Repeats the loop"],
+          "correctAnswer": "Terminates the loop",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-11",
+          "question": "What does 'continue' do in a loop?",
+          "options": ["Terminates the loop", "Skips to next iteration", "Stops the program"],
+          "correctAnswer": "Skips to next iteration",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-12",
+          "question": "Which keyword is used to exit a loop early?",
+          "options": ["exit", "return", "break"],
+          "correctAnswer": "break",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-3-1",
+        "question": "Which statement is used for decision-making in Java?",
+        "options": ["loop", "if", "switch"],
+        "correctAnswer": "if",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-2",
+        "question": "Which loop will always execute at least once?",
+        "options": ["for", "while", "do-while"],
+        "correctAnswer": "do-while",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-3",
+        "question": "Which loop is best when the number of iterations is known?",
+        "options": ["while", "for", "do-while"],
+        "correctAnswer": "for",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-4",
+        "question": "Which statement is used to skip the current iteration in a loop?",
+        "options": ["break", "continue", "return"],
+        "correctAnswer": "continue",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-5",
+        "question": "What happens if break is not used in a switch statement?",
+        "options": ["Syntax error", "Default case executes", "Fall through to next case"],
+        "correctAnswer": "Fall through to next case",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-6",
+        "question": "What is the syntax to declare a for loop?",
+        "options": ["for(i=0;i<5;i++)", "loop(i=0 to 5)", "for(int i < 5)"],
+        "correctAnswer": "for(i=0;i<5;i++)",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-7",
+        "question": "Which statement is used to perform multiple choices?",
+        "options": ["if", "for", "switch"],
+        "correctAnswer": "switch",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-8",
+        "question": "What does the condition inside if(...) evaluate to?",
+        "options": ["Integer", "Boolean", "Character"],
+        "correctAnswer": "Boolean",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-9",
+        "question": "Which loop is an entry-controlled loop?",
+        "options": ["do-while", "while", "none"],
+        "correctAnswer": "while",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-3-10",
+        "question": "What will this code print?\nint x = 0;\nwhile(x < 3) {\n  x++;\n  if(x == 2) continue;\n  System.out.print(x);\n}",
+        "options": ["123", "134", "13"],
+        "correctAnswer": "13",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-4",
+  "title": "Object-Oriented Programming (OOP)",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-4-1",
+      "title": "Classes and Objects",
+      "content": "Learn how to define classes and create objects in Java.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-4-1",
+          "question": "Which keyword is used to define a class in Java?",
+          "options": ["class", "object", "define"],
+          "correctAnswer": "class",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-2",
+          "question": "What is an object in Java?",
+          "options": ["A function", "An instance of a class", "A method"],
+          "correctAnswer": "An instance of a class",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-3",
+          "question": "Which keyword is used to create an object?",
+          "options": ["class", "object", "new"],
+          "correctAnswer": "new",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-2",
+      "title": "Constructors",
+      "content": "Understand how constructors initialize objects.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-4",
+          "question": "What is the main purpose of a constructor?",
+          "options": ["Delete objects", "Initialize objects", "Print objects"],
+          "correctAnswer": "Initialize objects",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-5",
+          "question": "Which constructor is automatically provided by Java?",
+          "options": ["Default constructor", "Copy constructor", "Private constructor"],
+          "correctAnswer": "Default constructor",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-6",
+          "question": "Can a constructor be overloaded?",
+          "options": ["Yes", "No", "Only with default constructor"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-3",
+      "title": "Inheritance",
+      "content": "Explore how one class can inherit fields and methods from another.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-7",
+          "question": "Which keyword is used to inherit a class?",
+          "options": ["inherits", "extends", "implements"],
+          "correctAnswer": "extends",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-8",
+          "question": "Which class is the superclass of all Java classes?",
+          "options": ["Base", "Object", "Main"],
+          "correctAnswer": "Object",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-9",
+          "question": "Can a class extend multiple classes in Java?",
+          "options": ["Yes", "No", "Only in interfaces"],
+          "correctAnswer": "No",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-4",
+      "title": "Encapsulation and Abstraction",
+      "content": "Understand the principles of data hiding and simplified representation.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-10",
+          "question": "Which concept restricts direct access to some components?",
+          "options": ["Abstraction", "Encapsulation", "Inheritance"],
+          "correctAnswer": "Encapsulation",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-11",
+          "question": "Which keyword is used to achieve abstraction?",
+          "options": ["private", "abstract", "static"],
+          "correctAnswer": "abstract",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-12",
+          "question": "What is the main benefit of encapsulation?",
+          "options": ["Less code", "Faster speed", "Improved security"],
+          "correctAnswer": "Improved security",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-4-1",
+        "question": "What is an instance of a class called?",
+        "options": ["Field", "Object", "Method"],
+        "correctAnswer": "Object",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-2",
+        "question": "Which keyword is used to define a class?",
+        "options": ["new", "class", "define"],
+        "correctAnswer": "class",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-3",
+        "question": "Which keyword is used to create a new object?",
+        "options": ["object", "this", "new"],
+        "correctAnswer": "new",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-4",
+        "question": "What is the purpose of a constructor?",
+        "options": ["To print data", "To define class name", "To initialize objects"],
+        "correctAnswer": "To initialize objects",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-5",
+        "question": "Which class is the parent of all classes in Java?",
+        "options": ["Main", "Object", "Class"],
+        "correctAnswer": "Object",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-6",
+        "question": "Which keyword is used to inherit from a class?",
+        "options": ["inherits", "extends", "interface"],
+        "correctAnswer": "extends",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-7",
+        "question": "What is encapsulation?",
+        "options": ["Combining logic", "Hiding implementation", "Inheriting classes"],
+        "correctAnswer": "Hiding implementation",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-8",
+        "question": "Which keyword is used for abstraction?",
+        "options": ["hidden", "private", "abstract"],
+        "correctAnswer": "abstract",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-9",
+        "question": "Can constructors be overloaded?",
+        "options": ["Yes", "No", "Only in abstract classes"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-4-10",
+        "question": "Which access modifier is used to restrict access to a class member?",
+        "options": ["public", "default", "private"],
+        "correctAnswer": "private",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-5",
+  "title": "Interfaces and Abstract Classes",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-5-1",
+      "title": "Understanding Interfaces",
+      "content": "Learn what interfaces are and how they are used in Java for abstraction.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-5-1",
+          "question": "Which keyword is used to define an interface in Java?",
+          "options": ["interface", "abstract", "implements"],
+          "correctAnswer": "interface",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-2",
+          "question": "Can interfaces have method implementations in Java?",
+          "options": ["No", "Yes, using default methods", "Yes, always"],
+          "correctAnswer": "Yes, using default methods",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-3",
+          "question": "Which keyword is used to implement an interface?",
+          "options": ["extends", "inherits", "implements"],
+          "correctAnswer": "implements",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-2",
+      "title": "Abstract Classes",
+      "content": "Understand the role of abstract classes and how they differ from interfaces.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-4",
+          "question": "Which keyword is used to declare an abstract class?",
+          "options": ["abstract", "interface", "virtual"],
+          "correctAnswer": "abstract",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-5",
+          "question": "Can abstract classes have constructors?",
+          "options": ["Yes", "No", "Only interfaces can have constructors"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-6",
+          "question": "Can abstract classes have non-abstract methods?",
+          "options": ["Yes", "No", "Only if they are static"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-3",
+      "title": "Differences Between Abstract Classes and Interfaces",
+      "content": "Compare and contrast abstract classes and interfaces.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-7",
+          "question": "Which supports multiple inheritance: abstract class or interface?",
+          "options": ["Abstract class", "Interface", "Both"],
+          "correctAnswer": "Interface",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-8",
+          "question": "Can abstract classes be partially implemented?",
+          "options": ["Yes", "No", "Only in interfaces"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-9",
+          "question": "Can interfaces have fields?",
+          "options": ["Yes, but they must be final", "No", "Yes, as instance variables"],
+          "correctAnswer": "Yes, but they must be final",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-4",
+      "title": "Practical Implementation of Interfaces and Abstract Classes",
+      "content": "Learn to use interfaces and abstract classes in real-world scenarios.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-10",
+          "question": "How do you create an object of an abstract class?",
+          "options": ["Using 'new'", "Cannot create directly", "Using 'implements'"],
+          "correctAnswer": "Cannot create directly",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-11",
+          "question": "Which keyword is used to override interface methods?",
+          "options": ["override", "@Override", "implement"],
+          "correctAnswer": "@Override",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-12",
+          "question": "Can a class implement multiple interfaces?",
+          "options": ["Yes", "No", "Only with abstract classes"],
+          "correctAnswer": "Yes",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-5-1",
+        "question": "Which keyword is used to define an interface?",
+        "options": ["interface", "implements", "abstract"],
+        "correctAnswer": "interface",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-2",
+        "question": "Can interfaces have method bodies in Java?",
+        "options": ["No", "Yes, using default methods", "Only static methods"],
+        "correctAnswer": "Yes, using default methods",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-3",
+        "question": "What is the main purpose of an abstract class?",
+        "options": ["To fully implement a class", "To restrict inheritance", "To provide partial implementation"],
+        "correctAnswer": "To provide partial implementation",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-4",
+        "question": "Which allows multiple inheritance?",
+        "options": ["Abstract class", "Interface", "Final class"],
+        "correctAnswer": "Interface",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-5",
+        "question": "Can abstract classes have constructors?",
+        "options": ["Yes", "No", "Only interfaces can have constructors"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-6",
+        "question": "Which keyword is used to implement an interface?",
+        "options": ["extends", "inherits", "implements"],
+        "correctAnswer": "implements",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-7",
+        "question": "Can you instantiate an abstract class directly?",
+        "options": ["Yes", "No", "Only once"],
+        "correctAnswer": "No",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-8",
+        "question": "What keyword is used to override interface methods?",
+        "options": ["override", "@Override", "overwrite"],
+        "correctAnswer": "@Override",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-9",
+        "question": "Can a class implement more than one interface?",
+        "options": ["Yes", "No", "Only in abstract classes"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-5-10",
+        "question": "Are interface variables public, static, and final by default?",
+        "options": ["Yes", "No", "Only static"],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+,
+    {
+  "chapterId": "ch-6",
+  "title": "Exception Handling and File I/O",
+  "unlocked": true,
+  "modules": [
+    {
+      "moduleId": "mod-6-1",
+      "title": "Basics of Exception Handling",
+      "content": "Understand the need for exception handling and how Java handles runtime errors.",
+      "unlocked": true,
+      "questions": [
+        {
+          "questionId": "q-6-1",
+          "question": "Which keyword is used to handle exceptions in Java?",
+          "options": ["try", "throw", "catch"],
+          "correctAnswer": "catch",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-2",
+          "question": "Which block must be used with try block?",
+          "options": ["catch or finally", "throw", "throws"],
+          "correctAnswer": "catch or finally",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-3",
+          "question": "Which keyword is used to manually throw an exception?",
+          "options": ["throws", "throw", "catch"],
+          "correctAnswer": "throw",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-2",
+      "title": "Types of Exceptions",
+      "content": "Learn the different types of exceptions: checked and unchecked exceptions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-4",
+          "question": "Which is a checked exception?",
+          "options": ["NullPointerException", "IOException", "ArithmeticException"],
+          "correctAnswer": "IOException",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-5",
+          "question": "Which is an unchecked exception?",
+          "options": ["IOException", "FileNotFoundException", "ArrayIndexOutOfBoundsException"],
+          "correctAnswer": "ArrayIndexOutOfBoundsException",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-6",
+          "question": "What is the parent class of all exceptions?",
+          "options": ["Throwable", "Exception", "Error"],
+          "correctAnswer": "Throwable",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-3",
+      "title": "Working with Files",
+      "content": "Understand how to read from and write to files using Java.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-7",
+          "question": "Which class is used to read data from a file?",
+          "options": ["FileReader", "FileWriter", "BufferedWriter"],
+          "correctAnswer": "FileReader",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-8",
+          "question": "Which class is used to write data to a file?",
+          "options": ["BufferedReader", "FileReader", "FileWriter"],
+          "correctAnswer": "FileWriter",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-9",
+          "question": "Which package contains file handling classes?",
+          "options": ["java.io", "java.util", "java.file"],
+          "correctAnswer": "java.io",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-4",
+      "title": "Try-With-Resources and Custom Exceptions",
+      "content": "Learn to use try-with-resources and create your own custom exceptions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-10",
+          "question": "Which interface must be implemented for try-with-resources?",
+          "options": ["Closeable", "AutoCloseable", "Serializable"],
+          "correctAnswer": "AutoCloseable",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-11",
+          "question": "How do you define a custom exception class?",
+          "options": ["Extend Exception class", "Use final class", "Use Error class"],
+          "correctAnswer": "Extend Exception class",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-12",
+          "question": "Which block is always executed regardless of an exception?",
+          "options": ["finally", "catch", "throw"],
+          "correctAnswer": "finally",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "a-6-1",
+        "question": "What is the parent class of all exceptions?",
+        "options": ["Exception", "Throwable", "Error"],
+        "correctAnswer": "Throwable",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-2",
+        "question": "Which block is used to catch exceptions?",
+        "options": ["catch", "throw", "finally"],
+        "correctAnswer": "catch",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-3",
+        "question": "Which exception is a checked exception?",
+        "options": ["IOException", "NullPointerException", "ArithmeticException"],
+        "correctAnswer": "IOException",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-4",
+        "question": "Which package contains classes for file I/O?",
+        "options": ["java.io", "java.util", "java.file"],
+        "correctAnswer": "java.io",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-5",
+        "question": "Which class is used to write characters to a file?",
+        "options": ["FileWriter", "FileReader", "BufferedReader"],
+        "correctAnswer": "FileWriter",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-6",
+        "question": "How do you create a custom exception?",
+        "options": ["Extend Exception", "Use Error class", "Use try-catch block"],
+        "correctAnswer": "Extend Exception",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-7",
+        "question": "Which interface is used in try-with-resources?",
+        "options": ["AutoCloseable", "Closeable", "Serializable"],
+        "correctAnswer": "AutoCloseable",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-8",
+        "question": "What does the 'finally' block do?",
+        "options": ["Executes if exception occurs", "Executes always", "Skips if exception occurs"],
+        "correctAnswer": "Executes always",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-9",
+        "question": "Which keyword is used to manually raise an exception?",
+        "options": ["throw", "throws", "raise"],
+        "correctAnswer": "throw",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "a-6-10",
+        "question": "What is the difference between checked and unchecked exceptions?",
+        "options": ["Checked are compile-time, unchecked are runtime", "Both are compile-time", "Checked are runtime"],
+        "correctAnswer": "Checked are compile-time, unchecked are runtime",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+
+  ]
+}
+

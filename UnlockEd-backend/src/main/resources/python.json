@@ -1,0 +1,1720 @@
+{
+  "id": "course-3",
+  "title": "Python Programming",
+  "description": "Learn Python from basics to advanced topics with hands-on exercises and projects.",
+  "chapters": [ {
+      "chapterId": "ch-1",
+      "title": "Introduction to Python",
+      "unlocked": true,
+      "modules": [
+        {
+          "moduleId": "mod-1-1",
+          "title": "Introduction to Python",
+          "content": "Learn about Python's history, features, and why it is widely used.",
+          "unlocked": true,
+          "questions": [
+            {
+              "questionId": "q-1-1",
+              "question": "Who developed Python?",
+              "options": [
+                "Guido van Rossum",
+                "Dennis Ritchie",
+                "Bjarne Stroustrup"
+              ],
+              "correctAnswer": "Guido van Rossum",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-2",
+              "question": "What type of programming language is Python?",
+              "options": [
+                "Compiled",
+                "Interpreted",
+                "Assembly"
+              ],
+              "correctAnswer": "Interpreted",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-3",
+              "question": "Which year was Python first released?",
+              "options": [
+                "1989",
+                "1991",
+                "2000"
+              ],
+              "correctAnswer": "1991",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-1-2",
+          "title": "Setting up Python",
+          "content": "Learn how to install Python and set up the development environment.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-1-4",
+              "question": "Which command is used to check the installed Python version?",
+              "options": [
+                "python --version",
+                "py --v",
+                "python check"
+              ],
+              "correctAnswer": "python --version",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-5",
+              "question": "Which IDE is commonly used for Python development?",
+              "options": [
+                "PyCharm",
+                "Eclipse",
+                "Visual Studio"
+              ],
+              "correctAnswer": "PyCharm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-6",
+              "question": "What is the default mode of the Python interpreter?",
+              "options": [
+                "Interactive",
+                "Script",
+                "Debug"
+              ],
+              "correctAnswer": "Interactive",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-1-3",
+          "title": "Running Python Programs",
+          "content": "Learn how to execute Python scripts and use interactive mode.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-1-7",
+              "question": "Which extension is used for Python files?",
+              "options": [
+                ".py",
+                ".java",
+                ".cpp"
+              ],
+              "correctAnswer": ".py",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-8",
+              "question": "What is the output of print(3 + 4 * 2)?",
+              "options": [
+                "14",
+                "11",
+                "8"
+              ],
+              "correctAnswer": "11",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-9",
+              "question": "How do you execute a Python script from the terminal?",
+              "options": [
+                "python script.py",
+                "run script.py",
+                "execute script.py"
+              ],
+              "correctAnswer": "python script.py",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-1-4",
+          "title": "Python Syntax Basics",
+          "content": "Understand the fundamental syntax rules of Python programming.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-1-10",
+              "question": "Which of the following is a valid variable name in Python?",
+              "options": [
+                "2var",
+                "_varName",
+                "var-name"
+              ],
+              "correctAnswer": "_varName",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-11",
+              "question": "Which character is used to start a comment in Python?",
+              "options": [
+                "#",
+                "//",
+                "/* */"
+              ],
+              "correctAnswer": "#",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-12",
+              "question": "Which indentation level is recommended in Python?",
+              "options": [
+                "2 spaces",
+                "4 spaces",
+                "8 spaces"
+              ],
+              "correctAnswer": "4 spaces",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-1-1",
+            "question": "What is the primary purpose of Python?",
+            "options": [
+              "Web development",
+              "Data analysis",
+              "General-purpose programming"
+            ],
+            "correctAnswer": "General-purpose programming",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-2",
+            "question": "Which symbol is used to define a function in Python?",
+            "options": [
+              "def",
+              "function",
+              "func"
+            ],
+            "correctAnswer": "def",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-3",
+            "question": "Which built-in function is used to display output in Python?",
+            "options": [
+              "echo()",
+              "print()",
+              "display()"
+            ],
+            "correctAnswer": "print()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-4",
+            "question": "What will be the output of: print(type(10.5))?",
+            "options": [
+              "<class 'float'>",
+              "<class 'int'>",
+              "<class 'double'>"
+            ],
+            "correctAnswer": "<class 'float'>",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-5",
+            "question": "Which data type is mutable in Python?",
+            "options": [
+              "Tuple",
+              "List",
+              "String"
+            ],
+            "correctAnswer": "List",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-6",
+            "question": "How do you take user input in Python?",
+            "options": [
+              "input()",
+              "get()",
+              "scan()"
+            ],
+            "correctAnswer": "input()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-7",
+            "question": "What does the len() function do?",
+            "options": [
+              "Returns the last element",
+              "Counts the number of elements",
+              "Returns the type of variable"
+            ],
+            "correctAnswer": "Counts the number of elements",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-8",
+            "question": "Which operator is used for exponentiation in Python?",
+            "options": [
+              "^",
+              "**",
+              "//"
+            ],
+            "correctAnswer": "**",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-9",
+            "question": "Which keyword is used for loops in Python?",
+            "options": [
+              "for",
+              "loop",
+              "iterate"
+            ],
+            "correctAnswer": "for",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-10",
+            "question": "Which function converts a string to an integer?",
+            "options": [
+              "str()",
+              "int()",
+              "float()"
+            ],
+            "correctAnswer": "int()",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+    
+    {
+  "chapterId": "ch-2",
+  "title": "Python Data Types and Variables",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-2-1",
+      "title": "Introduction to Data Types",
+      "content": "Learn about different data types in Python, such as integers, floats, and strings.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-1",
+          "question": "Which of the following is an immutable data type in Python?",
+          "options": [
+            "List",
+            "Dictionary",
+            "Tuple"
+          ],
+          "correctAnswer": "Tuple",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-2",
+          "question": "What is the type of the value 3.14 in Python?",
+          "options": [
+            "int",
+            "float",
+            "double"
+          ],
+          "correctAnswer": "float",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-3",
+          "question": "Which function is used to check the type of a variable in Python?",
+          "options": [
+            "type()",
+            "typeof()",
+            "getType()"
+          ],
+          "correctAnswer": "type()",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-2",
+      "title": "Working with Variables",
+      "content": "Understand how to declare and use variables in Python.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-4",
+          "question": "Which of the following is a valid variable name in Python?",
+          "options": [
+            "1var",
+            "_myVar",
+            "my-var"
+          ],
+          "correctAnswer": "_myVar",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-5",
+          "question": "Which keyword is used to declare a global variable inside a function?",
+          "options": [
+            "global",
+            "var",
+            "static"
+          ],
+          "correctAnswer": "global",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-6",
+          "question": "What happens when you assign a value to an undefined variable in Python?",
+          "options": [
+            "It raises an error",
+            "It gets automatically defined",
+            "It gets assigned a null value"
+          ],
+          "correctAnswer": "It gets automatically defined",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-3",
+      "title": "Type Conversion",
+      "content": "Learn about implicit and explicit type conversion in Python.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-7",
+          "question": "Which function converts a string to an integer?",
+          "options": [
+            "int()",
+            "str()",
+            "float()"
+          ],
+          "correctAnswer": "int()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-8",
+          "question": "What is implicit type conversion in Python?",
+          "options": [
+            "When the user manually converts a type",
+            "When Python automatically converts types",
+            "When a variable changes type dynamically"
+          ],
+          "correctAnswer": "When Python automatically converts types",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-9",
+          "question": "Which of the following is an example of explicit type conversion?",
+          "options": [
+            "float(10)",
+            "10 + 5.5",
+            "x = 10"
+          ],
+          "correctAnswer": "float(10)",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-2-4",
+      "title": "String Operations",
+      "content": "Explore how to manipulate and work with strings in Python.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-2-10",
+          "question": "Which operator is used for string concatenation?",
+          "options": [
+            "+",
+            "&",
+            "*"
+          ],
+          "correctAnswer": "+",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-11",
+          "question": "Which method converts a string to uppercase?",
+          "options": [
+            "upper()",
+            "capitalize()",
+            "toUpper()"
+          ],
+          "correctAnswer": "upper()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-2-12",
+          "question": "How do you find the length of a string in Python?",
+          "options": [
+            "size()",
+            "count()",
+            "len()"
+          ],
+          "correctAnswer": "len()",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-2-1",
+        "question": "Which of the following is a mutable data type in Python?",
+        "options": [
+          "List",
+          "Tuple",
+          "String"
+        ],
+        "correctAnswer": "List",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-2",
+        "question": "Which function is used to convert an integer to a string?",
+        "options": [
+          "str()",
+          "int()",
+          "string()"
+        ],
+        "correctAnswer": "str()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-3",
+        "question": "Which keyword is used to define a constant variable in Python?",
+        "options": [
+          "const",
+          "final",
+          "Python does not have constants"
+        ],
+        "correctAnswer": "Python does not have constants",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-4",
+        "question": "Which method is used to remove whitespace from a string?",
+        "options": [
+          "strip()",
+          "trim()",
+          "removeSpaces()"
+        ],
+        "correctAnswer": "strip()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-5",
+        "question": "Which symbol is used to assign values to variables?",
+        "options": [
+          "=",
+          "==",
+          ":="
+        ],
+        "correctAnswer": "=",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-6",
+        "question": "Which data type allows duplicate values?",
+        "options": [
+          "Set",
+          "List",
+          "Dictionary"
+        ],
+        "correctAnswer": "List",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-7",
+        "question": "What is the result of '5' + '5' in Python?",
+        "options": [
+          "10",
+          "'55'",
+          "Error"
+        ],
+        "correctAnswer": "'55'",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-8",
+        "question": "Which method is used to check if a string starts with a specific letter?",
+        "options": [
+          "startswith()",
+          "endswith()",
+          "beginwith()"
+        ],
+        "correctAnswer": "startswith()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-9",
+        "question": "What is the output of type([])?",
+        "options": [
+          "<class 'list'>",
+          "<class 'tuple'>",
+          "<class 'array'>"
+        ],
+        "correctAnswer": "<class 'list'>",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-2-10",
+        "question": "Which function returns the ASCII value of a character?",
+        "options": [
+          "ord()",
+          "ascii()",
+          "chr()"
+        ],
+        "correctAnswer": "ord()",
+        "userAnswer": ""
+      }
+    ]
+  }
+},
+
+{
+  "chapterId": "ch-3",
+  "title": "Operators and Expressions",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-3-1",
+      "title": "Arithmetic Operators",
+      "content": "Learn about arithmetic operations such as addition, subtraction, multiplication, and division.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-1",
+          "question": "What is the result of 10 % 3?",
+          "options": [
+            "1",
+            "3",
+            "0"
+          ],
+          "correctAnswer": "1",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-2",
+          "question": "Which operator is used for exponentiation in Python?",
+          "options": [
+            "^",
+            "**",
+            "//"
+          ],
+          "correctAnswer": "**",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-3",
+          "question": "What will be the output of 15 // 4?",
+          "options": [
+            "3.75",
+            "4",
+            "3"
+          ],
+          "correctAnswer": "3",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-2",
+      "title": "Comparison and Logical Operators",
+      "content": "Understand comparison operators such as ==, !=, >, < and logical operators like and, or, not.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-4",
+          "question": "What is the result of 5 == 5?",
+          "options": [
+            "True",
+            "False",
+            "Error"
+          ],
+          "correctAnswer": "True",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-5",
+          "question": "Which logical operator returns True if both conditions are True?",
+          "options": [
+            "or",
+            "and",
+            "not"
+          ],
+          "correctAnswer": "and",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-6",
+          "question": "What is the result of not False?",
+          "options": [
+            "True",
+            "False",
+            "Error"
+          ],
+          "correctAnswer": "True",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-3",
+      "title": "Assignment and Bitwise Operators",
+      "content": "Learn how assignment operators work and explore bitwise operations in Python.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-7",
+          "question": "Which operator is used for bitwise AND in Python?",
+          "options": [
+            "&",
+            "|",
+            "^"
+          ],
+          "correctAnswer": "&",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-8",
+          "question": "What does x += 2 do in Python?",
+          "options": [
+            "Increases x by 2",
+            "Assigns 2 to x",
+            "Decreases x by 2"
+          ],
+          "correctAnswer": "Increases x by 2",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-9",
+          "question": "Which bitwise operator flips all bits?",
+          "options": [
+            "~",
+            "&",
+            "|"
+          ],
+          "correctAnswer": "~",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-3-4",
+      "title": "Operator Precedence",
+      "content": "Understand the order of execution of operators in Python expressions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-3-10",
+          "question": "Which operator has the highest precedence?",
+          "options": [
+            "*",
+            "+",
+            "**"
+          ],
+          "correctAnswer": "**",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-11",
+          "question": "What is the result of (3 + 2) * 4?",
+          "options": [
+            "14",
+            "20",
+            "12"
+          ],
+          "correctAnswer": "20",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-3-12",
+          "question": "Which operator is evaluated first in 5 + 2 * 3?",
+          "options": [
+            "+",
+            "*",
+            "Both at the same time"
+          ],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-3-1",
+        "question": "Which of the following is a valid arithmetic operator in Python?",
+        "options": [
+          "&&",
+          "+",
+          "=="
+        ],
+        "correctAnswer": "+",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-2",
+        "question": "Which operator is used to check equality in Python?",
+        "options": [
+          "=",
+          "==",
+          "!="
+        ],
+        "correctAnswer": "==",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-3",
+        "question": "Which bitwise operator is used for OR?",
+        "options": [
+          "&",
+          "|",
+          "^"
+        ],
+        "correctAnswer": "|",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-4",
+        "question": "What is the output of 7 % 2?",
+        "options": [
+          "1",
+          "3",
+          "0"
+        ],
+        "correctAnswer": "1",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-5",
+        "question": "Which operator has the lowest precedence?",
+        "options": [
+          "+",
+          "or",
+          "*"
+        ],
+        "correctAnswer": "or",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-6",
+        "question": "What is the result of 10 / 3 in Python 3?",
+        "options": [
+          "3.3333",
+          "3",
+          "Error"
+        ],
+        "correctAnswer": "3.3333",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-7",
+        "question": "What does x &= 2 do?",
+        "options": [
+          "Bitwise AND operation and assign",
+          "Bitwise OR operation and assign",
+          "Assigns 2 to x"
+        ],
+        "correctAnswer": "Bitwise AND operation and assign",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-8",
+        "question": "What is the result of not True?",
+        "options": [
+          "False",
+          "True",
+          "None"
+        ],
+        "correctAnswer": "False",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-9",
+        "question": "Which expression correctly checks if x is greater than y and z?",
+        "options": [
+          "x > y and z",
+          "x > y and x > z",
+          "x > (y and z)"
+        ],
+        "correctAnswer": "x > y and x > z",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-3-10",
+        "question": "What is the output of (10 - 3) * 2?",
+        "options": [
+          "14",
+          "20",
+          "16"
+        ],
+        "correctAnswer": "14",
+        "userAnswer": ""
+      }
+    ]
+  }
+},
+
+{
+  "chapterId": "ch-4",
+  "title": "Control Flow in Python",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-4-1",
+      "title": "Conditional Statements",
+      "content": "Learn how to use if, elif, and else statements in Python for decision-making.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-1",
+          "question": "Which keyword is used for a conditional statement in Python?",
+          "options": [
+            "if",
+            "switch",
+            "case"
+          ],
+          "correctAnswer": "if",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-2",
+          "question": "What will be the output of 'if 0:'?",
+          "options": [
+            "True",
+            "False",
+            "Error"
+          ],
+          "correctAnswer": "False",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-3",
+          "question": "Which statement is used to execute a block of code when a condition is false?",
+          "options": [
+            "if",
+            "else",
+            "elif"
+          ],
+          "correctAnswer": "else",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-2",
+      "title": "Loops in Python",
+      "content": "Understand how loops (for and while) work in Python for iteration.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-4",
+          "question": "Which loop executes at least once even if the condition is false?",
+          "options": [
+            "while",
+            "for",
+            "Python does not have this feature"
+          ],
+          "correctAnswer": "Python does not have this feature",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-5",
+          "question": "Which statement is used to stop a loop?",
+          "options": [
+            "stop",
+            "break",
+            "exit"
+          ],
+          "correctAnswer": "break",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-6",
+          "question": "Which loop is preferred when the number of iterations is known?",
+          "options": [
+            "for",
+            "while",
+            "do-while"
+          ],
+          "correctAnswer": "for",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-3",
+      "title": "Loop Control Statements",
+      "content": "Learn how to use break, continue, and pass statements to control loop execution.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-7",
+          "question": "Which statement skips the current iteration and moves to the next?",
+          "options": [
+            "continue",
+            "break",
+            "pass"
+          ],
+          "correctAnswer": "continue",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-8",
+          "question": "Which statement is used to exit a loop completely?",
+          "options": [
+            "break",
+            "continue",
+            "pass"
+          ],
+          "correctAnswer": "break",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-9",
+          "question": "Which statement is used when a syntactically required block should do nothing?",
+          "options": [
+            "break",
+            "continue",
+            "pass"
+          ],
+          "correctAnswer": "pass",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-4-4",
+      "title": "Nested Loops and Conditional Statements",
+      "content": "Understand how to use loops inside loops and conditional statements inside loops.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-4-10",
+          "question": "Which loop is executed first in a nested loop?",
+          "options": [
+            "Outer loop",
+            "Inner loop",
+            "Random"
+          ],
+          "correctAnswer": "Outer loop",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-11",
+          "question": "What is the output of: for i in range(2): for j in range(2): print(i, j)?",
+          "options": [
+            "0 0, 0 1, 1 0, 1 1",
+            "0 0, 1 0, 0 1, 1 1",
+            "0 0, 1 1, 0 1, 1 0"
+          ],
+          "correctAnswer": "0 0, 0 1, 1 0, 1 1",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-4-12",
+          "question": "Which of the following can be inside a loop?",
+          "options": [
+            "Another loop",
+            "An if statement",
+            "Both"
+          ],
+          "correctAnswer": "Both",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-4-1",
+        "question": "Which keyword is used to create an if statement in Python?",
+        "options": [
+          "if",
+          "switch",
+          "case"
+        ],
+        "correctAnswer": "if",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-2",
+        "question": "Which loop is best when the number of iterations is unknown?",
+        "options": [
+          "for",
+          "while",
+          "do-while"
+        ],
+        "correctAnswer": "while",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-3",
+        "question": "Which statement is used to exit a loop?",
+        "options": [
+          "stop",
+          "break",
+          "exit"
+        ],
+        "correctAnswer": "break",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-4",
+        "question": "Which loop runs at least once, even if the condition is false?",
+        "options": [
+          "for",
+          "while",
+          "Python does not support this feature"
+        ],
+        "correctAnswer": "Python does not support this feature",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-5",
+        "question": "What is the purpose of the 'continue' statement?",
+        "options": [
+          "Exit the loop",
+          "Skip the current iteration",
+          "End the program"
+        ],
+        "correctAnswer": "Skip the current iteration",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-6",
+        "question": "Which statement is used for an empty function or loop?",
+        "options": [
+          "break",
+          "continue",
+          "pass"
+        ],
+        "correctAnswer": "pass",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-7",
+        "question": "What is the output of: for i in range(3): print(i)?",
+        "options": [
+          "0, 1, 2",
+          "1, 2, 3",
+          "0, 1, 2, 3"
+        ],
+        "correctAnswer": "0, 1, 2",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-8",
+        "question": "Which statement is used when an if condition needs no action?",
+        "options": [
+          "continue",
+          "break",
+          "pass"
+        ],
+        "correctAnswer": "pass",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-9",
+        "question": "Which keyword is used for a multi-condition decision?",
+        "options": [
+          "if",
+          "elif",
+          "else"
+        ],
+        "correctAnswer": "elif",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-4-10",
+        "question": "What is the output of: if 5 > 3: print('Yes')?",
+        "options": [
+          "Yes",
+          "No",
+          "Error"
+        ],
+        "correctAnswer": "Yes",
+        "userAnswer": ""
+      }
+    ]
+  }
+},
+
+{
+  "chapterId": "ch-5",
+  "title": "Functions in Python",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-5-1",
+      "title": "Introduction to Functions",
+      "content": "Learn the basics of functions, their importance, and how to define them in Python.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-1",
+          "question": "Which keyword is used to define a function in Python?",
+          "options": [
+            "func",
+            "define",
+            "def"
+          ],
+          "correctAnswer": "def",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-2",
+          "question": "What will be the output of a function that does not have a return statement?",
+          "options": [
+            "None",
+            "0",
+            "Error"
+          ],
+          "correctAnswer": "None",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-3",
+          "question": "What is the correct syntax for calling a function named myFunction?",
+          "options": [
+            "myFunction()",
+            "call myFunction",
+            "execute myFunction"
+          ],
+          "correctAnswer": "myFunction()",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-2",
+      "title": "Function Parameters and Arguments",
+      "content": "Understand how to pass parameters and arguments to functions in Python.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-4",
+          "question": "What is the default return value of a function that does not return anything?",
+          "options": [
+            "0",
+            "None",
+            "Empty String"
+          ],
+          "correctAnswer": "None",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-5",
+          "question": "Which type of function parameter allows a default value?",
+          "options": [
+            "Positional",
+            "Default",
+            "Variable-length"
+          ],
+          "correctAnswer": "Default",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-6",
+          "question": "Which symbol is used to pass variable-length arguments?",
+          "options": [
+            "*",
+            "**",
+            "&"
+          ],
+          "correctAnswer": "*",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-3",
+      "title": "Return Statements and Scope",
+      "content": "Learn how return statements work and the concept of variable scope.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-7",
+          "question": "Which keyword is used to return a value from a function?",
+          "options": [
+            "return",
+            "yield",
+            "output"
+          ],
+          "correctAnswer": "return",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-8",
+          "question": "What is the scope of a variable defined inside a function?",
+          "options": [
+            "Global",
+            "Local",
+            "Static"
+          ],
+          "correctAnswer": "Local",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-9",
+          "question": "Which keyword is used to modify a global variable inside a function?",
+          "options": [
+            "global",
+            "static",
+            "nonlocal"
+          ],
+          "correctAnswer": "global",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-5-4",
+      "title": "Lambda Functions",
+      "content": "Understand the use of lambda functions and how they differ from regular functions.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-5-10",
+          "question": "What is a lambda function?",
+          "options": [
+            "A function with no return type",
+            "An anonymous function",
+            "A recursive function"
+          ],
+          "correctAnswer": "An anonymous function",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-11",
+          "question": "Which keyword is used to create a lambda function?",
+          "options": [
+            "lambda",
+            "def",
+            "func"
+          ],
+          "correctAnswer": "lambda",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-5-12",
+          "question": "Which of the following is a valid lambda function syntax?",
+          "options": [
+            "lambda x: x * 2",
+            "def lambda x: x * 2",
+            "function lambda x: x * 2"
+          ],
+          "correctAnswer": "lambda x: x * 2",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-5-1",
+        "question": "Which statement is used to define a function in Python?",
+        "options": [
+          "func",
+          "def",
+          "define"
+        ],
+        "correctAnswer": "def",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-2",
+        "question": "What will be the output if a function has no return statement?",
+        "options": [
+          "None",
+          "0",
+          "Error"
+        ],
+        "correctAnswer": "None",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-3",
+        "question": "What is the purpose of the 'return' statement?",
+        "options": [
+          "Terminate function execution",
+          "Return a value",
+          "Both"
+        ],
+        "correctAnswer": "Both",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-4",
+        "question": "Which type of function argument has a default value?",
+        "options": [
+          "Positional",
+          "Default",
+          "Variable-length"
+        ],
+        "correctAnswer": "Default",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-5",
+        "question": "What is the scope of a variable declared inside a function?",
+        "options": [
+          "Global",
+          "Local",
+          "Static"
+        ],
+        "correctAnswer": "Local",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-6",
+        "question": "Which function is used to create an anonymous function?",
+        "options": [
+          "lambda",
+          "def",
+          "func"
+        ],
+        "correctAnswer": "lambda",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-7",
+        "question": "Which keyword allows modification of a global variable inside a function?",
+        "options": [
+          "global",
+          "nonlocal",
+          "static"
+        ],
+        "correctAnswer": "global",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-8",
+        "question": "Which of the following is a correct function definition?",
+        "options": [
+          "function myFunc():",
+          "def myFunc():",
+          "define myFunc():"
+        ],
+        "correctAnswer": "def myFunc():",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-9",
+        "question": "What will be the output of 'lambda x: x+5' when called with 10?",
+        "options": [
+          "10",
+          "15",
+          "Error"
+        ],
+        "correctAnswer": "15",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-5-10",
+        "question": "Which keyword is used to define a recursive function?",
+        "options": [
+          "def",
+          "return",
+          "rec"
+        ],
+        "correctAnswer": "def",
+        "userAnswer": ""
+      }
+    ]
+  }
+},
+{
+  "chapterId": "ch-6",
+  "title": "Lists and Tuples in Python",
+  "unlocked": false,
+  "modules": [
+    {
+      "moduleId": "mod-6-1",
+      "title": "Introduction to Lists",
+      "content": "Learn about lists in Python, their properties, and basic operations.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-1",
+          "question": "Which of the following is a valid list declaration?",
+          "options": [
+            "list = {1, 2, 3}",
+            "list = [1, 2, 3]",
+            "list = (1, 2, 3)"
+          ],
+          "correctAnswer": "list = [1, 2, 3]",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-2",
+          "question": "What will be the output of len([1, 2, 3])?",
+          "options": [
+            "2",
+            "3",
+            "4"
+          ],
+          "correctAnswer": "3",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-3",
+          "question": "How do you access the first element of a list named myList?",
+          "options": [
+            "myList[0]",
+            "myList(0)",
+            "myList{0}"
+          ],
+          "correctAnswer": "myList[0]",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-2",
+      "title": "List Methods and Operations",
+      "content": "Understand various list operations and built-in methods like append(), remove(), and pop().",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-4",
+          "question": "Which method is used to add an element to the end of a list?",
+          "options": [
+            "insert()",
+            "append()",
+            "extend()"
+          ],
+          "correctAnswer": "append()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-5",
+          "question": "Which method removes and returns the last element of a list?",
+          "options": [
+            "delete()",
+            "remove()",
+            "pop()"
+          ],
+          "correctAnswer": "pop()",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-6",
+          "question": "Which method is used to sort a list in ascending order?",
+          "options": [
+            "sort()",
+            "order()",
+            "arrange()"
+          ],
+          "correctAnswer": "sort()",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-3",
+      "title": "Introduction to Tuples",
+      "content": "Learn about tuples in Python, their properties, and how they differ from lists.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-7",
+          "question": "Which of the following is a valid tuple declaration?",
+          "options": [
+            "tuple = [1, 2, 3]",
+            "tuple = {1, 2, 3}",
+            "tuple = (1, 2, 3)"
+          ],
+          "correctAnswer": "tuple = (1, 2, 3)",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-8",
+          "question": "Which of the following is a characteristic of tuples?",
+          "options": [
+            "Tuples are mutable",
+            "Tuples are immutable",
+            "Tuples support item deletion"
+          ],
+          "correctAnswer": "Tuples are immutable",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-9",
+          "question": "Which method is used to count occurrences of an element in a tuple?",
+          "options": [
+            "count()",
+            "index()",
+            "find()"
+          ],
+          "correctAnswer": "count()",
+          "userAnswer": ""
+        }
+      ]
+    },
+    {
+      "moduleId": "mod-6-4",
+      "title": "Tuple Operations and Methods",
+      "content": "Understand how to access tuple elements and perform operations like concatenation and slicing.",
+      "unlocked": false,
+      "questions": [
+        {
+          "questionId": "q-6-10",
+          "question": "How do you access the last element of a tuple?",
+          "options": [
+            "tuple[-1]",
+            "tuple[last]",
+            "tuple(end)"
+          ],
+          "correctAnswer": "tuple[-1]",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-11",
+          "question": "Which operation can be performed on a tuple?",
+          "options": [
+            "Adding elements",
+            "Removing elements",
+            "Concatenation"
+          ],
+          "correctAnswer": "Concatenation",
+          "userAnswer": ""
+        },
+        {
+          "questionId": "q-6-12",
+          "question": "Which function converts a tuple into a list?",
+          "options": [
+            "convert()",
+            "tuple_to_list()",
+            "list()"
+          ],
+          "correctAnswer": "list()",
+          "userAnswer": ""
+        }
+      ]
+    }
+  ],
+  "assessment": {
+    "questions": [
+      {
+        "questionId": "assess-6-1",
+        "question": "Which method adds an element to a list?",
+        "options": [
+          "insert()",
+          "append()",
+          "extend()"
+        ],
+        "correctAnswer": "append()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-2",
+        "question": "Which of the following is a mutable data type?",
+        "options": [
+          "List",
+          "Tuple",
+          "String"
+        ],
+        "correctAnswer": "List",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-3",
+        "question": "Which of the following is immutable?",
+        "options": [
+          "List",
+          "Tuple",
+          "Dictionary"
+        ],
+        "correctAnswer": "Tuple",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-4",
+        "question": "Which function returns the length of a list?",
+        "options": [
+          "size()",
+          "count()",
+          "len()"
+        ],
+        "correctAnswer": "len()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-5",
+        "question": "How do you access the first element of a list?",
+        "options": [
+          "list[1]",
+          "list[0]",
+          "list.first()"
+        ],
+        "correctAnswer": "list[0]",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-6",
+        "question": "Which method removes an element by value from a list?",
+        "options": [
+          "pop()",
+          "remove()",
+          "delete()"
+        ],
+        "correctAnswer": "remove()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-7",
+        "question": "Which method returns the index of an element in a tuple?",
+        "options": [
+          "find()",
+          "index()",
+          "search()"
+        ],
+        "correctAnswer": "index()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-8",
+        "question": "Which of the following is a valid way to declare an empty tuple?",
+        "options": [
+          "tuple = ()",
+          "tuple = []",
+          "tuple = {}"
+        ],
+        "correctAnswer": "tuple = ()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-9",
+        "question": "Which function converts a list to a tuple?",
+        "options": [
+          "tuple()",
+          "convert()",
+          "to_tuple()"
+        ],
+        "correctAnswer": "tuple()",
+        "userAnswer": ""
+      },
+      {
+        "questionId": "assess-6-10",
+        "question": "How do you remove all elements from a list?",
+        "options": [
+          "clear()",
+          "delete()",
+          "remove_all()"
+        ],
+        "correctAnswer": "clear()",
+        "userAnswer": ""
+      }
+    ]
+  }
+}
+]
+}

@@ -1,0 +1,1719 @@
+{
+  "id": "course-2",
+  "title": "Data Structures and Algorithms",
+  "description": "Learn fundamental concepts of data structures and algorithms with hands-on practice.",
+  "chapters": [
+    {
+      "chapterId": "ch-1",
+      "title": "Introduction to Data Structures and Algorithms",
+      "unlocked": true,
+      "modules": [
+        {
+          "moduleId": "mod-1-1",
+          "title": "Introduction to Data Structures",
+          "content": "Understand the concept of data structures, their importance, and real-world applications.",
+          "unlocked": true,
+          "questions": [
+            {
+              "questionId": "q-1-1",
+              "question": "What is the primary purpose of data structures?",
+              "options": [
+                "Store and organize data efficiently",
+                "Execute algorithms faster",
+                "Improve coding speed"
+              ],
+              "correctAnswer": "Store and organize data efficiently",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-2",
+              "question": "Which of the following is a linear data structure?",
+              "options": [
+                "Tree",
+                "Graph",
+                "Array"
+              ],
+              "correctAnswer": "Array",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-3",
+              "question": "Which data structure uses LIFO (Last In, First Out) order?",
+              "options": [
+                "Queue",
+                "Stack",
+                "Array"
+              ],
+              "correctAnswer": "Stack",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-1-2",
+          "title": "Introduction to Algorithms",
+          "content": "Learn the basics of algorithms, their complexity, and types of algorithms.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-1-4",
+              "question": "What is the time complexity of a binary search algorithm?",
+              "options": [
+                "O(n)",
+                "O(log n)",
+                "O(n^2)"
+              ],
+              "correctAnswer": "O(log n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-5",
+              "question": "Which algorithmic paradigm involves breaking down a problem into smaller sub-problems?",
+              "options": [
+                "Greedy",
+                "Divide and Conquer",
+                "Dynamic Programming"
+              ],
+              "correctAnswer": "Divide and Conquer",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-6",
+              "question": "Which notation describes the upper bound of an algorithm?",
+              "options": [
+                "Big O",
+                "Theta",
+                "Omega"
+              ],
+              "correctAnswer": "Big O",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-1-3",
+          "title": "Complexity Analysis",
+          "content": "Understand the importance of time and space complexity in algorithm design.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-1-7",
+              "question": "What does space complexity measure?",
+              "options": [
+                "Time taken by an algorithm",
+                "Memory required by an algorithm",
+                "Efficiency of sorting algorithms"
+              ],
+              "correctAnswer": "Memory required by an algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-8",
+              "question": "Which complexity class represents exponential growth?",
+              "options": [
+                "O(n)",
+                "O(2^n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(2^n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-9",
+              "question": "What is the best-case complexity of linear search?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-1-4",
+          "title": "Types of Data Structures",
+          "content": "Learn about linear and non-linear data structures and their characteristics.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-1-10",
+              "question": "Which of the following is a non-linear data structure?",
+              "options": [
+                "Queue",
+                "Linked List",
+                "Graph"
+              ],
+              "correctAnswer": "Graph",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-11",
+              "question": "What is a linked list primarily used for?",
+              "options": [
+                "Storing elements in contiguous memory",
+                "Dynamically allocating memory",
+                "Sorting data"
+              ],
+              "correctAnswer": "Dynamically allocating memory",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-1-12",
+              "question": "Which data structure is best for implementing a priority queue?",
+              "options": [
+                "Array",
+                "Stack",
+                "Heap"
+              ],
+              "correctAnswer": "Heap",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-1-1",
+            "question": "Which data structure uses the Last In, First Out (LIFO) principle?",
+            "options": [
+              "Queue",
+              "Stack",
+              "Array"
+            ],
+            "correctAnswer": "Stack",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-2",
+            "question": "What is the time complexity of accessing an element in an array?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(1)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-3",
+            "question": "Which of the following data structures is used to implement recursion?",
+            "options": [
+              "Queue",
+              "Stack",
+              "Linked List"
+            ],
+            "correctAnswer": "Stack",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-4",
+            "question": "What is the worst-case time complexity of linear search?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-5",
+            "question": "Which algorithm is used to find the shortest path in a graph?",
+            "options": [
+              "Dijkstra's algorithm",
+              "Bubble sort",
+              "Merge sort"
+            ],
+            "correctAnswer": "Dijkstra's algorithm",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-6",
+            "question": "What is the primary advantage of a linked list over an array?",
+            "options": [
+              "Constant time access",
+              "Dynamic memory allocation",
+              "Less memory usage"
+            ],
+            "correctAnswer": "Dynamic memory allocation",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-7",
+            "question": "Which data structure follows the First In, First Out (FIFO) principle?",
+            "options": [
+              "Stack",
+              "Queue",
+              "Array"
+            ],
+            "correctAnswer": "Queue",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-8",
+            "question": "Which of the following is a divide-and-conquer algorithm?",
+            "options": [
+              "Bubble sort",
+              "Quick sort",
+              "Insertion sort"
+            ],
+            "correctAnswer": "Quick sort",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-9",
+            "question": "What is the space complexity of an adjacency matrix for a graph with n vertices?",
+            "options": [
+              "O(n)",
+              "O(n^2)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n^2)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-1-10",
+            "question": "Which operation is used to add an element to the end of a queue?",
+            "options": [
+              "Push",
+              "Enqueue",
+              "Insert"
+            ],
+            "correctAnswer": "Enqueue",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+    {
+      "chapterId": "ch-2",
+      "title": "Arrays, Strings, and Linked Lists",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-2-1",
+          "title": "Introduction to Arrays",
+          "content": "Understand the basics of arrays, accessing elements, and performing basic operations.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-1",
+              "question": "What is the time complexity of inserting an element at the end of an array?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-2",
+              "question": "Which operation in an array requires shifting elements?",
+              "options": [
+                "Insert at the end",
+                "Insert at the beginning",
+                "Accessing an element"
+              ],
+              "correctAnswer": "Insert at the beginning",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-3",
+              "question": "What is the index of the first element in a zero-indexed array?",
+              "options": [
+                "0",
+                "1",
+                "-1"
+              ],
+              "correctAnswer": "0",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-2-2",
+          "title": "Strings and String Manipulation",
+          "content": "Learn how to manipulate strings and perform operations like concatenation and substring search.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-4",
+              "question": "Which function is used to find the length of a string in Java?",
+              "options": [
+                "size()",
+                "length()",
+                "getSize()"
+              ],
+              "correctAnswer": "length()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-5",
+              "question": "Which of the following methods is used to concatenate two strings?",
+              "options": [
+                "concat()",
+                "append()",
+                "merge()"
+              ],
+              "correctAnswer": "concat()",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-6",
+              "question": "Which of the following returns a substring from a string?",
+              "options": [
+                "substring()",
+                "sublist()",
+                "subarray()"
+              ],
+              "correctAnswer": "substring()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-2-3",
+          "title": "Introduction to Linked Lists",
+          "content": "Understand the structure and types of linked lists and basic operations.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-7",
+              "question": "What is the main advantage of a linked list over an array?",
+              "options": [
+                "Faster access",
+                "Dynamic memory allocation",
+                "Fixed size"
+              ],
+              "correctAnswer": "Dynamic memory allocation",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-8",
+              "question": "Which pointer in a singly linked list points to the next node?",
+              "options": [
+                "prev",
+                "next",
+                "head"
+              ],
+              "correctAnswer": "next",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-9",
+              "question": "Which type of linked list has nodes with pointers to both the next and previous nodes?",
+              "options": [
+                "Singly linked list",
+                "Doubly linked list",
+                "Circular linked list"
+              ],
+              "correctAnswer": "Doubly linked list",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-2-4",
+          "title": "Operations on Linked Lists",
+          "content": "Perform insertion, deletion, and traversal operations on linked lists.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-2-10",
+              "question": "What is the time complexity of inserting an element at the beginning of a singly linked list?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-11",
+              "question": "Which operation involves updating the next pointer of the last node in a linked list?",
+              "options": [
+                "Insertion at beginning",
+                "Insertion at end",
+                "Deletion from end"
+              ],
+              "correctAnswer": "Insertion at end",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-2-12",
+              "question": "How do you traverse a singly linked list?",
+              "options": [
+                "Using next pointers",
+                "Using prev pointers",
+                "Using head pointer only"
+              ],
+              "correctAnswer": "Using next pointers",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-2-1",
+            "question": "What is the time complexity of searching an element in an unsorted array?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-2",
+            "question": "Which data structure is best for implementing undo functionality?",
+            "options": [
+              "Queue",
+              "Stack",
+              "Linked List"
+            ],
+            "correctAnswer": "Stack",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-3",
+            "question": "What is the time complexity of reversing a linked list?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-4",
+            "question": "Which of the following is a mutable data structure?",
+            "options": [
+              "String",
+              "Array",
+              "Tuple"
+            ],
+            "correctAnswer": "Array",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-5",
+            "question": "What is the space complexity of storing a string of length n?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-6",
+            "question": "Which of the following is true for a circular linked list?",
+            "options": [
+              "Last node points to null",
+              "Last node points to the head",
+              "Nodes point in both directions"
+            ],
+            "correctAnswer": "Last node points to the head",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-7",
+            "question": "What is the time complexity for accessing an element in a linked list?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-8",
+            "question": "Which function is used to compare two strings in Java?",
+            "options": [
+              "equals()",
+              "compareTo()",
+              "compare()"
+            ],
+            "correctAnswer": "equals()",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-9",
+            "question": "Which linked list operation requires updating the previous node's next pointer?",
+            "options": [
+              "Insertion at the end",
+              "Deletion from the middle",
+              "Traversal"
+            ],
+            "correctAnswer": "Deletion from the middle",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-2-10",
+            "question": "Which property ensures that a linked list does not end?",
+            "options": [
+              "Singly linked list",
+              "Doubly linked list",
+              "Circular linked list"
+            ],
+            "correctAnswer": "Circular linked list",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+    {
+      "chapterId": "ch-3",
+      "title": "Stacks, Queues, and Hashing",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-3-1",
+          "title": "Introduction to Stacks",
+          "content": "Learn the basics of stacks, LIFO principle, and operations such as push, pop, and peek.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-1",
+              "question": "Which principle does a stack follow?",
+              "options": [
+                "FIFO",
+                "LIFO",
+                "Random Access"
+              ],
+              "correctAnswer": "LIFO",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-2",
+              "question": "What is the time complexity of pushing an element onto a stack?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-3",
+              "question": "Which operation removes the top element from a stack?",
+              "options": [
+                "push()",
+                "pop()",
+                "peek()"
+              ],
+              "correctAnswer": "pop()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-3-2",
+          "title": "Introduction to Queues",
+          "content": "Understand queues, FIFO principle, and operations like enqueue, dequeue, and peek.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-4",
+              "question": "Which principle does a queue follow?",
+              "options": [
+                "FIFO",
+                "LIFO",
+                "Random Access"
+              ],
+              "correctAnswer": "FIFO",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-5",
+              "question": "What is the time complexity of inserting an element at the end of a queue?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-6",
+              "question": "Which operation removes an element from the front of a queue?",
+              "options": [
+                "enqueue()",
+                "dequeue()",
+                "peek()"
+              ],
+              "correctAnswer": "dequeue()",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-3-3",
+          "title": "Introduction to Hashing",
+          "content": "Learn the basics of hashing, hash functions, and collision handling techniques.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-7",
+              "question": "What is the purpose of a hash function?",
+              "options": [
+                "To sort data",
+                "To map keys to indices",
+                "To store elements sequentially"
+              ],
+              "correctAnswer": "To map keys to indices",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-8",
+              "question": "Which technique is used to handle collisions in hashing?",
+              "options": [
+                "Chaining",
+                "Sorting",
+                "Merging"
+              ],
+              "correctAnswer": "Chaining",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-9",
+              "question": "Which of the following is an example of an ideal hash function property?",
+              "options": [
+                "Minimal collisions",
+                "Sequential storage",
+                "Fixed key length"
+              ],
+              "correctAnswer": "Minimal collisions",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-3-4",
+          "title": "Applications of Stacks, Queues, and Hashing",
+          "content": "Explore real-world applications such as expression evaluation, task scheduling, and indexing.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-3-10",
+              "question": "Which data structure is used for expression evaluation?",
+              "options": [
+                "Queue",
+                "Stack",
+                "Linked List"
+              ],
+              "correctAnswer": "Stack",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-11",
+              "question": "Which data structure is commonly used for task scheduling?",
+              "options": [
+                "Stack",
+                "Queue",
+                "Hash Table"
+              ],
+              "correctAnswer": "Queue",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-3-12",
+              "question": "What is the average time complexity of searching in a hash table with a good hash function?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(1)",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-3-1",
+            "question": "What is the time complexity of accessing the top element of a stack?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(1)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-2",
+            "question": "Which data structure is used to implement recursion?",
+            "options": [
+              "Queue",
+              "Stack",
+              "Hash Table"
+            ],
+            "correctAnswer": "Stack",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-3",
+            "question": "What is the time complexity of inserting an element in a queue implemented using an array?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(1)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-4",
+            "question": "Which data structure is most suitable for implementing a priority queue?",
+            "options": [
+              "Stack",
+              "Queue",
+              "Heap"
+            ],
+            "correctAnswer": "Heap",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-5",
+            "question": "Which collision handling technique involves maintaining a list of all elements with the same hash value?",
+            "options": [
+              "Chaining",
+              "Open Addressing",
+              "Rehashing"
+            ],
+            "correctAnswer": "Chaining",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-6",
+            "question": "Which hashing technique probes for the next available slot in case of a collision?",
+            "options": [
+              "Chaining",
+              "Linear Probing",
+              "Double Hashing"
+            ],
+            "correctAnswer": "Linear Probing",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-7",
+            "question": "What is the time complexity of searching for an element in a hash table with chaining in the worst case?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-8",
+            "question": "What is the best-case time complexity of inserting an element into a hash table?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(1)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-9",
+            "question": "Which data structure uses a hash function to map data to key-value pairs?",
+            "options": [
+              "Stack",
+              "Queue",
+              "Hash Table"
+            ],
+            "correctAnswer": "Hash Table",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-3-10",
+            "question": "Which application uses a stack to maintain function calls?",
+            "options": [
+              "Task Scheduling",
+              "Recursion",
+              "Hashing"
+            ],
+            "correctAnswer": "Recursion",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+    {
+      "chapterId": "ch-4",
+      "title": "Trees and Graphs",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-4-1",
+          "title": "Introduction to Trees",
+          "content": "Understand the basic concepts of trees, types of trees, and terminology such as root, parent, child, leaf, and height.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-1",
+              "question": "What is the root of a tree?",
+              "options": [
+                "The topmost node",
+                "A node with no children",
+                "A node with one child"
+              ],
+              "correctAnswer": "The topmost node",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-2",
+              "question": "Which type of tree has at most two children per node?",
+              "options": [
+                "Binary Tree",
+                "Binary Search Tree",
+                "AVL Tree"
+              ],
+              "correctAnswer": "Binary Tree",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-3",
+              "question": "What is the height of a tree with a single node?",
+              "options": [
+                "0",
+                "1",
+                "2"
+              ],
+              "correctAnswer": "0",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-4-2",
+          "title": "Tree Traversal Techniques",
+          "content": "Explore different tree traversal techniques, including inorder, preorder, and postorder traversal.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-4",
+              "question": "Which traversal technique visits the left subtree, the root, and then the right subtree?",
+              "options": [
+                "Preorder",
+                "Inorder",
+                "Postorder"
+              ],
+              "correctAnswer": "Inorder",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-5",
+              "question": "Which traversal technique visits the root first, followed by the left and right subtrees?",
+              "options": [
+                "Preorder",
+                "Inorder",
+                "Postorder"
+              ],
+              "correctAnswer": "Preorder",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-6",
+              "question": "In which traversal does the root get visited last?",
+              "options": [
+                "Preorder",
+                "Inorder",
+                "Postorder"
+              ],
+              "correctAnswer": "Postorder",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-4-3",
+          "title": "Introduction to Graphs",
+          "content": "Learn the fundamentals of graphs, types of graphs, and graph representations such as adjacency matrix and adjacency list.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-7",
+              "question": "What is an undirected graph?",
+              "options": [
+                "A graph where edges have no direction",
+                "A graph where edges have a specific direction",
+                "A graph where all nodes are connected"
+              ],
+              "correctAnswer": "A graph where edges have no direction",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-8",
+              "question": "Which graph representation uses a 2D array to store edge information?",
+              "options": [
+                "Adjacency List",
+                "Adjacency Matrix",
+                "Edge List"
+              ],
+              "correctAnswer": "Adjacency Matrix",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-9",
+              "question": "What is the space complexity of an adjacency list for a graph with V vertices and E edges?",
+              "options": [
+                "O(V^2)",
+                "O(V + E)",
+                "O(E log V)"
+              ],
+              "correctAnswer": "O(V + E)",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-4-4",
+          "title": "Graph Traversal Algorithms",
+          "content": "Understand graph traversal algorithms like Depth-First Search (DFS) and Breadth-First Search (BFS).",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-4-10",
+              "question": "Which graph traversal algorithm uses a stack or recursion?",
+              "options": [
+                "BFS",
+                "DFS",
+                "Dijkstra's Algorithm"
+              ],
+              "correctAnswer": "DFS",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-11",
+              "question": "Which graph traversal algorithm explores neighbors before visiting children?",
+              "options": [
+                "DFS",
+                "BFS",
+                "Prim's Algorithm"
+              ],
+              "correctAnswer": "BFS",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-4-12",
+              "question": "Which data structure is typically used to implement BFS?",
+              "options": [
+                "Stack",
+                "Queue",
+                "Heap"
+              ],
+              "correctAnswer": "Queue",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-4-1",
+            "question": "What is the time complexity of inorder, preorder, and postorder traversal in a binary tree?",
+            "options": [
+              "O(n)",
+              "O(log n)",
+              "O(n^2)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-2",
+            "question": "What is the maximum number of edges in a complete undirected graph with V vertices?",
+            "options": [
+              "V",
+              "V^2",
+              "V(V-1)/2"
+            ],
+            "correctAnswer": "V(V-1)/2",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-3",
+            "question": "Which of the following algorithms is used to detect a cycle in a graph?",
+            "options": [
+              "DFS",
+              "BFS",
+              "Dijkstra's Algorithm"
+            ],
+            "correctAnswer": "DFS",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-4",
+            "question": "Which graph representation is more space-efficient for a sparse graph?",
+            "options": [
+              "Adjacency Matrix",
+              "Adjacency List",
+              "Edge List"
+            ],
+            "correctAnswer": "Adjacency List",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-5",
+            "question": "Which of the following algorithms finds the shortest path in a weighted graph?",
+            "options": [
+              "DFS",
+              "BFS",
+              "Dijkstra's Algorithm"
+            ],
+            "correctAnswer": "Dijkstra's Algorithm",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-6",
+            "question": "What is the time complexity of BFS in a graph with V vertices and E edges?",
+            "options": [
+              "O(V+E)",
+              "O(V^2)",
+              "O(E log V)"
+            ],
+            "correctAnswer": "O(V+E)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-7",
+            "question": "Which property holds true for a binary search tree?",
+            "options": [
+              "Left subtree has greater values",
+              "Right subtree has smaller values",
+              "Left subtree has smaller values"
+            ],
+            "correctAnswer": "Left subtree has smaller values",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-8",
+            "question": "Which traversal technique is used to get a sorted order of elements in a binary search tree?",
+            "options": [
+              "Preorder",
+              "Inorder",
+              "Postorder"
+            ],
+            "correctAnswer": "Inorder",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-9",
+            "question": "Which algorithm is used to find the minimum spanning tree of a graph?",
+            "options": [
+              "DFS",
+              "Kruskal's Algorithm",
+              "Dijkstra's Algorithm"
+            ],
+            "correctAnswer": "Kruskal's Algorithm",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-4-10",
+            "question": "What is the space complexity of storing a graph with V vertices and E edges using an adjacency matrix?",
+            "options": [
+              "O(V + E)",
+              "O(V^2)",
+              "O(E log V)"
+            ],
+            "correctAnswer": "O(V^2)",
+            "userAnswer": ""
+          }
+        ]
+      }
+    },
+    {
+      "chapterId": "ch-5",
+      "title": "Sorting and Searching Algorithms",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-5-1",
+          "title": "Introduction to Sorting Algorithms",
+          "content": "Learn the basics of sorting algorithms, their classifications, and time/space complexity.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-1",
+              "question": "Which of the following is a stable sorting algorithm?",
+              "options": [
+                "Merge Sort",
+                "Quick Sort",
+                "Heap Sort"
+              ],
+              "correctAnswer": "Merge Sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-2",
+              "question": "What is the time complexity of Bubble Sort in the worst case?",
+              "options": [
+                "O(n)",
+                "O(n^2)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n^2)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-3",
+              "question": "Which sorting algorithm works by repeatedly selecting the smallest element?",
+              "options": [
+                "Selection Sort",
+                "Insertion Sort",
+                "Merge Sort"
+              ],
+              "correctAnswer": "Selection Sort",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-5-2",
+          "title": "Divide and Conquer Sorting",
+          "content": "Explore sorting algorithms that use the divide-and-conquer approach, including Merge Sort and Quick Sort.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-4",
+              "question": "Which algorithm divides the array into two halves and merges them after sorting?",
+              "options": [
+                "Quick Sort",
+                "Merge Sort",
+                "Insertion Sort"
+              ],
+              "correctAnswer": "Merge Sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-5",
+              "question": "Which pivot selection strategy is typically used in Quick Sort?",
+              "options": [
+                "Middle element",
+                "First element",
+                "Random element"
+              ],
+              "correctAnswer": "Random element",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-6",
+              "question": "What is the worst-case time complexity of Quick Sort?",
+              "options": [
+                "O(n log n)",
+                "O(n^2)",
+                "O(n)"
+              ],
+              "correctAnswer": "O(n^2)",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-5-3",
+          "title": "Introduction to Searching Algorithms",
+          "content": "Learn the fundamental concepts of searching algorithms, including linear and binary search.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-7",
+              "question": "What is the time complexity of linear search in the worst case?",
+              "options": [
+                "O(1)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-8",
+              "question": "Which search algorithm works only on sorted arrays?",
+              "options": [
+                "Linear Search",
+                "Binary Search",
+                "Hash Search"
+              ],
+              "correctAnswer": "Binary Search",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-9",
+              "question": "What is the time complexity of binary search in the worst case?",
+              "options": [
+                "O(n)",
+                "O(log n)",
+                "O(1)"
+              ],
+              "correctAnswer": "O(log n)",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-5-4",
+          "title": "Advanced Sorting and Searching Techniques",
+          "content": "Understand advanced algorithms like Heap Sort and Interpolation Search and their applications.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-5-10",
+              "question": "Which sorting algorithm uses a binary heap data structure?",
+              "options": [
+                "Quick Sort",
+                "Heap Sort",
+                "Merge Sort"
+              ],
+              "correctAnswer": "Heap Sort",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-11",
+              "question": "What is the average-case time complexity of Interpolation Search?",
+              "options": [
+                "O(log log n)",
+                "O(n)",
+                "O(log n)"
+              ],
+              "correctAnswer": "O(log log n)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-5-12",
+              "question": "Which data structure is used in Heap Sort?",
+              "options": [
+                "Stack",
+                "Heap",
+                "Queue"
+              ],
+              "correctAnswer": "Heap",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-5-1",
+            "question": "Which sorting algorithm has the best average-case time complexity?",
+            "options": [
+              "Merge Sort",
+              "Quick Sort",
+              "Bubble Sort"
+            ],
+            "correctAnswer": "Merge Sort",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-2",
+            "question": "What is the space complexity of Merge Sort?",
+            "options": [
+              "O(n)",
+              "O(log n)",
+              "O(1)"
+            ],
+            "correctAnswer": "O(n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-3",
+            "question": "Which sorting algorithm is the most efficient for small datasets?",
+            "options": [
+              "Insertion Sort",
+              "Heap Sort",
+              "Merge Sort"
+            ],
+            "correctAnswer": "Insertion Sort",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-4",
+            "question": "What is the best-case time complexity of Quick Sort?",
+            "options": [
+              "O(n log n)",
+              "O(n)",
+              "O(n^2)"
+            ],
+            "correctAnswer": "O(n log n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-5",
+            "question": "In which case does Quick Sort perform the worst?",
+            "options": [
+              "When the pivot is always the smallest or largest element",
+              "When the pivot is the middle element",
+              "When the pivot is chosen randomly"
+            ],
+            "correctAnswer": "When the pivot is always the smallest or largest element",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-6",
+            "question": "What is the time complexity of Binary Search in the average case?",
+            "options": [
+              "O(n)",
+              "O(log n)",
+              "O(1)"
+            ],
+            "correctAnswer": "O(log n)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-7",
+            "question": "What is the best-case time complexity of Linear Search?",
+            "options": [
+              "O(1)",
+              "O(n)",
+              "O(log n)"
+            ],
+            "correctAnswer": "O(1)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-8",
+            "question": "Which algorithm divides the search space into three parts instead of two?",
+            "options": [
+              "Ternary Search",
+              "Binary Search",
+              "Interpolation Search"
+            ],
+            "correctAnswer": "Ternary Search",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-9",
+            "question": "Which sorting algorithm is not based on comparisons?",
+            "options": [
+              "Merge Sort",
+              "Radix Sort",
+              "Quick Sort"
+            ],
+            "correctAnswer": "Radix Sort",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-5-10",
+            "question": "What is the time complexity of Heap Sort in all cases?",
+            "options": [
+              "O(n)",
+              "O(n log n)",
+              "O(n^2)"
+            ],
+            "correctAnswer": "O(n log n)",
+            "userAnswer": ""
+          }
+        ]
+      }
+    }, {
+      "chapterId": "ch-6",
+      "title": "Dynamic Programming and Greedy Algorithms",
+      "unlocked": false,
+      "modules": [
+        {
+          "moduleId": "mod-6-1",
+          "title": "Introduction to Dynamic Programming",
+          "content": "Learn the basics of dynamic programming (DP), its characteristics, and the concept of overlapping subproblems and optimal substructure.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-1",
+              "question": "What is the primary feature of dynamic programming?",
+              "options": [
+                "Divide and Conquer",
+                "Memoization",
+                "Greedy Choice"
+              ],
+              "correctAnswer": "Memoization",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-2",
+              "question": "Which of the following problems is best solved using dynamic programming?",
+              "options": [
+                "Binary Search",
+                "Fibonacci Sequence",
+                "Heap Sort"
+              ],
+              "correctAnswer": "Fibonacci Sequence",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-3",
+              "question": "What is memoization in dynamic programming?",
+              "options": [
+                "Storing intermediate results to avoid recalculations",
+                "Breaking a problem into independent subproblems",
+                "Choosing the best possible solution at each step"
+              ],
+              "correctAnswer": "Storing intermediate results to avoid recalculations",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-6-2",
+          "title": "Greedy Algorithms and Their Applications",
+          "content": "Explore greedy algorithms, their characteristics, and applications in problems like Huffman coding and Kruskal's algorithm.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-4",
+              "question": "Which of the following algorithms follows a greedy approach?",
+              "options": [
+                "Merge Sort",
+                "Dijkstra's Algorithm",
+                "Binary Search"
+              ],
+              "correctAnswer": "Dijkstra's Algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-5",
+              "question": "In which type of problem is the greedy algorithm guaranteed to give an optimal solution?",
+              "options": [
+                "All problems",
+                "Problems with optimal substructure and greedy choice property",
+                "Divide and conquer problems"
+              ],
+              "correctAnswer": "Problems with optimal substructure and greedy choice property",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-6",
+              "question": "Which of the following is an application of greedy algorithms?",
+              "options": [
+                "Knapsack Problem",
+                "Matrix Chain Multiplication",
+                "Longest Common Subsequence"
+              ],
+              "correctAnswer": "Knapsack Problem",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-6-3",
+          "title": "Famous Dynamic Programming Problems",
+          "content": "Learn to solve well-known dynamic programming problems such as Longest Common Subsequence, Matrix Chain Multiplication, and Knapsack Problem.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-7",
+              "question": "Which of the following problems can be solved using dynamic programming?",
+              "options": [
+                "Kruskal's Algorithm",
+                "Matrix Chain Multiplication",
+                "Prim's Algorithm"
+              ],
+              "correctAnswer": "Matrix Chain Multiplication",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-8",
+              "question": "What is the time complexity of solving the Longest Common Subsequence (LCS) problem using dynamic programming?",
+              "options": [
+                "O(mn)",
+                "O(log n)",
+                "O(n^2)"
+              ],
+              "correctAnswer": "O(mn)",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-9",
+              "question": "Which problem requires building a table to store results of overlapping subproblems?",
+              "options": [
+                "Kruskal's Algorithm",
+                "Matrix Chain Multiplication",
+                "Dijkstra's Algorithm"
+              ],
+              "correctAnswer": "Matrix Chain Multiplication",
+              "userAnswer": ""
+            }
+          ]
+        },
+        {
+          "moduleId": "mod-6-4",
+          "title": "Comparison of Dynamic Programming and Greedy Algorithms",
+          "content": "Understand the differences between dynamic programming and greedy algorithms and when to choose one over the other.",
+          "unlocked": false,
+          "questions": [
+            {
+              "questionId": "q-6-10",
+              "question": "Which technique ensures an optimal solution by solving subproblems once?",
+              "options": [
+                "Dynamic Programming",
+                "Greedy Algorithm",
+                "Divide and Conquer"
+              ],
+              "correctAnswer": "Dynamic Programming",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-11",
+              "question": "Which algorithm picks the best possible choice at each step?",
+              "options": [
+                "Greedy Algorithm",
+                "Dynamic Programming",
+                "Divide and Conquer"
+              ],
+              "correctAnswer": "Greedy Algorithm",
+              "userAnswer": ""
+            },
+            {
+              "questionId": "q-6-12",
+              "question": "Which of the following is true about dynamic programming?",
+              "options": [
+                "It only works for problems with no overlapping subproblems",
+                "It avoids solving the same subproblem multiple times",
+                "It always guarantees the shortest path"
+              ],
+              "correctAnswer": "It avoids solving the same subproblem multiple times",
+              "userAnswer": ""
+            }
+          ]
+        }
+      ],
+      "assessment": {
+        "questions": [
+          {
+            "questionId": "assess-6-1",
+            "question": "Which of the following is an example of a problem solved using dynamic programming?",
+            "options": [
+              "Prim's Algorithm",
+              "Longest Common Subsequence",
+              "Binary Search"
+            ],
+            "correctAnswer": "Longest Common Subsequence",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-2",
+            "question": "What is the time complexity of dynamic programming in the Knapsack Problem?",
+            "options": [
+              "O(n log n)",
+              "O(nW)",
+              "O(n^2)"
+            ],
+            "correctAnswer": "O(nW)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-3",
+            "question": "Which algorithm is used in Huffman coding?",
+            "options": [
+              "Dynamic Programming",
+              "Greedy Algorithm",
+              "Divide and Conquer"
+            ],
+            "correctAnswer": "Greedy Algorithm",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-4",
+            "question": "Which technique stores intermediate results to optimize performance?",
+            "options": [
+              "Greedy Algorithm",
+              "Memoization",
+              "Divide and Conquer"
+            ],
+            "correctAnswer": "Memoization",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-5",
+            "question": "Which of the following problems is solved by a greedy algorithm?",
+            "options": [
+              "Matrix Chain Multiplication",
+              "Huffman Encoding",
+              "Longest Common Subsequence"
+            ],
+            "correctAnswer": "Huffman Encoding",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-6",
+            "question": "What is the time complexity of Dijkstra's algorithm using a priority queue?",
+            "options": [
+              "O(E log V)",
+              "O(V^2)",
+              "O(V log V)"
+            ],
+            "correctAnswer": "O(E log V)",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-7",
+            "question": "Which data structure is commonly used in dynamic programming?",
+            "options": [
+              "Stack",
+              "Array/Table",
+              "Queue"
+            ],
+            "correctAnswer": "Array/Table",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-8",
+            "question": "Which algorithm is used to find the minimum spanning tree of a graph?",
+            "options": [
+              "Dijkstra's Algorithm",
+              "Kruskal's Algorithm",
+              "Floyd-Warshall Algorithm"
+            ],
+            "correctAnswer": "Kruskal's Algorithm",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-9",
+            "question": "What is the key characteristic of greedy algorithms?",
+            "options": [
+              "Solving subproblems once",
+              "Choosing the best possible option at each step",
+              "Dividing the problem into smaller parts"
+            ],
+            "correctAnswer": "Choosing the best possible option at each step",
+            "userAnswer": ""
+          },
+          {
+            "questionId": "assess-6-10",
+            "question": "Which algorithm solves the shortest path problem for graphs with negative weights?",
+            "options": [
+              "Dijkstra's Algorithm",
+              "Bellman-Ford Algorithm",
+              "Prim's Algorithm"
+            ],
+            "correctAnswer": "Bellman-Ford Algorithm",
+            "userAnswer": ""
+          }
+        ]
+      }
+    }
+
+
+
+  ]
+}
