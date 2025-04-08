@@ -47,7 +47,7 @@ const Navbar = ({ setLogin, isCourseDetailPage }) => {
     <div className='navbar'>
       <Link to="/" className="logo">
         <p className='logoo'>U</p>
-        <p className='unlock'>UnlockEdu</p>
+        <p className='unlock'>UnlockEd</p>
       </Link>
 
 

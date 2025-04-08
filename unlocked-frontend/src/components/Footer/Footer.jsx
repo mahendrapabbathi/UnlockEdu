@@ -18,7 +18,7 @@ const Footer = ({ login }) => {
         <div className='footer-child'>
           <Link to="/" className="logo1">
             <p className='logoo1'>U</p>
-            <p className='unlock'>UnlockEdu</p>
+            <p className='unlock'>UnlockEd</p>
           </Link>
 
           {!login && isHomePage && (
@@ -55,7 +55,7 @@ const Footer = ({ login }) => {
 
       {(!login && isHomePage) && ( 
         <div className="footer-last">
-          <p>Copyright © 2025 Sorting Code Help Technologies Pvt Ltd. All Rights Reserved.</p>
+          <p>Copyright © 2025 Sorting UnlockEd Technologies Pvt Ltd. All Rights Reserved.</p>
         </div>
       )}
     </>
