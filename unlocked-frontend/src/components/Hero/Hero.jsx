@@ -40,7 +40,7 @@ const Hero = ({ setLogin }) => {
   };
 
   return (
-    <div className="hero-container">
+    <div id='hero' className="hero-container">
       {/* Left Side - Hero Section */}
       <div className="heading">
         <p className="heading-text">The All-In-One Learning Platform</p>

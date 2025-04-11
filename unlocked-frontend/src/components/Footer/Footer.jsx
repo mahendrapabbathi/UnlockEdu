@@ -1,9 +1,11 @@
 import React from 'react';
 import './Footer.css';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 const Footer = ({ login }) => {
   const location = useLocation(); 
+
+  const navigate = useNavigate();
 
   const isHomePage = location.pathname === "/";
   const isDashboardOrCourses = ["/dashboard", "/courses"].includes(location.pathname);
@@ -27,7 +29,7 @@ const Footer = ({ login }) => {
                 <h3>Quick Links</h3>
                 <ul>
                   <li><a href="#hero">Home</a></li>
-                  <li><a href='#skills'>Courses</a></li>
+                  <li><a href="#" onClick={()=>navigate('/dashboard')}>Courses</a></li>
                   <li><a href='#contact'>Contact</a></li>
                 </ul>
               </div>

@@ -26,7 +26,6 @@ const CourseDetail = ({ courseId }) => {
     fetchCourseDetails();
   }, [courseId]);
 
-  // Unlock the next chapter after assessment
   const unlockNextChapter = async (courseId, chapterId, score) => {
     try {
       const response = await axios.post(
@@ -83,9 +82,9 @@ const CourseDetail = ({ courseId }) => {
             unlockNextModule={unlockNextModule}
             assessmentAttempted={assessmentAttempted}
             assessmentPassed={assessmentPassed}
-            isActive={activeChapterIndex === index} // 👈 only one is active
-            setActiveChapterIndex={setActiveChapterIndex} // 👈 pass setter
-            index={index} // 👈 pass index
+            isActive={activeChapterIndex === index} 
+            setActiveChapterIndex={setActiveChapterIndex} 
+            index={index} 
           />
         ))
       ) : (

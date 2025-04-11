@@ -30,7 +30,7 @@ const Testimonials = () => {
           </p>
           <div className="profile">
             <img src={assets.man} alt="" />
-            <p className="text">Mahendra Pabbathi</p>
+            <p className="text">Likitha</p>
           </div>
         </div>
         <div className="card">
@@ -42,7 +42,7 @@ const Testimonials = () => {
           </p>
           <div className="profile">
             <img src={assets.man} alt="" />
-            <p className="text">Mahendra Pabbathi</p>
+            <p className="text">Ruthvik</p>
           </div>
         </div>
         <div className="card">
@@ -54,7 +54,7 @@ const Testimonials = () => {
           </p>
           <div className="profile">
             <img src={assets.man} alt="" />
-            <p className="text">Mahendra Pabbathi</p>
+            <p className="text">Niranjan</p>
           </div>
         </div>
       </div>
